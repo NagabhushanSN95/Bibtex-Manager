@@ -70,3 +70,20 @@ Output bib file will be stored  `out/` directory with name `references_{config_f
     * author
     * year
     * url
+
+## GUI
+Coming Soon
+
+## Disclaimer
+**TL;DR;**  
+Fork this repository and use this tool in conjunction with git.
+
+**Detail Explanation**  
+This is still Work In Progress (WIP).
+So there might be a lot of inadvertent bugs.
+In order to not lose out any information, fork this repository and push any changes you make to your repo.
+Always cross-check once before pushing updates to the repo.
+That way, any inadvertent changes can be easily caught.
+
+## Bug Reports / Feature Request
+Please raise an issue to report any bugs or to request any new features or for any other help.
