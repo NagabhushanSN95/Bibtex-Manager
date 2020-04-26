@@ -1,16 +1,17 @@
 # Shree KRISHNAya Namaha
 # A collection of entries. An object of this class stores complete data
 # Author: Nagabhushan S N
-# Last Modified: 25-04-2020
-import json
+# Last Modified: 26-04-2020
+
 import dataclasses
+import json
+import re
 from dataclasses import dataclass
+from pathlib import Path
 from typing import List
 
-from pathlib import Path
-
-from src.data_structures.entry_types.EntryFactory import EntryFactory
-from src.data_structures.entry_types.Generic import GenericEntry
+from data_structures.entry_types.EntryFactory import EntryFactory
+from data_structures.entry_types.Generic import GenericEntry
 
 
 @dataclass()
@@ -50,6 +51,36 @@ class EntryCollection:
         else:
             self.entries.append(entry)
 
+    def refresh(self):
+        self.sort()
+        self.fill_short_forms()
+        self.check_inconsistencies()
+        self.check_duplicates()
+        return
+
     def sort(self):
         self.entries = sorted(self.entries)
+        return
+
+    def fill_short_forms(self):
+        for entry in self.entries:
+            entry.fill_missing_data()
+        return
+
+    def check_inconsistencies(self):
+        for entry in self.entries:
+            entry.check_inconsistencies()
+        return
+
+    def check_duplicates(self):
+        name_sans_year_list = []
+        name_pattern = r'^(\w+?)(\d{4})(\w+?)$'
+        for entry in self.entries:
+            matcher = re.match(name_pattern, entry.name)
+            name_sans_year = f'{matcher.group(1)}_{matcher.group(3)}'
+            if name_sans_year in name_sans_year_list:
+                matching_index = name_sans_year_list.index(name_sans_year)
+                print(f'Warning: Possible duplicate entries: {self.entries[matching_index].name} and {entry.name}')
+            else:
+                name_sans_year_list.append(name_sans_year)
         return

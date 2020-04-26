@@ -4,11 +4,10 @@
 # Last Modified: 26-04-2020
 
 import dataclasses
-import re
 from dataclasses import dataclass
 from typing import List
 
-from src.data_structures.entry_types.Generic import GenericEntry
+from data_structures.entry_types.Generic import GenericEntry
 
 
 @dataclass(eq=False)

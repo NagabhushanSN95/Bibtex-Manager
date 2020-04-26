@@ -6,8 +6,8 @@
 from pathlib import Path
 from typing import List
 
-from src.data_structures.EntryCollection import EntryCollection
-from src.data_structures.entry_types.EntryFactory import EntryFactory
+from data_structures.EntryCollection import EntryCollection
+from data_structures.entry_types.EntryFactory import EntryFactory
 
 
 class BibtexIterator:
@@ -56,7 +56,7 @@ def main():
             entries.add_entry(parsed_entry)
         else:
             print('Warning! Found None while parsing bib file')
-    entries.sort()
+    entries.refresh()
     entries.save_to_disk()
     return
 

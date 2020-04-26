@@ -3,12 +3,13 @@
 # Author: Nagabhushan S N
 # Last Modified: 26-04-2020
 
+import ast
 import dataclasses
-import re
 from dataclasses import dataclass
+from pathlib import Path
 from typing import List
 
-from src.data_structures.entry_types.Generic import GenericEntry
+from data_structures.entry_types.Generic import GenericEntry
 
 
 @dataclass(eq=False)
@@ -85,3 +86,64 @@ class TechReportEntry(GenericEntry):
         lines.append('}')
         export_string = '\n'.join(lines)
         return export_string
+
+    def fill_missing_data(self):
+        self.fill_institution_names()
+
+    def fill_institution_names(self):
+        institutions_data = self.get_institutions_data()
+
+        if not self.institution_full:
+            if self.institution_short:
+                institution_data = self.get_matching_institution_data(institutions_data, self.institution_short, index=1)
+            else:
+                institution_data = None
+            if institution_data and institution_data[0]:
+                self.institution_full = institution_data[0]
+
+        if not self.institution_short:
+            if self.institution_full:
+                institution_data = self.get_matching_institution_data(institutions_data, self.institution_full, index=0)
+            else:
+                institution_data = None
+            if institution_data and institution_data[1]:
+                self.institution_short = institution_data[1]
+
+    @staticmethod
+    def get_institutions_data():
+        institution_data_path = Path('../res/short_forms/institutions.txt')
+        with open(institution_data_path.as_posix(), 'r') as institution_file:
+            lines = institution_file.readlines()
+        institutions_data = [ast.literal_eval(line.strip()) for line in lines]
+        return institutions_data
+
+    @staticmethod
+    def get_matching_institution_data(institutions_data: List[tuple], search_str: str, index: int):
+        for institution_data in institutions_data:
+            if institution_data[index] == search_str:
+                return institution_data
+        return None
+
+    def check_inconsistencies(self):
+        self.check_institution_inconsistencies()
+
+    def check_institution_inconsistencies(self):
+        def match_institution(institution_data1: tuple):
+            if institution_data1:
+                if (institution_data1[0] and (self.institution_full != institution_data1[0])) or \
+                        (institution_data1[1] and (self.institution_short != institution_data1[1])):
+                    return True
+            return False
+
+        institutions_data = self.get_institutions_data()
+        inconsistencies = False
+        if self.institution_full:
+            institution_data = self.get_matching_institution_data(institutions_data, self.institution_full, index=0)
+            inconsistencies = inconsistencies or match_institution(institution_data)
+        if self.institution_short:
+            institution_data = self.get_matching_institution_data(institutions_data, self.institution_short, index=1)
+            inconsistencies = inconsistencies or match_institution(institution_data)
+
+        if inconsistencies:
+            print(f'Inconsistencies found in institution for entry {self.name}.')
+        return

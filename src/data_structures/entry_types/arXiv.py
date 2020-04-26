@@ -8,7 +8,7 @@ import re
 from dataclasses import dataclass
 from typing import List
 
-from src.data_structures.entry_types.Generic import GenericEntry
+from data_structures.entry_types.Generic import GenericEntry
 
 EID_PATTERN = r'arXiv:(\d+.\d+)$'
 

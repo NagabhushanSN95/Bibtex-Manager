@@ -5,15 +5,16 @@
 
 from typing import List
 
-from src.data_structures.entry_types.Book import BookEntry
-from src.data_structures.entry_types.Conference import ConferenceEntry
-from src.data_structures.entry_types.Journal import JournalEntry
-from src.data_structures.entry_types.Misc import MiscEntry
-from src.data_structures.entry_types.TechReport import TechReportEntry
-from src.data_structures.entry_types.arXiv import arXivEntry
-from src.data_structures.entry_types.bioRxiv import bioRxivEntry
+from data_structures.entry_types.Book import BookEntry
+from data_structures.entry_types.Conference import ConferenceEntry
+from data_structures.entry_types.Journal import JournalEntry
+from data_structures.entry_types.Misc import MiscEntry
+from data_structures.entry_types.TechReport import TechReportEntry
+from data_structures.entry_types.arXiv import arXivEntry
+from data_structures.entry_types.bioRxiv import bioRxivEntry
 
 
+# TODO: Add a class for workshop papers
 class EntryFactory:
     @staticmethod
     def dict2entry(entry_dict: dict):
@@ -60,6 +61,4 @@ class EntryFactory:
         elif first_line.startswith('@misc'):
             return MiscEntry.parse_raw_data(raw_entry)
         else:
-            # TODO: Uncomment this
-            # raise RuntimeError(f'Unable to parse entry of type "{first_line}"')
-            return None
+            raise RuntimeError(f'Unable to parse entry of type "{first_line}"')

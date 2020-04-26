@@ -3,12 +3,14 @@
 # Author: Nagabhushan S N
 # Last Modified: 25-04-2020
 
+import ast
 import dataclasses
 import re
 from dataclasses import dataclass
+from pathlib import Path
 from typing import List
 
-from src.data_structures.entry_types.Generic import GenericEntry
+from data_structures.entry_types.Generic import GenericEntry
 
 BOOKTITLE_ABBREVIATION_PATTERN = r'(.+?) \((\w+)\)$'
 
@@ -105,3 +107,82 @@ class ConferenceEntry(GenericEntry):
         lines.append('}')
         export_string = '\n'.join(lines)
         return export_string
+
+    def fill_missing_data(self):
+        self.fill_booktitle_names()
+
+    def fill_booktitle_names(self):
+        booktitles_data = self.get_booktitles_data()
+
+        if not self.booktitle_full:
+            if self.booktitle_short:
+                booktitle_data = self.get_matching_booktitle_data(booktitles_data, self.booktitle_short, index=1)
+            elif self.booktitle_abbreviation:
+                booktitle_data = self.get_matching_booktitle_data(booktitles_data, self.booktitle_abbreviation, index=2)
+            else:
+                booktitle_data = None
+            if booktitle_data and booktitle_data[0]:
+                self.booktitle_full = booktitle_data[0]
+
+        if not self.booktitle_short:
+            if self.booktitle_full:
+                booktitle_data = self.get_matching_booktitle_data(booktitles_data, self.booktitle_full, index=0)
+            elif self.booktitle_abbreviation:
+                booktitle_data = self.get_matching_booktitle_data(booktitles_data, self.booktitle_abbreviation, index=2)
+            else:
+                booktitle_data = None
+            if booktitle_data and booktitle_data[1]:
+                self.booktitle_short = booktitle_data[1]
+
+        if not self.booktitle_abbreviation:
+            if self.booktitle_full:
+                booktitle_data = self.get_matching_booktitle_data(booktitles_data, self.booktitle_full, index=0)
+            elif self.booktitle_short:
+                booktitle_data = self.get_matching_booktitle_data(booktitles_data, self.booktitle_short, index=1)
+            else:
+                booktitle_data = None
+            if booktitle_data and booktitle_data[2]:
+                self.booktitle_abbreviation = booktitle_data[2]
+
+    @staticmethod
+    def get_booktitles_data():
+        booktitle_data_path = Path('../res/short_forms/conferences.txt')
+        with open(booktitle_data_path.as_posix(), 'r') as booktitle_file:
+            lines = booktitle_file.readlines()
+        booktitles_data = [ast.literal_eval(line.strip()) for line in lines]
+        return booktitles_data
+
+    @staticmethod
+    def get_matching_booktitle_data(booktitles_data: List[tuple], search_str: str, index: int):
+        for booktitle_data in booktitles_data:
+            if booktitle_data[index] == search_str:
+                return booktitle_data
+        return None
+
+    def check_inconsistencies(self):
+        self.check_booktitle_inconsistencies()
+
+    def check_booktitle_inconsistencies(self):
+        def match_booktitle(booktitle_data1: tuple):
+            if booktitle_data1:
+                if (booktitle_data1[0] and (self.booktitle_full != booktitle_data1[0])) or \
+                        (booktitle_data1[1] and (self.booktitle_short != booktitle_data1[1])) or \
+                        (booktitle_data1[2] and (self.booktitle_abbreviation != booktitle_data1[2])):
+                    return True
+            return False
+
+        booktitles_data = self.get_booktitles_data()
+        inconsistencies = False
+        if self.booktitle_full:
+            booktitle_data = self.get_matching_booktitle_data(booktitles_data, self.booktitle_full, index=0)
+            inconsistencies = inconsistencies or match_booktitle(booktitle_data)
+        if self.booktitle_short:
+            booktitle_data = self.get_matching_booktitle_data(booktitles_data, self.booktitle_short, index=1)
+            inconsistencies = inconsistencies or match_booktitle(booktitle_data)
+        if self.booktitle_abbreviation:
+            booktitle_data = self.get_matching_booktitle_data(booktitles_data, self.booktitle_abbreviation, index=2)
+            inconsistencies = inconsistencies or match_booktitle(booktitle_data)
+
+        if inconsistencies:
+            print(f'Inconsistencies found in booktitle for entry {self.name}.')
+        return

@@ -1,12 +1,13 @@
 # Shree KRISHNAya Namaha
 # Exports bib file
 # Author: Nagabhushan S N
-# Last Modified: 25-04-2020
+# Last Modified: 26-04-2020
+
 import datetime
 import json
 from pathlib import Path
 
-from src.data_structures.EntryCollection import EntryCollection
+from data_structures.EntryCollection import EntryCollection
 
 
 def export_bib(configs_filepath: Path):

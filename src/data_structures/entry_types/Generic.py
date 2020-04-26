@@ -33,7 +33,7 @@ class GenericEntry:
     def update(self, new_entry):
         new_entry_dict = dataclasses.asdict(new_entry)
         for key, value in new_entry_dict.items():
-            if hasattr(self, key):
+            if hasattr(self, key) and value:
                 setattr(self, key, value)
         return
 
@@ -90,6 +90,12 @@ class GenericEntry:
     @abc.abstractmethod
     def get_export_string(self, fields_names: list):
         return NotImplementedError
+
+    def fill_missing_data(self):
+        return
+
+    def check_inconsistencies(self):
+        return
 
     def __eq__(self, other):
         return self.name == other.name
