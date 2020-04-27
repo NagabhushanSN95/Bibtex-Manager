@@ -1,12 +1,13 @@
 # Shree KRISHNAya Namaha
 # A Factory class to create entries from json
 # Author: Nagabhushan S N
-# Last Modified: 26-04-2020
+# Last Modified: 27-04-2020
 
 from typing import List
 
 from data_structures.entry_types.Book import BookEntry
 from data_structures.entry_types.Conference import ConferenceEntry
+from data_structures.entry_types.ConferenceWorkshop import ConferenceWorkshopEntry
 from data_structures.entry_types.Journal import JournalEntry
 from data_structures.entry_types.Misc import MiscEntry
 from data_structures.entry_types.TechReport import TechReportEntry
@@ -14,7 +15,6 @@ from data_structures.entry_types.arXiv import arXivEntry
 from data_structures.entry_types.bioRxiv import bioRxivEntry
 
 
-# TODO: Add a class for workshop papers
 class EntryFactory:
     @staticmethod
     def dict2entry(entry_dict: dict):
@@ -22,7 +22,8 @@ class EntryFactory:
         This is used for loading the data from disk
         """
         class_name = entry_dict['class_name']
-        classes = [ConferenceEntry, JournalEntry, arXivEntry, bioRxivEntry, TechReportEntry, BookEntry, MiscEntry]
+        classes = [ConferenceEntry, JournalEntry, arXivEntry, bioRxivEntry, TechReportEntry, BookEntry, MiscEntry,
+                   ConferenceWorkshopEntry]
         for klass in classes:
             if class_name == klass.__name__:
                 return klass.from_dict(entry_dict)
@@ -40,7 +41,16 @@ class EntryFactory:
                 first_line = line.lstrip().lower()
                 break
         if first_line.startswith('@inproceedings'):
-            return ConferenceEntry.parse_raw_data(raw_entry)
+            # Check booktitle field to differentiate between oral and workshop papers
+            booktitle_line = ''
+            for line in raw_entry:
+                if 'booktitle' in line:
+                    booktitle_line = line.strip().lower()
+                    break
+            if 'workshop' in booktitle_line:
+                return ConferenceWorkshopEntry.parse_raw_data(raw_entry)
+            else:
+                return ConferenceEntry.parse_raw_data(raw_entry)
         elif first_line.startswith('@article'):
             # Check journal field to differentiate between arXiv, bioRxiv and journals
             journal_line = ''

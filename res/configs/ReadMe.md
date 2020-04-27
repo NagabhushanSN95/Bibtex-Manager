@@ -14,6 +14,15 @@ Currently, the below are available/supported
     * booktitle_abbreviation
     * month
     * year
+* Conference Workshop Entry
+    * title
+    * author
+    * booktitle_full/booktitle_short
+    * booktitle_abbreviation
+    * workshop_full/workshop_short
+    * workshop_abbreviation
+    * month
+    * year
 * Journal Entry
     * title
     * author
