@@ -1,6 +1,6 @@
 ("IEEE International Conference on Image Processing", "IEEE Int. Conf. Image Process.", "ICIP")
 ("IEEE Conference on Computer Vision and Pattern Recognition", "IEEE Conf. Comput. Vis. Pattern Recog.", "CVPR")
-("Advances in Neural Information Processing Systems", "Adv. Neural Inf. Process. Syst.", "NIPS")
+("Advances in Neural Information Processing Systems", "Adv. Neural Inf. Process. Syst.", "NeurIPS")
 ("International Conference on Learning Representations", "Int. Conf. Learn. Represent.", "ICLR")
 ("International Conference on Machine Learning", "Int. Conf. Mach. Learn.", "ICML")
 ("IEEE International Conference on Computer Vision", "IEEE Int. Conf. Comput. Vis.", "ICCV")
