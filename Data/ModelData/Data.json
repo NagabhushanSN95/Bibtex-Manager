@@ -314,6 +314,16 @@
 			"volume": null
 		},
 		{
+			"name": "chollet2015keras",
+			"class_name": "MiscEntry",
+			"comment": "Keras",
+			"title": "Keras",
+			"author": "Chollet, Fran\\c{c}ois and others",
+			"month": null,
+			"year": "2015",
+			"url": "https://keras.io"
+		},
+		{
 			"name": "revaud2015epicflow",
 			"class_name": "ConferenceEntry",
 			"comment": "Epic Flow",
@@ -408,7 +418,7 @@
 			"name": "xingjian2015convolutional",
 			"class_name": "ConferenceEntry",
 			"comment": "",
-			"title": "Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting",
+			"title": "Convolutional {LSTM} Network: A Machine Learning Approach for Precipitation Nowcasting",
 			"author": "SHI, Xingjian and Chen, Zhourong and Wang, Hao and Yeung, Dit-Yan and Wong, Wai-Kin and Woo, Wang-chun",
 			"month": null,
 			"year": "2015",
@@ -794,7 +804,7 @@
 			"name": "liu2018future",
 			"class_name": "ConferenceEntry",
 			"comment": "Anamoly Detection",
-			"title": "Future Frame Prediction for Anomaly Detection â€“ A New Baseline",
+			"title": "Future Frame Prediction for Anomaly Detection - A New Baseline",
 			"author": "Liu, Wen and Luo, Weixin and Lian, Dongze and Gao, Shenghua",
 			"month": null,
 			"year": "2018",
@@ -1003,6 +1013,17 @@
 			"month": null,
 			"year": "2020",
 			"url": "https://github.com/Netflix/vmaf/releases/tag/v1.5.1"
+		},
+		{
+			"name": "somraj2020vine",
+			"class_name": "arXivEntry",
+			"comment": "VINE",
+			"title": "A Naturalness Evaluation Database for Video Prediction Models",
+			"author": "Somraj, Nagabhushan and Kashi, Manoj Surya and Arun, S. P. and Soundararajan, Rajiv",
+			"month": null,
+			"year": "2020",
+			"journal": "arXiv e-prints",
+			"eid": "2005.00356"
 		}
 	]
 }
