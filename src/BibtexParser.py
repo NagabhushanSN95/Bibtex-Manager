@@ -38,12 +38,12 @@ class BibtexIterator:
                 num_comment_lines += 1
             else:
                 break
-        self.lines = self.lines[num_comment_lines-1:]
+        self.lines = self.lines[num_comment_lines:]
         return
 
 
 def main():
-    bibtex_filepath = Path('D:/Studies/07) IISC/Research/01_Video_Generator/Workspace/Paper_Submissions/02_TIP/Submission01/References.bib')
+    bibtex_filepath = Path('C:/Users/nagab/Desktop/bibtex.bib')
     with open(bibtex_filepath.as_posix(), 'r') as bibtex_file:
         lines = bibtex_file.readlines()
         lines = [line.rstrip() for line in lines]
