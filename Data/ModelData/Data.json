@@ -684,6 +684,21 @@
 			"volume": null
 		},
 		{
+			"name": "wu2017learning",
+			"class_name": "ConferenceEntry",
+			"comment": "VDA",
+			"title": "Learning to See Physics via Visual De-animation",
+			"author": "Wu, Jiajun and Lu, Erika and Kohli, Pushmeet and Freeman, Bill and Tenenbaum, Josh",
+			"month": null,
+			"year": "2017",
+			"booktitle_full": "Advances in Neural Information Processing Systems",
+			"booktitle_short": "Adv. Neural Inf. Process. Syst.",
+			"booktitle_abbreviation": "NeurIPS",
+			"organization": null,
+			"pages": "153--164",
+			"volume": null
+		},
+		{
 			"name": "babaeizadeh2018stochastic",
 			"class_name": "ConferenceEntry",
 			"comment": "SV2P",
@@ -813,6 +828,21 @@
 			"booktitle_abbreviation": "CVPR",
 			"organization": null,
 			"pages": null,
+			"volume": null
+		},
+		{
+			"name": "mrowca2018flexible",
+			"class_name": "ConferenceEntry",
+			"comment": "HRN",
+			"title": "Flexible neural representation for physics prediction",
+			"author": "Mrowca, Damian and Zhuang, Chengxu and Wang, Elias and Haber, Nick and Fei-Fei, Li F and Tenenbaum, Josh and Yamins, Daniel L",
+			"month": null,
+			"year": "2018",
+			"booktitle_full": "Advances in Neural Information Processing Systems",
+			"booktitle_short": "Adv. Neural Inf. Process. Syst.",
+			"booktitle_abbreviation": "NeurIPS",
+			"organization": null,
+			"pages": "8799--8810",
 			"volume": null
 		},
 		{
@@ -1005,6 +1035,17 @@
 			"eid": "860759"
 		},
 		{
+			"name": "li2020visual",
+			"class_name": "arXivEntry",
+			"comment": "VGPL",
+			"title": "Visual Grounding of Learned Physical Models",
+			"author": "Li, Yunzhu and Lin, Toru and Yi, Kexin and Bear, Daniel M. and Yamins, Daniel L. K. and Wu, Jiajun and Tenenbaum, Joshua B. and Torralba, Antonio",
+			"month": "apr",
+			"year": "2020",
+			"journal": "arXiv e-prints",
+			"eid": "2004.13664"
+		},
+		{
 			"name": "netflix2020vmaf",
 			"class_name": "MiscEntry",
 			"comment": "VMAF code",
@@ -1020,7 +1061,7 @@
 			"comment": "VINE",
 			"title": "A Naturalness Evaluation Database for Video Prediction Models",
 			"author": "Somraj, Nagabhushan and Kashi, Manoj Surya and Arun, S. P. and Soundararajan, Rajiv",
-			"month": null,
+			"month": "May",
 			"year": "2020",
 			"journal": "arXiv e-prints",
 			"eid": "2005.00356"
