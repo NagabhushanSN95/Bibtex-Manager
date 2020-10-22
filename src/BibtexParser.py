@@ -33,17 +33,25 @@ class BibtexIterator:
 
     def remove_doc_comments(self):
         num_comment_lines = 0
+        found_empty_line = False
         for line in self.lines:
-            if not line or line.lstrip().startswith('%'):
+            if line.lstrip().startswith('%'):
                 num_comment_lines += 1
+            elif not line:
+                found_empty_line = True
+                break
             else:
                 break
+        if found_empty_line:
+            num_comment_lines += 1  # Remove the empty line as well
+        else:
+            num_comment_lines = 0   # If no empty line is found, then comments refer to the entry
         self.lines = self.lines[num_comment_lines:]
         return
 
 
 def main():
-    bibtex_filepath = Path('/home/nagabhushan/Downloads/References.bib')
+    bibtex_filepath = Path('/home/nagabhushan/Documents/References.bib')
     with open(bibtex_filepath.as_posix(), 'r') as bibtex_file:
         lines = bibtex_file.readlines()
         lines = [line.rstrip() for line in lines]
