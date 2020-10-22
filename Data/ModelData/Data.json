@@ -948,6 +948,22 @@
             "volume": null
         },
         {
+            "name": "korhonen2019two",
+            "class_name": "JournalEntry",
+            "comment": "TLVQM",
+            "title": "Two-level approach for no-reference consumer video quality assessment",
+            "author": "Korhonen, Jari",
+            "month": null,
+            "year": "2019",
+            "journal_full": "IEEE Transactions on Image Processing",
+            "journal_short": "IEEE Trans. Image Process.",
+            "journal_abbreviation": "TIP",
+            "organization": null,
+            "volume": "28",
+            "number": "12",
+            "pages": "5923--5938"
+        },
+        {
             "name": "kumar2019videoflow",
             "class_name": "arXivEntry",
             "comment": "Video Flow",
@@ -1022,6 +1038,22 @@
             "volume": "28",
             "number": "12",
             "pages": "5757--5770"
+        },
+        {
+            "name": "dendi2020no",
+            "class_name": "JournalEntry",
+            "comment": "NSTSS",
+            "title": "No-Reference Video Quality Assessment Using Natural Spatiotemporal Scene Statistics",
+            "author": "Dendi, Sathya Veera Reddy and Channappayya, Sumohana S",
+            "month": null,
+            "year": "2020",
+            "journal_full": "IEEE Transactions on Image Processing",
+            "journal_short": "IEEE Trans. Image Process.",
+            "journal_abbreviation": "TIP",
+            "organization": null,
+            "volume": "29",
+            "number": null,
+            "pages": "5612--5624"
         },
         {
             "name": "jacob2020deep",
