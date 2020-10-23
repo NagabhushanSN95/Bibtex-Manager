@@ -1,6 +1,22 @@
 {
     "entries": [
         {
+            "name": "wilcoxon1945individual",
+            "class_name": "JournalEntry",
+            "comment": "Wilcoxon Signed Rank Test",
+            "title": "Individual Comparisons by Ranking Methods,",
+            "author": "Wilcoxon, Frank",
+            "month": null,
+            "year": "1945",
+            "journal_full": null,
+            "journal_short": null,
+            "journal_abbreviation": null,
+            "organization": null,
+            "volume": "1",
+            "number": "6",
+            "pages": "80--83"
+        },
+        {
             "name": "casella2002statistical",
             "class_name": "BookEntry",
             "comment": "Casella Berger book",
@@ -685,6 +701,21 @@
             "volume": null
         },
         {
+            "name": "rezende2017malicious",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Malicious software classification using transfer learning of resnet-50 deep neural network",
+            "author": "Rezende, Edmar and Ruppert, Guilherme and Carvalho, Tiago and Ramos, Fabio and De Geus, Paulo",
+            "month": null,
+            "year": "2017",
+            "booktitle_full": "IEEE International Conference on Machine Learning and Applications",
+            "booktitle_short": "IEEE Int. Conf. Mach. Learn. App.",
+            "booktitle_abbreviation": "ICMLA",
+            "organization": "IEEE",
+            "pages": "1011--1014",
+            "volume": null
+        },
+        {
             "name": "villegas2017mcnet",
             "class_name": "ConferenceEntry",
             "comment": "MCnet",
@@ -725,6 +756,24 @@
             "booktitle_full": "International Conference on Learning Representations",
             "booktitle_short": "Int. Conf. Learn. Represent.",
             "booktitle_abbreviation": "ICLR",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
+            "name": "buslaev2018fully",
+            "class_name": "ConferenceWorkshopEntry",
+            "comment": "",
+            "title": "Fully Convolutional Network for Automatic Road Extraction From Satellite Imagery",
+            "author": "Buslaev, Alexander and Seferbekov, Selim and Iglovikov, Vladimir and Shvets, Alexey",
+            "month": "June",
+            "year": "2018",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "workshop_full": null,
+            "workshop_short": null,
+            "workshop_abbreviation": null,
             "organization": null,
             "pages": null,
             "volume": null
@@ -847,6 +896,24 @@
             "volume": null
         },
         {
+            "name": "mormont2018comparison",
+            "class_name": "ConferenceWorkshopEntry",
+            "comment": "",
+            "title": "Comparison of Deep Transfer Learning Strategies for Digital Pathology",
+            "author": "Mormont, Romain and Geurts, Pierre and Maree, Raphael",
+            "month": "June",
+            "year": "2018",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "workshop_full": null,
+            "workshop_short": null,
+            "workshop_abbreviation": null,
+            "organization": "IEEE",
+            "pages": null,
+            "volume": null
+        },
+        {
             "name": "mrowca2018flexible",
             "class_name": "ConferenceEntry",
             "comment": "HRN",
@@ -859,6 +926,21 @@
             "booktitle_abbreviation": "NeurIPS",
             "organization": null,
             "pages": "8799--8810",
+            "volume": null
+        },
+        {
+            "name": "nguyen2018deep",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Deep CNNs for microscopic image classification by exploiting transfer learning and feature concatenation",
+            "author": "Nguyen, Long D and Lin, Dongyun and Lin, Zhiping and Cao, Jiuwen",
+            "month": null,
+            "year": "2018",
+            "booktitle_full": "IEEE International Symposium on Circuits and Systems",
+            "booktitle_short": "IEEE Int. Symp. Circuits Syst.",
+            "booktitle_abbreviation": "ISCAS",
+            "organization": "IEEE",
+            "pages": "1--5",
             "volume": null
         },
         {
@@ -964,6 +1046,22 @@
             "volume": null
         },
         {
+            "name": "khan2019novel",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "A novel deep learning based framework for the detection and classification of breast cancer using transfer learning",
+            "author": "Khan, SanaUllah and Islam, Naveed and Jan, Zahoor and Din, Ikram Ud and Rodrigues, Joel JP C",
+            "month": null,
+            "year": "2019",
+            "journal_full": "Pattern Recognition Letters",
+            "journal_short": null,
+            "journal_abbreviation": null,
+            "organization": null,
+            "volume": "125",
+            "number": null,
+            "pages": "1--6"
+        },
+        {
             "name": "korhonen2019two",
             "class_name": "JournalEntry",
             "comment": "TLVQM",
@@ -1003,6 +1101,21 @@
             "booktitle_abbreviation": "ACM-MM",
             "organization": null,
             "pages": null,
+            "volume": null
+        },
+        {
+            "name": "raghu2019transfusion",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Transfusion: Understanding transfer learning for medical imaging",
+            "author": "Raghu, Maithra and Zhang, Chiyuan and Kleinberg, Jon and Bengio, Samy",
+            "month": null,
+            "year": "2019",
+            "booktitle_full": "Advances in Neural Information Processing Systems",
+            "booktitle_short": "Adv. Neural Inf. Process. Syst.",
+            "booktitle_abbreviation": "NeurIPS",
+            "organization": null,
+            "pages": "3347--3357",
             "volume": null
         },
         {
