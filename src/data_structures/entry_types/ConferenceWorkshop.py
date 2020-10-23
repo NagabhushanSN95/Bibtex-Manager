@@ -12,7 +12,8 @@ from typing import List
 
 from data_structures.entry_types.Generic import GenericEntry
 
-BOOKTITLE_PATTERN = r'(.+?)( \(\w+\))? workshop on (.+?)( \(\w+\))?$'
+BOOKTITLE_PATTERN1 = r'(.+?)( \(\w+\))? workshop on (.+?)( \(\w+\))?$'
+BOOKTITLE_PATTERN2 = r'(.+?)( \(\w+\))? Workshops$'
 
 
 @dataclass(eq=False)
@@ -56,34 +57,41 @@ class ConferenceWorkshopEntry(GenericEntry):
         conf_full_name = None
         conf_short_name = None
         conf_abbreviation = None
+        captured_conf_name = None
         ws_full_name = None
         ws_short_name = None
         ws_abbreviation = None
+        captured_ws_name = None
         if booktitle:
-            matcher = re.match(BOOKTITLE_PATTERN, booktitle)
-            if matcher:
-                conf_name = matcher.group(1)
-                conf_abbreviation = matcher.group(2)[2:-1]
-                ws_name = matcher.group(3)
-                ws_abbreviation = matcher.group(4)
+            matcher1 = re.match(BOOKTITLE_PATTERN1, booktitle)
+            matcher2 = re.match(BOOKTITLE_PATTERN2, booktitle)
+            if matcher1:
+                captured_conf_name = matcher1.group(1)
+                conf_abbreviation = matcher1.group(2)[2:-1]
+                captured_ws_name = matcher1.group(3)
+                ws_abbreviation = matcher1.group(4)
+            elif matcher2:
+                captured_conf_name = matcher2.group(1)
+                conf_abbreviation = matcher2.group(2)[2:-1]
 
-                if conf_name:
-                    conf_short_forms = ['conf.']
-                    if any(short_form in conf_name.lower() for short_form in conf_short_forms):
-                        conf_short_name = conf_name
-                        conf_full_name = None
-                    else:
-                        conf_short_name = None
-                        conf_full_name = conf_name
+            if captured_conf_name:
+                conf_short_forms = ['conf.']
+                if any(short_form in captured_conf_name.lower() for short_form in conf_short_forms):
+                    conf_short_name = captured_conf_name
+                    conf_full_name = None
+                else:
+                    conf_short_name = None
+                    conf_full_name = captured_conf_name
 
-                if ws_name:
-                    ws_short_forms = ['ws.']
-                    if any(short_form in ws_name.lower() for short_form in ws_short_forms):
-                        ws_short_name = ws_name
-                        ws_full_name = None
-                    else:
-                        ws_short_name = None
-                        ws_full_name = ws_name
+            if captured_ws_name:
+                ws_short_forms = ['ws.']
+                if any(short_form in captured_ws_name.lower() for short_form in ws_short_forms):
+                    ws_short_name = captured_ws_name
+                    ws_full_name = None
+                else:
+                    ws_short_name = None
+                    ws_full_name = captured_ws_name
+
         return conf_full_name, conf_short_name, conf_abbreviation, ws_full_name, ws_short_name, ws_abbreviation
 
     def compose_booktitle(self, fields_names1: list):
@@ -123,7 +131,10 @@ class ConferenceWorkshopEntry(GenericEntry):
             else:
                 workshop += f'{self.workshop_abbreviation}'
 
-        complete_booktitle = booktitle + " workshop on " + workshop
+        if workshop is not None:
+            complete_booktitle = booktitle + " workshop on " + workshop
+        else:
+            complete_booktitle = booktitle + " Workshops"
         return complete_booktitle
 
     def get_export_string(self, fields_names: list):

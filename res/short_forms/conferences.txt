@@ -12,3 +12,5 @@
 ("ACM International Conference on Multimedia", "Int. Conf. Multimedia", "ACM-MM")
 ("Asilomar Conference on Signals, Systems Computers", "Asilomar Conf. Signals, Syst. Comput.", "")
 ("SPIE Human Vision and Electronic Imaging", "SPIE Human Vis. Electron. Imag.", "")
+("IEEE International Conference on Machine Learning and Applications", "IEEE Int. Conf. Mach. Learn. App.", "ICMLA")
+("IEEE International Symposium on Circuits and Systems", "IEEE Int. Symp. Circuits Syst.", "ISCAS")
