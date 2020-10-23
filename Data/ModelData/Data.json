@@ -84,6 +84,22 @@
             "pages": "1090--1097"
         },
         {
+            "name": "szekely2007measuring",
+            "class_name": "JournalEntry",
+            "comment": "Distance Correlation",
+            "title": "Measuring and testing dependence by correlation of distances",
+            "author": "Sz\\'ekely, G\\'abor J and Rizzo, Maria L and Bakirov, Nail K",
+            "month": null,
+            "year": "2007",
+            "journal_full": "Annals of Statistics",
+            "journal_short": "Ann. Statist.",
+            "journal_abbreviation": null,
+            "organization": null,
+            "volume": "35",
+            "number": "6",
+            "pages": "2769--2794"
+        },
+        {
             "name": "seshadrinathan2009motion",
             "class_name": "JournalEntry",
             "comment": "MOVIE",

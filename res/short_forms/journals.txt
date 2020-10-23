@@ -7,3 +7,4 @@
 ("IEEE Signal Processing Letters", "IEEE Signal Process. Lett.", "")
 ("IEEE Signal Processing Magazine", "IEEE Signal Process. Mag.", "")
 ("International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences", "Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci.", "ISPRS")
+("Annals of Statistics", "Ann. Statist.", "")
