@@ -932,7 +932,7 @@
             "name": "nguyen2018deep",
             "class_name": "ConferenceEntry",
             "comment": "",
-            "title": "Deep CNNs for microscopic image classification by exploiting transfer learning and feature concatenation",
+            "title": "Deep {CNNs} for microscopic image classification by exploiting transfer learning and feature concatenation",
             "author": "Nguyen, Long D and Lin, Dongyun and Lin, Zhiping and Cao, Jiuwen",
             "month": null,
             "year": "2018",
