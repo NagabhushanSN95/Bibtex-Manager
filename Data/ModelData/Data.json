@@ -331,6 +331,21 @@
             "pages": "1352--1365"
         },
         {
+            "name": "yang2014aggregate",
+            "class_name": "ConferenceEntry",
+            "comment": "Face Detection - Aggregate Channel Features",
+            "title": "Aggregate Channel Features for Multi-view Face Detection",
+            "author": "Yang, Bin and Yan, Junjie and Lei, Zhen and Li, Stan Z",
+            "month": null,
+            "year": "2014",
+            "booktitle_full": "IEEE International Joint Conference on Biometrics",
+            "booktitle_short": null,
+            "booktitle_abbreviation": null,
+            "organization": "IEEE",
+            "pages": "1--8",
+            "volume": null
+        },
+        {
             "name": "zeiler2014visualizing",
             "class_name": "ConferenceEntry",
             "comment": "",
