@@ -731,6 +731,21 @@
             "volume": null
         },
         {
+            "name": "villegas2017learning",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Learning to Generate Long-term Future via Hierarchical Prediction",
+            "author": "Ruben Villegas and Jimei Yang and Yuliang Zou and Sungryull Sohn and Xunyu Lin and Honglak Lee",
+            "month": null,
+            "year": "2017",
+            "booktitle_full": "International Conference on Machine Learning",
+            "booktitle_short": "Int. Conf. Mach. Learn.",
+            "booktitle_abbreviation": "ICML",
+            "organization": null,
+            "pages": "3560-3569",
+            "volume": null
+        },
+        {
             "name": "villegas2017mcnet",
             "class_name": "ConferenceEntry",
             "comment": "MCnet",
@@ -1198,6 +1213,21 @@
             "volume": "29",
             "number": null,
             "pages": "5612--5624"
+        },
+        {
+            "name": "han2020memory",
+            "class_name": "ConferenceEntry",
+            "comment": "MemDPC",
+            "title": "Memory-augmented dense predictive coding for video representation learning",
+            "author": "Han, Tengda and Xie, Weidi and Zisserman, Andrew",
+            "month": null,
+            "year": "2020",
+            "booktitle_full": "European Conference on Computer Vision",
+            "booktitle_short": "Eur. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ECCV",
+            "organization": null,
+            "pages": null,
+            "volume": null
         },
         {
             "name": "jacob2020deep",
