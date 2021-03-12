@@ -974,6 +974,36 @@
             "volume": null
         },
         {
+            "name": "prashnani2018pieapp",
+            "class_name": "ConferenceEntry",
+            "comment": "PieApp",
+            "title": "{PieAPP}: Perceptual Image-Error Assessment Through Pairwise Preference",
+            "author": "Prashnani, Ekta and Cai, Hong and Mostofi, Yasamin and Sen, Pradeep",
+            "month": "June",
+            "year": "2018",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
+            "name": "wang2018eidetic",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Eidetic {3D} {LSTM}: A Model for Video Prediction and Beyond",
+            "author": "Wang, Yunbo and Jiang, Lu and Yang, Ming-Hsuan and Li, Li-Jia and Long, Mingsheng and Fei-Fei, Li",
+            "month": null,
+            "year": "2019",
+            "booktitle_full": "International Conference on Learning Representations",
+            "booktitle_short": "Int. Conf. Learn. Represent.",
+            "booktitle_abbreviation": "ICLR",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
             "name": "xu2018video",
             "class_name": "ConferenceEntry",
             "comment": "VPSS",
@@ -1213,6 +1243,22 @@
             "volume": "29",
             "number": null,
             "pages": "5612--5624"
+        },
+        {
+            "name": "ding2020dists",
+            "class_name": "JournalEntry",
+            "comment": "DISTS - Simoncelli",
+            "title": "Image Quality Assessment: Unifying Structure and Texture Similarity",
+            "author": "K. {Ding} and K. {Ma} and S. {Wang} and E. P. {Simoncelli}",
+            "month": null,
+            "year": "2020",
+            "journal_full": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+            "journal_short": "IEEE Trans. Pattern Anal. Mach. Intell.",
+            "journal_abbreviation": "PAMI",
+            "organization": null,
+            "volume": null,
+            "number": null,
+            "pages": null
         },
         {
             "name": "han2020memory",
