@@ -72,7 +72,9 @@ class ConferenceWorkshopEntry(GenericEntry):
                 ws_abbreviation = matcher1.group(4)
             elif matcher2:
                 captured_conf_name = matcher2.group(1)
-                conf_abbreviation = matcher2.group(2)[2:-1]
+                conf_abbreviation = matcher2.group(2)
+                if conf_abbreviation is not None:
+                    conf_abbreviation = conf_abbreviation[2:-1]
 
             if captured_conf_name:
                 conf_short_forms = ['conf.']

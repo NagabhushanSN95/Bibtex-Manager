@@ -624,6 +624,24 @@
             "volume": null
         },
         {
+            "name": "yu2016back",
+            "class_name": "ConferenceWorkshopEntry",
+            "comment": "",
+            "title": "Back to Basics: Unsupervised Learning of Optical Flow via Brightness Constancy and Motion Smoothness",
+            "author": "Yu, Jason J. and Harley, Adam W. and Derpanis, Konstantinos G.",
+            "month": null,
+            "year": "2016",
+            "booktitle_full": "European Conference on Computer Vision",
+            "booktitle_short": "Eur. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ECCV",
+            "workshop_full": null,
+            "workshop_short": null,
+            "workshop_abbreviation": null,
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
             "name": "ebert2017self",
             "class_name": "ConferenceEntry",
             "comment": "BAIR",
