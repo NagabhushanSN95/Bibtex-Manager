@@ -371,6 +371,21 @@
             "url": "https://keras.io"
         },
         {
+            "name": "jaderberg2015stn",
+            "class_name": "ConferenceEntry",
+            "comment": "STN",
+            "title": "Spatial Transformer Networks",
+            "author": "Jaderberg, Max and Simonyan, Karen and Zisserman, Andrew and kavukcuoglu, koray",
+            "month": null,
+            "year": "2015",
+            "booktitle_full": "Advances in Neural Information Processing Systems",
+            "booktitle_short": "Adv. Neural Inf. Process. Syst.",
+            "booktitle_abbreviation": "NeurIPS",
+            "organization": null,
+            "pages": null,
+            "volume": "28"
+        },
+        {
             "name": "revaud2015epicflow",
             "class_name": "ConferenceEntry",
             "comment": "Epic Flow",
@@ -854,6 +869,21 @@
             "volume": null
         },
         {
+            "name": "janai2018unsupervised",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Unsupervised Learning of Multi-Frame Optical Flow with Occlusions",
+            "author": "Janai, Joel and Guney, Fatma and Ranjan, Anurag and Black, Michael and Geiger, Andreas",
+            "month": "September",
+            "year": "2018",
+            "booktitle_full": "European Conference on Computer Vision",
+            "booktitle_short": "Eur. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ECCV",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
             "name": "janner2018reasoning",
             "class_name": "ConferenceEntry",
             "comment": "O2P2",
@@ -999,6 +1029,21 @@
             "booktitle_full": "International Conference on Learning Representations",
             "booktitle_short": "Int. Conf. Learn. Represent.",
             "booktitle_abbreviation": "ICLR",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
+            "name": "wang2018occlusion",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Occlusion Aware Unsupervised Learning of Optical Flow",
+            "author": "Wang, Yang and Yang, Yi and Yang, Zhenheng and Zhao, Liang and Wang, Peng and Xu, Wei",
+            "month": "June",
+            "year": "2018",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
             "organization": null,
             "pages": null,
             "volume": null
@@ -1159,6 +1204,21 @@
             "booktitle_full": "ACM International Conference on Multimedia",
             "booktitle_short": "Int. Conf. Multimedia",
             "booktitle_abbreviation": "ACM-MM",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
+            "name": "liu2019selflow",
+            "class_name": "ConferenceEntry",
+            "comment": "SelFlow",
+            "title": "SelFlow: Self-Supervised Learning of Optical Flow",
+            "author": "Liu, Pengpeng and Lyu, Michael and King, Irwin and Xu, Jia",
+            "month": "June",
+            "year": "2019",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
             "organization": null,
             "pages": null,
             "volume": null
