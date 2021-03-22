@@ -1401,13 +1401,28 @@
             "url": "https://github.com/Netflix/vmaf/releases/tag/v1.5.1"
         },
         {
-            "name": "somraj2020vine",
+            "name": "weissenborn2020Scaling",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Scaling Autoregressive Video Models",
+            "author": "Weissenborn, Dirk and T{\\\"a}ckstr{\\\"o}m, Oscar and Uszkoreit, Jakob",
+            "month": null,
+            "year": "2020",
+            "booktitle_full": "International Conference on Learning Representations",
+            "booktitle_short": "Int. Conf. Learn. Represent.",
+            "booktitle_abbreviation": "ICLR",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
+            "name": "somraj2021vine",
             "class_name": "arXivEntry",
             "comment": "VINE",
             "title": "A Naturalness Evaluation Database for Video Prediction Models",
             "author": "Somraj, Nagabhushan and Kashi, Manoj Surya and Arun, S. P. and Soundararajan, Rajiv",
             "month": "May",
-            "year": "2020",
+            "year": "2021",
             "journal": "arXiv e-prints",
             "eid": "2005.00356"
         }
