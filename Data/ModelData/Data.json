@@ -53,6 +53,22 @@
             "volume": null
         },
         {
+            "name": "wiegand2003overview",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "Overview of the H.264/AVC video coding standard",
+            "author": "Wiegand, Thomas and Sullivan, Gary J and Bjontegaard, Gisle and Luthra, Ajay",
+            "month": null,
+            "year": "2003",
+            "journal_full": "IEEE Transactions on Circuits and Systems for Video Technology",
+            "journal_short": "IEEE Trans. Circuits Syst. Video Technol.",
+            "journal_abbreviation": "CSVT",
+            "organization": null,
+            "volume": "13",
+            "number": "7",
+            "pages": "560-576"
+        },
+        {
             "name": "schuldt2004recognizing",
             "class_name": "ConferenceEntry",
             "comment": "KTH",
@@ -1399,6 +1415,22 @@
             "month": null,
             "year": "2020",
             "url": "https://github.com/Netflix/vmaf/releases/tag/v1.5.1"
+        },
+        {
+            "name": "oprea2020review",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "A review on deep learning techniques for video prediction",
+            "author": "Oprea, Sergiu and Martinez-Gonzalez, Pablo and Garcia-Garcia, Alberto and Castro-Vargas, John Alejandro and Orts-Escolano, Sergio and Garcia-Rodriguez, Jose and Argyros, Antonis",
+            "month": null,
+            "year": "2020",
+            "journal_full": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+            "journal_short": "IEEE Trans. Pattern Anal. Mach. Intell.",
+            "journal_abbreviation": "PAMI",
+            "organization": null,
+            "volume": null,
+            "number": null,
+            "pages": null
         },
         {
             "name": "weissenborn2020Scaling",
