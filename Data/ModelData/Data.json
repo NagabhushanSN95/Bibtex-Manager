@@ -17,6 +17,22 @@
             "pages": "80--83"
         },
         {
+            "name": "rao1999predictive",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "Predictive coding in the visual cortex: a functional interpretation of some extra-classical receptive-field effects",
+            "author": "Rao, Rajesh PN and Ballard, Dana H",
+            "month": null,
+            "year": "1999",
+            "journal_full": "Nature neuroscience",
+            "journal_short": null,
+            "journal_abbreviation": null,
+            "organization": null,
+            "volume": "2",
+            "number": "1",
+            "pages": "79--87"
+        },
+        {
             "name": "casella2002statistical",
             "class_name": "BookEntry",
             "comment": "Casella Berger book",
@@ -223,6 +239,22 @@
             "organization": null,
             "pages": null,
             "volume": null
+        },
+        {
+            "name": "den2012prediction",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "How prediction errors shape perception, attention, and motivation",
+            "author": "Den Ouden, Hanneke EM and Kok, Peter and De Lange, Floris P",
+            "month": null,
+            "year": "2012",
+            "journal_full": "Frontiers in psychology",
+            "journal_short": null,
+            "journal_abbreviation": null,
+            "organization": null,
+            "volume": "3",
+            "number": null,
+            "pages": "548"
         },
         {
             "name": "eitz2012humans",
