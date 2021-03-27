@@ -1130,6 +1130,21 @@
             "volume": null
         },
         {
+            "name": "wichers2018hierarchical",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Hierarchical Long-Term Video Prediction without Supervision",
+            "author": "Wichers, Nevan and Villegas, Ruben and Erhan, Dumitru and Lee, Honglak",
+            "month": "July",
+            "year": "2018",
+            "booktitle_full": "International Conference on Machine Learning",
+            "booktitle_short": "Int. Conf. Mach. Learn.",
+            "booktitle_abbreviation": "ICML",
+            "organization": "PMLR",
+            "pages": "6038--6046",
+            "volume": "80"
+        },
+        {
             "name": "xu2018video",
             "class_name": "ConferenceEntry",
             "comment": "VPSS",
