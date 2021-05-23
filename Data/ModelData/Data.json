@@ -1400,6 +1400,22 @@
             "pages": "5757--5770"
         },
         {
+            "name": "choi2020deep",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "Deep frame prediction for video coding",
+            "author": "Choi, Hyomin and Baji{\\'c}, Ivan V",
+            "month": null,
+            "year": "2020",
+            "journal_full": "IEEE Transactions on Circuits and Systems for Video Technology",
+            "journal_short": "IEEE Trans. Circuits Syst. Video Technol.",
+            "journal_abbreviation": "CSVT",
+            "organization": null,
+            "volume": "30",
+            "number": "7",
+            "pages": "1843--1855"
+        },
+        {
             "name": "dendi2020no",
             "class_name": "JournalEntry",
             "comment": "NSTSS",
