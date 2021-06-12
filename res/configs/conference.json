@@ -6,5 +6,5 @@
   "bioRxivEntry": ["title", "author", "journal", "eid", "year"],
   "TechReportEntry": ["title", "author", "institution_full", "year"],
   "BookEntry": ["title", "author", "volume", "year"],
-  "MiscEntry": ["title", "author", "year", "url"]
+  "MiscEntry": ["title", "author", "year", "url", "note"]
 }

@@ -431,7 +431,8 @@
             "author": "Chollet, Fran\\c{c}ois and others",
             "month": null,
             "year": "2015",
-            "url": "https://keras.io"
+            "url": "https://keras.io",
+            "note": null
         },
         {
             "name": "jaderberg2015stn",
@@ -654,7 +655,8 @@
             "author": "{Microsoft Research}",
             "month": null,
             "year": "2016",
-            "url": "https://www.microsoft.com/en-us/download/details.aspx?id=52315"
+            "url": "https://www.microsoft.com/en-us/download/details.aspx?id=52315",
+            "note": null
         },
         {
             "name": "salimans2016improved",
@@ -887,6 +889,17 @@
             "volume": null
         },
         {
+            "name": "burnes2018rtx",
+            "class_name": "MiscEntry",
+            "comment": "",
+            "title": "NVIDIA RTX Technology: Making Real-Time Ray Tracing A Reality For Games - NVIDIA Blogs",
+            "author": "Burnes, Andrew",
+            "month": null,
+            "year": "2018",
+            "url": "https://www.nvidia.com/en-us/geforce/news/nvidia-rtx-real-time-game-ray-tracing/",
+            "note": "Accessed: 12-June-2021"
+        },
+        {
             "name": "buslaev2018fully",
             "class_name": "ConferenceWorkshopEntry",
             "comment": "",
@@ -918,6 +931,17 @@
             "organization": null,
             "pages": null,
             "volume": null
+        },
+        {
+            "name": "caulfield2018difference",
+            "class_name": "MiscEntry",
+            "comment": "",
+            "title": "What's the Difference Between Ray Tracing and Rasterization? - NVIDIA Blogs",
+            "author": "Caulfield, Brian",
+            "month": null,
+            "year": "2018",
+            "url": "https://blogs.nvidia.com/blog/2018/03/19/whats-difference-between-ray-tracing-rasterization",
+            "note": "Accessed: 12-June-2021"
         },
         {
             "name": "denton2018stochastic",
@@ -1492,7 +1516,8 @@
             "author": "Netflix",
             "month": null,
             "year": "2020",
-            "url": "https://github.com/Netflix/vmaf/releases/tag/v1.5.1"
+            "url": "https://github.com/Netflix/vmaf/releases/tag/v1.5.1",
+            "note": null
         },
         {
             "name": "oprea2020review",

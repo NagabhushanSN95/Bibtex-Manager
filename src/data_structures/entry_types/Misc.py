@@ -13,6 +13,7 @@ from data_structures.entry_types.Generic import GenericEntry
 @dataclass(eq=False)
 class MiscEntry(GenericEntry):
     url: str = None
+    note: str = None
 
     @staticmethod
     def parse_raw_data(raw_data: List[str]):
@@ -26,6 +27,7 @@ class MiscEntry(GenericEntry):
         book_entry.month = fields_dict.get('month', None)
         book_entry.year = fields_dict.get('year', None)
         book_entry.url = fields_dict.get('url', None)
+        book_entry.note = fields_dict.get('note', None)
         return book_entry
 
     def get_export_string(self, fields_names: list):
@@ -43,10 +45,12 @@ class MiscEntry(GenericEntry):
             lines.append(f'    author = {{{self.author}}},')
         if ('month' in fields_names) and self.month:
             lines.append(f'    month = {{{self.month}}}')
-        if ('year' in fields_names) and self.year:
-            lines.append(f'    year = {{{self.year}}},')
         if ('url' in fields_names) and self.url:
-            lines.append(f'    url = {{{self.url}}}')
+            lines.append(f'    url = {{{self.url}}},')
+        if ('note' in fields_names) and self.note:
+            lines.append(f'    note = {{{self.note}}},')
+        if ('year' in fields_names) and self.year:
+            lines.append(f'    year = {{{self.year}}}')
         lines.append('}')
         export_string = '\n'.join(lines)
         return export_string
