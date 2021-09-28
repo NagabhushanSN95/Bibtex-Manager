@@ -1,7 +1,7 @@
 # Shree KRISHNAya Namaha
-# Book
+# Misc Entries
 # Author: Nagabhushan S N
-# Last Modified: 26-04-2020
+# Last Modified: 24-06-2021
 
 import dataclasses
 from dataclasses import dataclass
@@ -12,6 +12,7 @@ from data_structures.entry_types.Generic import GenericEntry
 
 @dataclass(eq=False)
 class MiscEntry(GenericEntry):
+    journal: str = None
     url: str = None
     note: str = None
 
@@ -24,6 +25,7 @@ class MiscEntry(GenericEntry):
         book_entry.comment = comment
         book_entry.title = fields_dict.get('title', None)
         book_entry.author = fields_dict.get('author', None)
+        book_entry.journal = fields_dict.get('journal', None)
         book_entry.month = fields_dict.get('month', None)
         book_entry.year = fields_dict.get('year', None)
         book_entry.url = fields_dict.get('url', None)
@@ -43,12 +45,14 @@ class MiscEntry(GenericEntry):
             lines.append(f'    title = {{{self.title}}},')
         if ('author' in fields_names) and self.author:
             lines.append(f'    author = {{{self.author}}},')
-        if ('month' in fields_names) and self.month:
-            lines.append(f'    month = {{{self.month}}}')
+        if ('journal' in fields_names) and self.journal:
+            lines.append(f'    journal = {{{self.journal}}},')
         if ('url' in fields_names) and self.url:
             lines.append(f'    url = {{{self.url}}},')
         if ('note' in fields_names) and self.note:
             lines.append(f'    note = {{{self.note}}},')
+        if ('month' in fields_names) and self.month:
+            lines.append(f'    month = {{{self.month}}}')
         if ('year' in fields_names) and self.year:
             lines.append(f'    year = {{{self.year}}}')
         lines.append('}')

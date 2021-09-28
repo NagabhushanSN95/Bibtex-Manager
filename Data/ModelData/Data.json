@@ -17,6 +17,22 @@
             "pages": "80--83"
         },
         {
+            "name": "legge1980contrast",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "Contrast masking in human vision",
+            "author": "Legge, Gordon E and Foley, John M",
+            "month": "Dec",
+            "year": "1980",
+            "journal_full": "Journal of the Optical Society of America",
+            "journal_short": "J. Opt. Soc. Am.",
+            "journal_abbreviation": "JOSA",
+            "organization": null,
+            "volume": "70",
+            "number": "12",
+            "pages": "1458--1471"
+        },
+        {
             "name": "rao1999predictive",
             "class_name": "JournalEntry",
             "comment": "",
@@ -31,6 +47,21 @@
             "volume": "2",
             "number": "1",
             "pages": "79--87"
+        },
+        {
+            "name": "zwicker2001splatting",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Surface Splatting",
+            "author": "Zwicker, Matthias and Pfister, Hanspeter and Van Baar, Jeroen and Gross, Markus",
+            "month": null,
+            "year": "2001",
+            "booktitle_full": "ACM Conference on Computer Graphics and Interactive Techniques",
+            "booktitle_short": "ACM Comp. Graph. Int. Tech.",
+            "booktitle_abbreviation": "CGIT",
+            "organization": null,
+            "pages": "371--378",
+            "volume": null
         },
         {
             "name": "casella2002statistical",
@@ -431,6 +462,7 @@
             "author": "Chollet, Fran\\c{c}ois and others",
             "month": null,
             "year": "2015",
+            "journal": null,
             "url": "https://keras.io",
             "note": null
         },
@@ -448,6 +480,18 @@
             "organization": null,
             "pages": null,
             "volume": "28"
+        },
+        {
+            "name": "oculus2015atw_examined",
+            "class_name": "MiscEntry",
+            "comment": "",
+            "title": "Asynchronous Timewarp Examined",
+            "author": "Antonov, Michael",
+            "month": null,
+            "year": "2015",
+            "journal": "Oculus Developer Blogs",
+            "url": "https://developer.oculus.com/blog/asynchronous-timewarp-examined",
+            "note": "Accessed: 24-June-2021"
         },
         {
             "name": "revaud2015epicflow",
@@ -655,8 +699,33 @@
             "author": "{Microsoft Research}",
             "month": null,
             "year": "2016",
+            "journal": null,
             "url": "https://www.microsoft.com/en-us/download/details.aspx?id=52315",
             "note": null
+        },
+        {
+            "name": "oculus2016asw",
+            "class_name": "MiscEntry",
+            "comment": "",
+            "title": "Asynchronous Spacewarp",
+            "author": "Beeler, Dean",
+            "month": null,
+            "year": "2016",
+            "journal": "Oculus Developer Blogs",
+            "url": "https://developer.oculus.com/blog/asynchronous-spacewarp",
+            "note": "Accessed: 24-June-2021"
+        },
+        {
+            "name": "oculus2016atw",
+            "class_name": "MiscEntry",
+            "comment": "",
+            "title": "Asynchronous Timewarp on Oculus Rift",
+            "author": "Beeler, Dean and Gosalia, Anuj",
+            "month": null,
+            "year": "2016",
+            "journal": "Oculus Developer Blogs",
+            "url": "https://developer.oculus.com/blog/asynchronous-timewarp-on-oculus-rift",
+            "note": "Accessed: 24-June-2021"
         },
         {
             "name": "salimans2016improved",
@@ -896,6 +965,7 @@
             "author": "Burnes, Andrew",
             "month": null,
             "year": "2018",
+            "journal": null,
             "url": "https://www.nvidia.com/en-us/geforce/news/nvidia-rtx-real-time-game-ray-tracing/",
             "note": "Accessed: 12-June-2021"
         },
@@ -940,6 +1010,7 @@
             "author": "Caulfield, Brian",
             "month": null,
             "year": "2018",
+            "journal": null,
             "url": "https://blogs.nvidia.com/blog/2018/03/19/whats-difference-between-ray-tracing-rasterization",
             "note": "Accessed: 12-June-2021"
         },
@@ -1344,6 +1415,18 @@
             "volume": null
         },
         {
+            "name": "oculus2019asw2",
+            "class_name": "MiscEntry",
+            "comment": "",
+            "title": "Introducing ASW 2.0: Better Accuracy, Lower Latency",
+            "author": "Aksoy, Volga and Beeler, Dean",
+            "month": null,
+            "year": "2019",
+            "journal": "Oculus Developer Blogs",
+            "url": "https://www.oculus.com/blog/introducing-asw-2-point-0-better-accuracy-lower-latency/",
+            "note": "Accessed: 24-June-2021"
+        },
+        {
             "name": "raghu2019transfusion",
             "class_name": "ConferenceEntry",
             "comment": "",
@@ -1516,6 +1599,7 @@
             "author": "Netflix",
             "month": null,
             "year": "2020",
+            "journal": null,
             "url": "https://github.com/Netflix/vmaf/releases/tag/v1.5.1",
             "note": null
         },
@@ -1534,6 +1618,17 @@
             "volume": null,
             "number": null,
             "pages": null
+        },
+        {
+            "name": "ravi2020pytorch3d",
+            "class_name": "arXivEntry",
+            "comment": "PyTorch3D",
+            "title": "Accelerating 3D Deep Learning with {PyTorch3D}",
+            "author": null,
+            "month": null,
+            "year": "2020",
+            "journal": "arXiv e-prints",
+            "eid": "2007.08501"
         },
         {
             "name": "weissenborn2020Scaling",
