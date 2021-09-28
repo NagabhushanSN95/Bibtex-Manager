@@ -1,0 +1,11 @@
+{
+  "template": "CVPR",
+  "ConferenceEntry": ["title", "author", "booktitle_abbreviation", "year"],
+  "ConferenceWorkshopEntry": ["title", "author", "booktitle_abbreviation", "workshop_full", "workshop_abbreviation", "year"],
+  "JournalEntry": ["title", "author", "journal_abbreviation", "volume", "number", "pages", "year"],
+  "arXivEntry": ["title", "author", "journal", "eid", "pages", "archivePrefix", "eprint", "year"],
+  "bioRxivEntry": ["title", "author", "journal", "eid", "year"],
+  "TechReportEntry": ["title", "author", "institution_full", "year"],
+  "BookEntry": ["title", "author", "volume", "year"],
+  "MiscEntry": ["title", "author", "journal", "url", "note", "year"]
+}

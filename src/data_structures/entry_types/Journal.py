@@ -81,10 +81,18 @@ class JournalEntry(GenericEntry):
                 journal = self.journal_short
             else:
                 journal = self.journal_full
+        elif 'journal_abbreviation' in fields_names1:
+            if self.journal_abbreviation is None:
+                journal = self.journal_full
+            else:
+                journal = self.journal_abbreviation
         else:
             return None
         if ('journal_abbreviation' in fields_names1) and self.journal_abbreviation:
-            journal += f' ({self.journal_abbreviation})'
+            if ('journal_full' in fields_names1) or ('journal_short' in fields_names1):
+                # This branch handles the case when short+abbr or full+abbr is used. Just abbr is handled in previous
+                # branch
+                journal += f' ({self.journal_abbreviation})'
         return journal
 
     def get_export_string(self, fields_names: list):

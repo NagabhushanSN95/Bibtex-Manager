@@ -107,13 +107,18 @@ class ConferenceWorkshopEntry(GenericEntry):
                 booktitle = self.booktitle_short
             else:
                 booktitle = self.booktitle_full
-        else:
-            booktitle = ''
-        if 'booktitle_abbreviation' in fields_names1 and self.booktitle_abbreviation:
-            if booktitle:
-                booktitle += f' ({self.booktitle_abbreviation})'
+        elif 'booktitle_abbreviation' in fields_names1:
+            if self.booktitle_abbreviation is None:
+                booktitle = self.booktitle_full
             else:
-                booktitle += f'{self.booktitle_abbreviation}'
+                booktitle = self.booktitle_abbreviation
+        else:
+            return None
+        if 'booktitle_abbreviation' in fields_names1 and self.booktitle_abbreviation:
+            if ('booktitle_full' in fields_names1) or ('booktitle_short' in fields_names1):
+                # This branch handles the case when short+abbr or full+abbr is used. Just abbr is handled in previous
+                # branch
+                booktitle += f' ({self.booktitle_abbreviation})'
 
         if 'workshop_full' in fields_names1:
             if self.workshop_full:
@@ -133,10 +138,17 @@ class ConferenceWorkshopEntry(GenericEntry):
             else:
                 workshop += f'{self.workshop_abbreviation}'
 
-        if workshop is not None:
-            complete_booktitle = booktitle + " workshop on " + workshop
+        if 'workshop_full' in fields_names1:
+            workshop_text = 'Workshop'
+        elif 'workshop_short' in fields_names1:
+            workshop_text = 'Worksh.'
         else:
-            complete_booktitle = booktitle + " Workshops"
+            workshop_text = ''
+
+        if workshop is not None:
+            complete_booktitle = booktitle + " " + workshop_text + " on " + workshop
+        else:
+            complete_booktitle = booktitle + " " + workshop_text
         return complete_booktitle
 
     def get_export_string(self, fields_names: list):

@@ -79,10 +79,18 @@ class ConferenceEntry(GenericEntry):
                 booktitle = self.booktitle_short
             else:
                 booktitle = self.booktitle_full
+        elif 'booktitle_abbreviation' in fields_names1:
+            if self.booktitle_abbreviation is None:
+                booktitle = self.booktitle_full
+            else:
+                booktitle = self.booktitle_abbreviation
         else:
             return None
         if 'booktitle_abbreviation' in fields_names1 and self.booktitle_abbreviation:
-            booktitle += f' ({self.booktitle_abbreviation})'
+            if ('booktitle_full' in fields_names1) or ('booktitle_short' in fields_names1):
+                # This branch handles the case when short+abbr or full+abbr is used. Just abbr is handled in previous
+                # branch
+                booktitle += f' ({self.booktitle_abbreviation})'
         return booktitle
 
     def get_export_string(self, fields_names: list):
