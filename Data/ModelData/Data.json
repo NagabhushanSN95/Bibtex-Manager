@@ -1373,6 +1373,21 @@
             "volume": null
         },
         {
+            "name": "choi2019extreme",
+            "class_name": "ConferenceEntry",
+            "comment": "Extreme View Synthesis",
+            "title": "Extreme View Synthesis",
+            "author": "Choi, Inchang and Gallo, Orazio and Troccoli, Alejandro and Kim, Min H and Kautz, Jan",
+            "month": "October",
+            "year": "2019",
+            "booktitle_full": "IEEE International Conference on Computer Vision",
+            "booktitle_short": "IEEE Int. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ICCV",
+            "organization": null,
+            "pages": "7781--7790",
+            "volume": null
+        },
+        {
             "name": "geirhos2019imagenet",
             "class_name": "ConferenceEntry",
             "comment": "",
