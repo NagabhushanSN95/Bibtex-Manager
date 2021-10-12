@@ -1869,6 +1869,21 @@
             "volume": null
         },
         {
+            "name": "yoon2020novel",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Novel View Synthesis of Dynamic Scenes With Globally Coherent Depths From a Monocular Camera",
+            "author": "Yoon, Jae Shin and Kim, Kihwan and Gallo, Orazio and Park, Hyun Soo and Kautz, Jan",
+            "month": "June",
+            "year": "2020",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
             "name": "gao2021dynamic",
             "class_name": "arXivEntry",
             "comment": "Dynamic View Synthesis",
@@ -1878,6 +1893,21 @@
             "year": "2021",
             "journal": "arXiv e-prints",
             "eid": "2105.06468"
+        },
+        {
+            "name": "lin2021deep",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Deep 3D Mask Volume for View Synthesis of Dynamic Scenes",
+            "author": "Lin, Kai-En and Xiao, Lei and Liu, Feng and Yang, Guowei and Ramamoorthi, Ravi",
+            "month": "October",
+            "year": "2021",
+            "booktitle_full": "IEEE International Conference on Computer Vision",
+            "booktitle_short": "IEEE Int. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ICCV",
+            "organization": null,
+            "pages": "1749-1758",
+            "volume": null
         },
         {
             "name": "liu2021deep",
