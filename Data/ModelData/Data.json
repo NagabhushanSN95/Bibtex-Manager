@@ -1255,6 +1255,21 @@
             "volume": null
         },
         {
+            "name": "tulyakov2018mocogan",
+            "class_name": "ConferenceEntry",
+            "comment": "MoCoGAN",
+            "title": "{MoCoGAN}: Decomposing Motion and Content for Video Generation",
+            "author": "Tulyakov, Sergey and Liu, Ming-Yu and Yang, Xiaodong and Kautz, Jan",
+            "month": "June",
+            "year": "2018",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
             "name": "wang2018eidetic",
             "class_name": "ConferenceEntry",
             "comment": "",
@@ -1853,6 +1868,21 @@
             "eid": "2105.06468"
         },
         {
+            "name": "liu2021deep",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Deep Learning in Latent Space for Video Prediction and Compression",
+            "author": "Liu, Bowen and Chen, Yu and Liu, Shiyu and Kim, Hun-Seok",
+            "month": "June",
+            "year": "2021",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "701-710",
+            "volume": null
+        },
+        {
             "name": "sarkar2021decomposing",
             "class_name": "ConferenceWorkshopEntry",
             "comment": "",
@@ -1880,6 +1910,22 @@
             "year": "2021",
             "journal": "arXiv e-prints",
             "eid": "2005.00356"
+        },
+        {
+            "name": "kanchana2022tgivp",
+            "class_name": "JournalEntry",
+            "comment": "TGIVP",
+            "title": "Revealing Disocclusions in Temporal View Synthesis through Infilling Vector Prediction",
+            "author": "Kanchana, Vijayalakshmi and Somraj, Nagabhushan and Yadwad, Suraj and Soundararajan, Rajiv",
+            "month": null,
+            "year": "2022",
+            "journal_full": "IEEE Winter Conference on Applications of Computer Vision",
+            "journal_short": null,
+            "journal_abbreviation": null,
+            "organization": null,
+            "volume": null,
+            "number": null,
+            "pages": null
         }
     ]
 }
