@@ -67,9 +67,11 @@ class ConferenceWorkshopEntry(GenericEntry):
             matcher2 = re.match(BOOKTITLE_PATTERN2, booktitle)
             if matcher1:
                 captured_conf_name = matcher1.group(1)
-                conf_abbreviation = matcher1.group(2)[2:-1]
+                if matcher1.group(2) is not None:
+                    conf_abbreviation = matcher1.group(2)[2:-1]
                 captured_ws_name = matcher1.group(3)
-                ws_abbreviation = matcher1.group(4)
+                if matcher1.group(4) is not None:
+                    ws_abbreviation = matcher1.group(4)
             elif matcher2:
                 captured_conf_name = matcher2.group(1)
                 conf_abbreviation = matcher2.group(2)
