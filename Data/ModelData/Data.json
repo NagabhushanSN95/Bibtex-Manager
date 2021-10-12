@@ -776,6 +776,21 @@
             "volume": null
         },
         {
+            "name": "zhou2016view",
+            "class_name": "ConferenceEntry",
+            "comment": "Appearance Flow",
+            "title": "View Synthesis by Appearance Flow",
+            "author": "Zhou, Tinghui and Tulsiani, Shubham and Sun, Weilun and Malik, Jitendra and Efros, Alexei A",
+            "month": null,
+            "year": "2016",
+            "booktitle_full": "European Conference on Computer Vision",
+            "booktitle_short": "Eur. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ECCV",
+            "organization": "Springer",
+            "pages": "286--301",
+            "volume": null
+        },
+        {
             "name": "ebert2017self",
             "class_name": "ConferenceEntry",
             "comment": "BAIR",
@@ -1279,6 +1294,22 @@
             "organization": null,
             "pages": null,
             "volume": null
+        },
+        {
+            "name": "zhou2018stereomag",
+            "class_name": "JournalEntry",
+            "comment": "StereoMag",
+            "title": "Stereo Magnification: Learning View Synthesis Using Multiplane Images",
+            "author": "Zhou, Tinghui and Tucker, Richard and Flynn, John and Fyffe, Graham and Snavely, Noah",
+            "month": "July",
+            "year": "2018",
+            "journal_full": "ACM Transactions on Graphics",
+            "journal_short": "ACM Trans. Graph.",
+            "journal_abbreviation": "TOG",
+            "organization": null,
+            "volume": "37",
+            "number": "4",
+            "pages": null
         },
         {
             "name": "zou2018sketchy",
