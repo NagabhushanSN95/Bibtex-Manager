@@ -1210,6 +1210,21 @@
             "volume": null
         },
         {
+            "name": "tulsiani2018layer",
+            "class_name": "ConferenceEntry",
+            "comment": "Tulsiani et. al.",
+            "title": "Layer-structured 3D Scene Inference via View Synthesis",
+            "author": "Tulsiani, Shubham and Tucker, Richard and Snavely, Noah",
+            "month": "September",
+            "year": "2018",
+            "booktitle_full": "European Conference on Computer Vision",
+            "booktitle_short": "Eur. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ECCV",
+            "organization": null,
+            "pages": "302--317",
+            "volume": null
+        },
+        {
             "name": "wang2018eidetic",
             "class_name": "ConferenceEntry",
             "comment": "",
