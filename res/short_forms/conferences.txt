@@ -20,3 +20,4 @@
 ("International Conference on Quality of Multimedia Experience", "Int. Conf. Qual. Multimedia Exper.", "QoMEX")
 ("International Joint Conferences on Artificial Intelligence", "IJCAI", "IJCAI")
 ("SPIE Human Vision and Electronic Imaging", "SPIE Human Vis. Electron. Imag.", "")
+("IEEE Winter Conference on Applications of Computer Vision", "IEEE Winter Conf. App. Comput. Vis.", "WACV")
