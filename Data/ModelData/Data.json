@@ -1943,12 +1943,12 @@
             "volume": "148"
         },
         {
-            "name": "somraj2021vine",
+            "name": "somraj2021pvqa",
             "class_name": "arXivEntry",
-            "comment": "VINE",
-            "title": "A Naturalness Evaluation Database for Video Prediction Models",
+            "comment": "PVQA",
+            "title": "Understanding the Perceived Quality of Video Predictions",
             "author": "Somraj, Nagabhushan and Kashi, Manoj Surya and Arun, S. P. and Soundararajan, Rajiv",
-            "month": "May",
+            "month": "June",
             "year": "2021",
             "journal": "arXiv e-prints",
             "eid": "2005.00356"
