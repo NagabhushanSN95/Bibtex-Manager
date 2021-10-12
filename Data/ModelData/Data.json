@@ -64,6 +64,21 @@
             "volume": null
         },
         {
+            "name": "zwicker2001surface",
+            "class_name": "ConferenceEntry",
+            "comment": "Surface Splatting",
+            "title": "Surface Splatting",
+            "author": "Zwicker, Matthias and Pfister, Hanspeter and van Baar, Jeroen and Gross, Markus",
+            "month": null,
+            "year": "2001",
+            "booktitle_full": "ACM Conference on Computer Graphics and Interactive Techniques",
+            "booktitle_short": "ACM Comp. Graph. Int. Tech.",
+            "booktitle_abbreviation": "CGIT",
+            "organization": null,
+            "pages": "371--378",
+            "volume": null
+        },
+        {
             "name": "casella2002statistical",
             "class_name": "BookEntry",
             "comment": "Casella Berger book",
@@ -659,6 +674,21 @@
             "volume": "26",
             "number": "6",
             "pages": "1044--1057"
+        },
+        {
+            "name": "luo2016hole",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "A Hole Filling Approach Based on Background Reconstruction for View Synthesis in 3D Video",
+            "author": "Luo, Guibo and Zhu, Yuesheng and Li, Zhaotian and Zhang, Liming",
+            "month": "June",
+            "year": "2016",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": null,
+            "volume": null
         },
         {
             "name": "mathieu2016deep",
@@ -1388,6 +1418,21 @@
             "volume": null
         },
         {
+            "name": "gao2019disentangling",
+            "class_name": "ConferenceEntry",
+            "comment": "DPG",
+            "title": "Disentangling Propagation and Generation for Video Prediction",
+            "author": "Gao, Hang and Xu, Huazhe and Cai, Qi-Zhi and Wang, Ruth and Yu, Fisher and Darrell, Trevor",
+            "month": "October",
+            "year": "2019",
+            "booktitle_full": "IEEE International Conference on Computer Vision",
+            "booktitle_short": "IEEE Int. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ICCV",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
             "name": "geirhos2019imagenet",
             "class_name": "ConferenceEntry",
             "comment": "",
@@ -1668,6 +1713,21 @@
             "eid": "2004.13664"
         },
         {
+            "name": "mildenhall2020nerf",
+            "class_name": "ConferenceEntry",
+            "comment": "NeRF",
+            "title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+            "author": "Mildenhall, Ben and Srinivasan, Pratul P. and Tancik, Matthew and Barron, Jonathan T. and Ramamoorthi, Ravi and Ng, Ren",
+            "month": null,
+            "year": "2020",
+            "booktitle_full": "ECCV",
+            "booktitle_short": null,
+            "booktitle_abbreviation": null,
+            "organization": null,
+            "pages": "405--421",
+            "volume": null
+        },
+        {
             "name": "netflix2020vmaf",
             "class_name": "MiscEntry",
             "comment": "VMAF code",
@@ -1764,6 +1824,21 @@
             "booktitle_abbreviation": "CVPR",
             "organization": null,
             "pages": "7467--7477",
+            "volume": null
+        },
+        {
+            "name": "wu2020future",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Future Video Synthesis With Object Motion Prediction",
+            "author": "Wu, Yue and Gao, Rongrong and Park, Jaesik and Chen, Qifeng",
+            "month": "June",
+            "year": "2020",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": null,
             "volume": null
         },
         {
