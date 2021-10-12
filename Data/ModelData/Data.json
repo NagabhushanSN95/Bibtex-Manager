@@ -1519,6 +1519,21 @@
             "pages": "612--627"
         },
         {
+            "name": "srinivasan2019pushing",
+            "class_name": "ConferenceEntry",
+            "comment": "PBMPI / 2-step MPI",
+            "title": "Pushing the Boundaries of View Extrapolation With Multiplane Images",
+            "author": "Srinivasan, Pratul P. and Tucker, Richard and Barron, Jonathan T. and Ramamoorthi, Ravi and Ng, Ren and Snavely, Noah",
+            "month": "June",
+            "year": "2019",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "175--184",
+            "volume": null
+        },
+        {
             "name": "unterthiner2019fvd",
             "class_name": "ConferenceWorkshopEntry",
             "comment": "",
@@ -1692,6 +1707,36 @@
             "eid": "2007.08501"
         },
         {
+            "name": "shih20203dp",
+            "class_name": "ConferenceEntry",
+            "comment": "3DP",
+            "title": "3D Photography Using Context-Aware Layered Depth Inpainting",
+            "author": "Shih, Meng-Li and Su, Shih-Yang and Kopf, Johannes and Huang, Jia-Bin",
+            "month": "June",
+            "year": "2020",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
+            "name": "tucker2020single",
+            "class_name": "ConferenceEntry",
+            "comment": "Single image MPI",
+            "title": "Single-View View Synthesis With Multiplane Images",
+            "author": "Tucker, Richard and Snavely, Noah",
+            "month": "June",
+            "year": "2020",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
             "name": "weissenborn2020Scaling",
             "class_name": "ConferenceEntry",
             "comment": "",
@@ -1704,6 +1749,21 @@
             "booktitle_abbreviation": "ICLR",
             "organization": null,
             "pages": null,
+            "volume": null
+        },
+        {
+            "name": "wiles2020synsin",
+            "class_name": "ConferenceEntry",
+            "comment": "SynSin",
+            "title": "SynSin: End-to-End View Synthesis From a Single Image",
+            "author": "Wiles, Olivia and Gkioxari, Georgia and Szeliski, Richard and Johnson, Justin",
+            "month": "June",
+            "year": "2020",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "7467--7477",
             "volume": null
         },
         {
