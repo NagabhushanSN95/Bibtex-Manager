@@ -13,6 +13,7 @@
 ("IEEE International Conference on Image Processing", "IEEE Int. Conf. Image Process.", "ICIP")
 ("IEEE International Conference on Machine Learning and Applications", "IEEE Int. Conf. Mach. Learn. App.", "ICMLA")
 ("IEEE International Symposium on Circuits and Systems", "IEEE Int. Symp. Circuits Syst.", "ISCAS")
+("IEEE Winter Conference on Applications of Computer Vision", "IEEE Winter Conf. App. Comput. Vis.", "WACV")
 ("International Conference on Learning Representations", "Int. Conf. Learn. Represent.", "ICLR")
 ("International Conference on Machine Learning", "Int. Conf. Mach. Learn.", "ICML")
 ("International Conference on Multimedia and Expo", "Int. Conf. Multimedia Expo", "ICME")
@@ -20,4 +21,3 @@
 ("International Conference on Quality of Multimedia Experience", "Int. Conf. Qual. Multimedia Exper.", "QoMEX")
 ("International Joint Conferences on Artificial Intelligence", "IJCAI", "IJCAI")
 ("SPIE Human Vision and Electronic Imaging", "SPIE Human Vis. Electron. Imag.", "")
-("IEEE Winter Conference on Applications of Computer Vision", "IEEE Winter Conf. App. Comput. Vis.", "WACV")
