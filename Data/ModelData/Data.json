@@ -1767,6 +1767,17 @@
             "volume": null
         },
         {
+            "name": "gao2021dynamic",
+            "class_name": "arXivEntry",
+            "comment": "Dynamic View Synthesis",
+            "title": "Dynamic View Synthesis from Dynamic Monocular Video",
+            "author": "Gao, Chen and Saraf, Ayush and Kopf, Johannes and Huang, Jia-Bin",
+            "month": "May",
+            "year": "2021",
+            "journal": "arXiv e-prints",
+            "eid": "2105.06468"
+        },
+        {
             "name": "somraj2021vine",
             "class_name": "arXivEntry",
             "comment": "VINE",
