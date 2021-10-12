@@ -1853,6 +1853,24 @@
             "eid": "2105.06468"
         },
         {
+            "name": "sarkar2021decomposing",
+            "class_name": "ConferenceWorkshopEntry",
+            "comment": "",
+            "title": "Decomposing camera and object motion for an improved video sequence prediction",
+            "author": "Sarkar, Meenakshi and Ghose, Debasish and Bala, Aniruddha",
+            "month": "Dec",
+            "year": "2021",
+            "booktitle_full": "Advances in Neural Information Processing Systems",
+            "booktitle_short": "Adv. Neural Inf. Process. Syst.",
+            "booktitle_abbreviation": "NeurIPS",
+            "workshop_full": "Pre-registration in Machine Learning",
+            "workshop_short": null,
+            "workshop_abbreviation": null,
+            "organization": null,
+            "pages": "358--374",
+            "volume": "148"
+        },
+        {
             "name": "somraj2021vine",
             "class_name": "arXivEntry",
             "comment": "VINE",
