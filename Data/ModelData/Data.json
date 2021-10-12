@@ -788,6 +788,18 @@
             "volume": null
         },
         {
+            "name": "valve2016interleaved",
+            "class_name": "MiscEntry",
+            "comment": "Interleaved Reprojection",
+            "title": "Interleaved Reprojection now enabled for all applications by default",
+            "author": "Leiby, Aaron",
+            "month": null,
+            "year": "2016",
+            "journal": "Steam Community",
+            "url": "https://steamcommunity.com/app/358720/discussions/0/385429254937377076/",
+            "note": "Accessed: 12-October-2021"
+        },
+        {
             "name": "yu2016back",
             "class_name": "ConferenceWorkshopEntry",
             "comment": "",
