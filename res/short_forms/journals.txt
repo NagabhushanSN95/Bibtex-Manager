@@ -11,3 +11,4 @@
 ("International Journal of Computer Vision", "Int. J. Comput. Vis.", "IJCV")
 ("International Journal of Robotics Research", "Int. J. Robot. Res.", "IJRR")
 ("Journal of the Optical Society of America", "J. Opt. Soc. Am.", "JOSA")
+("Neural Processing Letters", "Neural Process. Lett.", "NPL")
