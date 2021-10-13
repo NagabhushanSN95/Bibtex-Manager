@@ -210,6 +210,22 @@
             "pages": "2769--2794"
         },
         {
+            "name": "wexler2007space",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "Space-Time Completion of Video",
+            "author": "Wexler, Yonatan and Shechtman, Eli and Irani, Michal",
+            "month": null,
+            "year": "2007",
+            "journal_full": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+            "journal_short": "IEEE Trans. Pattern Anal. Mach. Intell.",
+            "journal_abbreviation": "TPAMI",
+            "organization": null,
+            "volume": "29",
+            "number": "3",
+            "pages": "463-476"
+        },
+        {
             "name": "barnes2009patchmatch",
             "class_name": "JournalEntry",
             "comment": "Patch Match",
