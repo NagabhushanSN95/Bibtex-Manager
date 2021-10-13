@@ -1777,22 +1777,6 @@
             "volume": null
         },
         {
-            "name": "luo2019disocclusion",
-            "class_name": "JournalEntry",
-            "comment": "",
-            "title": "A Disocclusion Inpainting Framework for Depth-Based View Synthesis",
-            "author": "Luo, Guibo and Zhu, Yuesheng and Weng, Zhenyu and Li, Zhaotian",
-            "month": null,
-            "year": "2020",
-            "journal_full": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-            "journal_short": "IEEE Trans. Pattern Anal. Mach. Intell.",
-            "journal_abbreviation": "TPAMI",
-            "organization": null,
-            "volume": "42",
-            "number": "6",
-            "pages": "1289-1302"
-        },
-        {
             "name": "nazeri2019edgeconnect",
             "class_name": "ConferenceWorkshopEntry",
             "comment": "EdgeConnect",
@@ -2093,6 +2077,22 @@
             "organization": null,
             "pages": null,
             "volume": null
+        },
+        {
+            "name": "luo2020disocclusion",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "A Disocclusion Inpainting Framework for Depth-Based View Synthesis",
+            "author": "Luo, Guibo and Zhu, Yuesheng and Weng, Zhenyu and Li, Zhaotian",
+            "month": null,
+            "year": "2020",
+            "journal_full": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+            "journal_short": "IEEE Trans. Pattern Anal. Mach. Intell.",
+            "journal_abbreviation": "TPAMI",
+            "organization": null,
+            "volume": "42",
+            "number": "6",
+            "pages": "1289-1302"
         },
         {
             "name": "mildenhall2020nerf",
