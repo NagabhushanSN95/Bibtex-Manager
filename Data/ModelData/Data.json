@@ -194,6 +194,22 @@
             "pages": "2769--2794"
         },
         {
+            "name": "barnes2009patchmatch",
+            "class_name": "JournalEntry",
+            "comment": "Patch Match",
+            "title": "PatchMatch: A Randomized Correspondence Algorithm for Structural Image Editing",
+            "author": "Barnes, Connelly and Shechtman, Eli and Finkelstein, Adam and Goldman, Dan B",
+            "month": null,
+            "year": "2009",
+            "journal_full": "ACM Transactions on Graphics",
+            "journal_short": "ACM Trans. Graph.",
+            "journal_abbreviation": "TOG",
+            "organization": null,
+            "volume": "28",
+            "number": "3",
+            "pages": "24"
+        },
+        {
             "name": "seshadrinathan2009motion",
             "class_name": "JournalEntry",
             "comment": "MOVIE",
@@ -482,6 +498,21 @@
             "note": null
         },
         {
+            "name": "dosovitskiy2015flownet",
+            "class_name": "ConferenceEntry",
+            "comment": "FLowNet",
+            "title": "FlowNet: Learning Optical Flow With Convolutional Networks",
+            "author": "Dosovitskiy, Alexey and Fischer, Philipp and Ilg, Eddy and Hausser, Philip and Hazirbas, Caner and Golkov, Vladimir and van der Smagt, Patrick and Cremers, Daniel and Brox, Thomas",
+            "month": "December",
+            "year": "2015",
+            "booktitle_full": "IEEE International Conference on Computer Vision",
+            "booktitle_short": "IEEE Int. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ICCV",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
             "name": "jaderberg2015stn",
             "class_name": "ConferenceEntry",
             "comment": "STN",
@@ -758,6 +789,21 @@
             "note": "Accessed: 24-June-2021"
         },
         {
+            "name": "pathak2016context",
+            "class_name": "ConferenceEntry",
+            "comment": "Context Encoder",
+            "title": "Context Encoders: Feature Learning by Inpainting",
+            "author": "Pathak, Deepak and Krahenbuhl, Philipp and Donahue, Jeff and Darrell, Trevor and Efros, Alexei A.",
+            "month": "June",
+            "year": "2016",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
             "name": "salimans2016improved",
             "class_name": "ConferenceEntry",
             "comment": "Inception Score",
@@ -833,6 +879,22 @@
             "volume": null
         },
         {
+            "name": "cho2017hole",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "Hole Filling Method for Depth Image Based Rendering Based on Boundary Decision",
+            "author": "Cho, Jea-Hyung and Song, Wonseok and Choi, Hyuk and Kim, Taejeong",
+            "month": null,
+            "year": "2017",
+            "journal_full": "IEEE Signal Processing Letters",
+            "journal_short": "IEEE Sign. Process. Lett.",
+            "journal_abbreviation": "SPL",
+            "organization": null,
+            "volume": "24",
+            "number": "3",
+            "pages": "329-333"
+        },
+        {
             "name": "ebert2017self",
             "class_name": "ConferenceEntry",
             "comment": "BAIR",
@@ -874,6 +936,37 @@
             "booktitle_full": "International Conference on Quality of Multimedia Experience",
             "booktitle_short": "Int. Conf. Qual. Multimedia Exper.",
             "booktitle_abbreviation": "QoMEX",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
+            "name": "iizuka2017globally",
+            "class_name": "JournalEntry",
+            "comment": "Locally Globally",
+            "title": "Globally and Locally Consistent Image Completion",
+            "author": "Iizuka, Satoshi and Simo-Serra, Edgar and Ishikawa, Hiroshi",
+            "month": "July",
+            "year": "2017",
+            "journal_full": "ACM Transactions on Graphics",
+            "journal_short": "ACM Trans. Graph.",
+            "journal_abbreviation": "TOG",
+            "organization": null,
+            "volume": "36",
+            "number": "4",
+            "pages": null
+        },
+        {
+            "name": "ilg2017flownet2",
+            "class_name": "ConferenceEntry",
+            "comment": "FlowNet2",
+            "title": "FlowNet 2.0: Evolution of Optical Flow Estimation With Deep Networks",
+            "author": "Ilg, Eddy and Mayer, Nikolaus and Saikia, Tonmoy and Keuper, Margret and Dosovitskiy, Alexey and Brox, Thomas",
+            "month": "July",
+            "year": "2017",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
             "organization": null,
             "pages": null,
             "volume": null
@@ -940,6 +1033,21 @@
             "volume": null
         },
         {
+            "name": "ranjan2017optical",
+            "class_name": "ConferenceEntry",
+            "comment": "SPyNet",
+            "title": "Optical Flow Estimation Using a Spatial Pyramid Network",
+            "author": "Ranjan, Anurag and Black, Michael J.",
+            "month": "July",
+            "year": "2017",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
             "name": "rezende2017malicious",
             "class_name": "ConferenceEntry",
             "comment": "",
@@ -997,6 +1105,21 @@
             "booktitle_abbreviation": "NeurIPS",
             "organization": null,
             "pages": "153--164",
+            "volume": null
+        },
+        {
+            "name": "zhou2017unsupervised",
+            "class_name": "ConferenceEntry",
+            "comment": "SFM Learner",
+            "title": "Unsupervised Learning of Depth and Ego-Motion From Video",
+            "author": "Zhou, Tinghui and Brown, Matthew and Snavely, Noah and Lowe, David G.",
+            "month": "July",
+            "year": "2017",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": null,
             "volume": null
         },
         {
@@ -1102,6 +1225,21 @@
             "volume": null
         },
         {
+            "name": "hui2018liteflownet",
+            "class_name": "ConferenceEntry",
+            "comment": "LiteFlowNet",
+            "title": "{LiteFlowNet}: A Lightweight Convolutional Neural Network for Optical Flow Estimation",
+            "author": "Hui, Tak-Wai and Tang, Xiaoou and Loy, Chen Change",
+            "month": "June",
+            "year": "2018",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
             "name": "janai2018unsupervised",
             "class_name": "ConferenceEntry",
             "comment": "",
@@ -1189,6 +1327,36 @@
             "volume": null
         },
         {
+            "name": "liu2018pconv",
+            "class_name": "ConferenceEntry",
+            "comment": "Partial Convolution",
+            "title": "Image Inpainting for Irregular Holes Using Partial Convolutions",
+            "author": "Liu, Guilin and Reda, Fitsum A. and Shih, Kevin J. and Wang, Ting-Chun and Tao, Andrew and Catanzaro, Bryan",
+            "month": "September",
+            "year": "2018",
+            "booktitle_full": "European Conference on Computer Vision",
+            "booktitle_short": "Eur. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ECCV",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
+            "name": "meister2018unflow",
+            "class_name": "ConferenceEntry",
+            "comment": "UnFlow",
+            "title": "{UnFlow}: Unsupervised Learning of Optical Flow With a Bidirectional Census Loss",
+            "author": "Meister, Simon and Hur, Junhwa and Roth, Stefan",
+            "month": null,
+            "year": "2018",
+            "booktitle_full": "AAAI Conference on Artificial Intelligence",
+            "booktitle_short": "AAAI",
+            "booktitle_abbreviation": "AAAI",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
             "name": "mormont2018comparison",
             "class_name": "ConferenceWorkshopEntry",
             "comment": "",
@@ -1242,6 +1410,21 @@
             "comment": "PieApp",
             "title": "{PieAPP}: Perceptual Image-Error Assessment Through Pairwise Preference",
             "author": "Prashnani, Ekta and Cai, Hong and Mostofi, Yasamin and Sen, Pradeep",
+            "month": "June",
+            "year": "2018",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
+            "name": "sun2018pwcnet",
+            "class_name": "ConferenceEntry",
+            "comment": "PWCNet",
+            "title": "{PWC-Net}: {CNNs} for Optical Flow Using Pyramid, Warping, and Cost Volume",
+            "author": "Sun, Deqing and Yang, Xiaodong and Liu, Ming-Yu and Kautz, Jan",
             "month": "June",
             "year": "2018",
             "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
@@ -1491,6 +1674,21 @@
             "pages": "1--6"
         },
         {
+            "name": "kim2019deep",
+            "class_name": "ConferenceEntry",
+            "comment": "VINet",
+            "title": "Deep Video Inpainting",
+            "author": "Kim, Dahun and Woo, Sanghyun and Lee, Joon-Young and Kweon, In So",
+            "month": "June",
+            "year": "2019",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
             "name": "korhonen2019two",
             "class_name": "JournalEntry",
             "comment": "TLVQM",
@@ -1516,6 +1714,21 @@
             "year": "2019",
             "journal": "arXiv e-prints",
             "eid": "1903.01434"
+        },
+        {
+            "name": "lee2019copy",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Copy-and-Paste Networks for Deep Video Inpainting",
+            "author": "Lee, Sungho and Oh, Seoung Wug and Won, DaeYeun and Kim, Seon Joo",
+            "month": "October",
+            "year": "2019",
+            "booktitle_full": "IEEE International Conference on Computer Vision",
+            "booktitle_short": "IEEE Int. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ICCV",
+            "organization": null,
+            "pages": null,
+            "volume": null
         },
         {
             "name": "li2019quality",
@@ -1548,6 +1761,40 @@
             "volume": null
         },
         {
+            "name": "luo2019disocclusion",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "A Disocclusion Inpainting Framework for Depth-Based View Synthesis",
+            "author": "Luo, Guibo and Zhu, Yuesheng and Weng, Zhenyu and Li, Zhaotian",
+            "month": null,
+            "year": "2020",
+            "journal_full": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+            "journal_short": "IEEE Trans. Pattern Anal. Mach. Intell.",
+            "journal_abbreviation": "TPAMI",
+            "organization": null,
+            "volume": "42",
+            "number": "6",
+            "pages": "1289-1302"
+        },
+        {
+            "name": "nazeri2019edgeconnect",
+            "class_name": "ConferenceWorkshopEntry",
+            "comment": "EdgeConnect",
+            "title": "{EdgeConnect}: Structure Guided Image Inpainting using Edge Prediction",
+            "author": "Nazeri, Kamyar and Ng, Eric and Joseph, Tony and Qureshi, Faisal and Ebrahimi, Mehran",
+            "month": "Oct",
+            "year": "2019",
+            "booktitle_full": "IEEE International Conference on Computer Vision",
+            "booktitle_short": "IEEE Int. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ICCV",
+            "workshop_full": null,
+            "workshop_short": null,
+            "workshop_abbreviation": null,
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
             "name": "oculus2019asw2",
             "class_name": "MiscEntry",
             "comment": "",
@@ -1572,6 +1819,21 @@
             "booktitle_abbreviation": "NeurIPS",
             "organization": null,
             "pages": "3347--3357",
+            "volume": null
+        },
+        {
+            "name": "ranjan2019competitive",
+            "class_name": "ConferenceEntry",
+            "comment": "Competitive Collaboration",
+            "title": "Competitive Collaboration: Joint Unsupervised Learning of Depth, Camera Motion, Optical Flow and Motion Segmentation",
+            "author": "Ranjan, Anurag and Jampani, Varun and Balles, Lukas and Kim, Kihwan and Sun, Deqing and Wulff, Jonas and Black, Michael J.",
+            "month": "June",
+            "year": "2019",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": null,
             "volume": null
         },
         {
@@ -1639,6 +1901,36 @@
             "volume": "32"
         },
         {
+            "name": "xu2019deep",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Deep Flow-Guided Video Inpainting",
+            "author": "Xu, Rui and Li, Xiaoxiao and Zhou, Bolei and Loy, Chen Change",
+            "month": "June",
+            "year": "2019",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
+            "name": "yu2019free",
+            "class_name": "ConferenceEntry",
+            "comment": "Gated Convolution",
+            "title": "Free-Form Image Inpainting With Gated Convolution",
+            "author": "Yu, Jiahui and Lin, Zhe and Yang, Jimei and Shen, Xiaohui and Lu, Xin and Huang, Thomas S.",
+            "month": "October",
+            "year": "2019",
+            "booktitle_full": "IEEE International Conference on Computer Vision",
+            "booktitle_short": "IEEE Int. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ICCV",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
             "name": "yu2019predicting",
             "class_name": "JournalEntry",
             "comment": "2stepQA",
@@ -1703,6 +1995,22 @@
             "pages": null
         },
         {
+            "name": "elharrouss2020image",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "Image Inpainting: A Review",
+            "author": "Elharrouss, Omar and Almaadeed, Noor and Al-Maadeed, Somaya and Akbari, Younes",
+            "month": null,
+            "year": "2020",
+            "journal_full": "Neural Processing Letters",
+            "journal_short": "Neural Process. Lett.",
+            "journal_abbreviation": "NPL",
+            "organization": null,
+            "volume": "51",
+            "number": "2",
+            "pages": "2007--2028"
+        },
+        {
             "name": "han2020memory",
             "class_name": "ConferenceEntry",
             "comment": "MemDPC",
@@ -1716,6 +2024,22 @@
             "organization": null,
             "pages": null,
             "volume": null
+        },
+        {
+            "name": "hui2020liteflownet2",
+            "class_name": "JournalEntry",
+            "comment": "LiteFlowNet2",
+            "title": "A Lightweight Optical Flow CNN - Revisiting Data Fidelity and Regularization",
+            "author": "Hui, Tak-Wai and Tang, Xiaoou and Loy, Chen Change",
+            "month": null,
+            "year": "2021",
+            "journal_full": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+            "journal_short": "IEEE Trans. Pattern Anal. Mach. Intell.",
+            "journal_abbreviation": "TPAMI",
+            "organization": null,
+            "volume": "43",
+            "number": "8",
+            "pages": "2555-2569"
         },
         {
             "name": "jacob2020deep",
@@ -1738,6 +2062,21 @@
             "year": "2020",
             "journal": "arXiv e-prints",
             "eid": "2004.13664"
+        },
+        {
+            "name": "liu2020arflow",
+            "class_name": "ConferenceEntry",
+            "comment": "ARFlow",
+            "title": "Learning by Analogy: Reliable Supervision From Transformations for Unsupervised Optical Flow Estimation",
+            "author": "Liu, Liang and Zhang, Jiangning and He, Ruifei and Liu, Yong and Wang, Yabiao and Tai, Ying and Luo, Donghao and Wang, Chengjie and Li, Jilin and Huang, Feiyue",
+            "month": "June",
+            "year": "2020",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": null,
+            "volume": null
         },
         {
             "name": "mildenhall2020nerf",
@@ -1806,6 +2145,21 @@
             "booktitle_abbreviation": "CVPR",
             "organization": null,
             "pages": null,
+            "volume": null
+        },
+        {
+            "name": "teed2020raft",
+            "class_name": "ConferenceEntry",
+            "comment": "RAFT",
+            "title": "{RAFT}: Recurrent All-Pairs Field Transforms for Optical Flow",
+            "author": "Teed, Zachary and Deng, Jia",
+            "month": null,
+            "year": "2020",
+            "booktitle_full": "European Conference on Computer Vision",
+            "booktitle_short": "Eur. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ECCV",
+            "organization": null,
+            "pages": "402--419",
             "volume": null
         },
         {
@@ -1968,6 +2322,22 @@
             "volume": null,
             "number": null,
             "pages": null
+        },
+        {
+            "name": "criminisi2004region",
+            "class_name": "JournalEntry",
+            "comment": "Criminisi et. al.",
+            "title": "Region Filling and Object Removal by Exemplar-Based Image Inpainting",
+            "author": "Criminisi, Antonio and P{\\'e}rez, Patrick and Toyama, Kentaro",
+            "month": null,
+            "year": "2004",
+            "journal_full": "IEEE Transactions on Image Processing",
+            "journal_short": "IEEE Trans. Image Process.",
+            "journal_abbreviation": "TIP",
+            "organization": null,
+            "volume": "13",
+            "number": "9",
+            "pages": "1200-1212"
         }
     ]
 }
