@@ -131,6 +131,22 @@
             "pages": "560-576"
         },
         {
+            "name": "criminisi2004region",
+            "class_name": "JournalEntry",
+            "comment": "Criminisi et. al.",
+            "title": "Region Filling and Object Removal by Exemplar-Based Image Inpainting",
+            "author": "Criminisi, Antonio and P{\\'e}rez, Patrick and Toyama, Kentaro",
+            "month": null,
+            "year": "2004",
+            "journal_full": "IEEE Transactions on Image Processing",
+            "journal_short": "IEEE Trans. Image Process.",
+            "journal_abbreviation": "TIP",
+            "organization": null,
+            "volume": "13",
+            "number": "9",
+            "pages": "1200-1212"
+        },
+        {
             "name": "schuldt2004recognizing",
             "class_name": "ConferenceEntry",
             "comment": "KTH",
@@ -2322,22 +2338,6 @@
             "volume": null,
             "number": null,
             "pages": null
-        },
-        {
-            "name": "criminisi2004region",
-            "class_name": "JournalEntry",
-            "comment": "Criminisi et. al.",
-            "title": "Region Filling and Object Removal by Exemplar-Based Image Inpainting",
-            "author": "Criminisi, Antonio and P{\\'e}rez, Patrick and Toyama, Kentaro",
-            "month": null,
-            "year": "2004",
-            "journal_full": "IEEE Transactions on Image Processing",
-            "journal_short": "IEEE Trans. Image Process.",
-            "journal_abbreviation": "TIP",
-            "organization": null,
-            "volume": "13",
-            "number": "9",
-            "pages": "1200-1212"
         }
     ]
 }
