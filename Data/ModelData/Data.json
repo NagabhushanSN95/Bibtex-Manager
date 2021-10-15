@@ -289,6 +289,22 @@
             "volume": null
         },
         {
+            "name": "baker2011middlebury",
+            "class_name": "JournalEntry",
+            "comment": "Middlebury Optical Flow Database",
+            "title": "A database and evaluation methodology for optical flow",
+            "author": "Baker, Simon and Scharstein, Daniel and Lewis, JP and Roth, Stefan and Black, Michael J and Szeliski, Richard",
+            "month": null,
+            "year": "2011",
+            "journal_full": "International Journal of Computer Vision",
+            "journal_short": "Int. J. Comput. Vis.",
+            "journal_abbreviation": "IJCV",
+            "organization": null,
+            "volume": "92",
+            "number": "1",
+            "pages": "1--31"
+        },
+        {
             "name": "dollar2011pedestrian",
             "class_name": "JournalEntry",
             "comment": "Caltech Pedestrian",
@@ -569,6 +585,21 @@
             "booktitle_abbreviation": "CVPR",
             "organization": null,
             "pages": null,
+            "volume": null
+        },
+        {
+            "name": "ronneberger2015unet",
+            "class_name": "ConferenceEntry",
+            "comment": "U-Net",
+            "title": "{U-Net}: Convolutional Networks for Biomedical Image Segmentation",
+            "author": "Ronneberger, Olaf and Fischer, Philipp and Brox, Thomas",
+            "month": null,
+            "year": "2015",
+            "booktitle_full": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+            "booktitle_short": null,
+            "booktitle_abbreviation": null,
+            "organization": null,
+            "pages": "234--241",
             "volume": null
         },
         {
@@ -1615,6 +1646,37 @@
             "pages": null
         },
         {
+            "name": "bao2019depth",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Depth-Aware Video Frame Interpolation",
+            "author": "Bao, Wenbo and Lai, Wei-Sheng and Ma, Chao and Zhang, Xiaoyun and Gao, Zhiyong and Yang, Ming-Hsuan",
+            "month": "June",
+            "year": "2019",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
+            "name": "bao2019memcnet",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "MEMC-Net: Motion Estimation and Motion Compensation Driven Neural Network for Video Interpolation and Enhancement",
+            "author": "Bao, Wenbo and Lai, Wei-Sheng and Zhang, Xiaoyun and Gao, Zhiyong and Yang, Ming-Hsuan",
+            "month": null,
+            "year": "2021",
+            "journal_full": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+            "journal_short": "IEEE Trans. Pattern Anal. Mach. Intell.",
+            "journal_abbreviation": "TPAMI",
+            "organization": null,
+            "volume": "43",
+            "number": "3",
+            "pages": "933-948"
+        },
+        {
             "name": "brendel2019approximating",
             "class_name": "ConferenceEntry",
             "comment": "BagNets",
@@ -2163,6 +2225,17 @@
             "organization": null,
             "pages": null,
             "volume": null
+        },
+        {
+            "name": "straka2020precnet",
+            "class_name": "arXivEntry",
+            "comment": "PreCNet",
+            "title": "{PreCNet}: Next Frame Video Prediction Based on Predictive Coding",
+            "author": "Straka, Zdenek and Svoboda, Tomas and Hoffmann, Matej",
+            "month": "April",
+            "year": "2020",
+            "journal": "arXiv e-prints",
+            "eid": "2004.14878"
         },
         {
             "name": "teed2020raft",
