@@ -1646,9 +1646,9 @@
             "pages": null
         },
         {
-            "name": "bao2019depth",
+            "name": "bao2019dain",
             "class_name": "ConferenceEntry",
-            "comment": "",
+            "comment": "DAIN",
             "title": "Depth-Aware Video Frame Interpolation",
             "author": "Bao, Wenbo and Lai, Wei-Sheng and Ma, Chao and Zhang, Xiaoyun and Gao, Zhiyong and Yang, Ming-Hsuan",
             "month": "June",
@@ -2398,20 +2398,34 @@
             "eid": "2005.00356"
         },
         {
-            "name": "kanchana2022tgivp",
-            "class_name": "JournalEntry",
-            "comment": "TGIVP",
+            "name": "sun2021autoflow",
+            "class_name": "ConferenceEntry",
+            "comment": "AutoFlow",
+            "title": "{AutoFlow}: Learning a Better Training Set for Optical Flow",
+            "author": "Sun, Deqing and Vlasic, Daniel and Herrmann, Charles and Jampani, Varun and Krainin, Michael and Chang, Huiwen and Zabih, Ramin and Freeman, William T. and Liu, Ce",
+            "month": "June",
+            "year": "2021",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "10093-10102",
+            "volume": null
+        },
+        {
+            "name": "kanchana2022ivp",
+            "class_name": "ConferenceEntry",
+            "comment": "IVP",
             "title": "Revealing Disocclusions in Temporal View Synthesis through Infilling Vector Prediction",
             "author": "Kanchana, Vijayalakshmi and Somraj, Nagabhushan and Yadwad, Suraj and Soundararajan, Rajiv",
             "month": null,
             "year": "2022",
-            "journal_full": "IEEE Winter Conference on Applications of Computer Vision",
-            "journal_short": null,
-            "journal_abbreviation": null,
+            "booktitle_full": "IEEE Winter Conference on Applications of Computer Vision",
+            "booktitle_short": "IEEE Winter Conf. App. Comput. Vis.",
+            "booktitle_abbreviation": "WACV",
             "organization": null,
-            "volume": null,
-            "number": null,
-            "pages": null
+            "pages": null,
+            "volume": null
         }
     ]
 }
