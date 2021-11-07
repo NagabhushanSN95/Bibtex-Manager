@@ -4,6 +4,7 @@
 # Last Modified: 24-06-2021
 
 import dataclasses
+import re
 from dataclasses import dataclass
 from typing import List
 
@@ -28,7 +29,14 @@ class MiscEntry(GenericEntry):
         book_entry.journal = fields_dict.get('journal', None)
         book_entry.month = fields_dict.get('month', None)
         book_entry.year = fields_dict.get('year', None)
-        book_entry.url = fields_dict.get('url', None)
+        if fields_dict.get('howpublished', None) is not None:
+            url = fields_dict.get('howpublished', None)
+            matcher = re.match(r'^\\url{(.+)}$', url)
+            if matcher is not None:
+                url = matcher.group(1)
+            book_entry.url = url
+        else:
+            book_entry.url = fields_dict.get('url', None)
         book_entry.note = fields_dict.get('note', None)
         return book_entry
 
@@ -48,7 +56,7 @@ class MiscEntry(GenericEntry):
         if ('journal' in fields_names) and self.journal:
             lines.append(f'    journal = {{{self.journal}}},')
         if ('url' in fields_names) and self.url:
-            lines.append(f'    url = {{{self.url}}},')
+            lines.append(f'    howpublished = {{\\url{{{self.url}}}}},')
         if ('note' in fields_names) and self.note:
             lines.append(f'    note = {{{self.note}}},')
         if ('month' in fields_names) and self.month:
