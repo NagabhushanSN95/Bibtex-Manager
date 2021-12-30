@@ -39,6 +39,7 @@ class ConferenceWorkshopEntry(GenericEntry):
         conf_entry.author = fields_dict.get('author', None)
         conf_entry.month = fields_dict.get('month', None)
         conf_entry.year = fields_dict.get('year', None)
+        conf_entry.doi = fields_dict.get('doi', None)
         conf_entry.organization = fields_dict.get('organization', None)
         conf_entry.pages = fields_dict.get('pages', None)
         conf_entry.volume = fields_dict.get('volume', None)
@@ -169,9 +170,12 @@ class ConferenceWorkshopEntry(GenericEntry):
         if self.compose_booktitle(fields_names):
             lines.append(f'    booktitle = {{{self.compose_booktitle(fields_names)}}},')
         if ('month' in fields_names) and self.month:
-            lines.append(f'    month = {{{self.month}}}')
+            lines.append(f'    month = {{{self.month}}},')
         if ('year' in fields_names) and self.year:
-            lines.append(f'    year = {{{self.year}}}')
+            lines.append(f'    year = {{{self.year}}},')
+        if ('doi' in fields_names) and self.doi:
+            lines.append(f'    doi = {{{self.doi}}},')
+        lines[-1] = lines[-1][:-1]  # Remove trailing comma
         lines.append('}')
         export_string = '\n'.join(lines)
         return export_string

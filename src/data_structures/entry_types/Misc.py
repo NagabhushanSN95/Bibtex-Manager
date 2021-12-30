@@ -29,6 +29,7 @@ class MiscEntry(GenericEntry):
         book_entry.journal = fields_dict.get('journal', None)
         book_entry.month = fields_dict.get('month', None)
         book_entry.year = fields_dict.get('year', None)
+        book_entry.doi = fields_dict.get('doi', None)
         if fields_dict.get('howpublished', None) is not None:
             url = fields_dict.get('howpublished', None)
             matcher = re.match(r'^\\url{(.+)}$', url)
@@ -60,9 +61,12 @@ class MiscEntry(GenericEntry):
         if ('note' in fields_names) and self.note:
             lines.append(f'    note = {{{self.note}}},')
         if ('month' in fields_names) and self.month:
-            lines.append(f'    month = {{{self.month}}}')
+            lines.append(f'    month = {{{self.month}}},')
         if ('year' in fields_names) and self.year:
-            lines.append(f'    year = {{{self.year}}}')
+            lines.append(f'    year = {{{self.year}}},')
+        if ('doi' in fields_names) and self.doi:
+            lines.append(f'    doi = {{{self.doi}}},')
+        lines[-1] = lines[-1][:-1]  # Remove trailing comma
         lines.append('}')
         export_string = '\n'.join(lines)
         return export_string

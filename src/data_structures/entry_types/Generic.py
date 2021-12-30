@@ -22,6 +22,7 @@ class GenericEntry:
     author: str = None
     month: str = None
     year: str = None
+    doi: str = None
 
     def __post_init__(self):
         self.class_name = self.__class__.__name__

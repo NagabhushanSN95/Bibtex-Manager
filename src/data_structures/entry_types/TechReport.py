@@ -28,6 +28,7 @@ class TechReportEntry(GenericEntry):
         tech_report_entry.author = fields_dict.get('author', None)
         tech_report_entry.month = fields_dict.get('month', None)
         tech_report_entry.year = fields_dict.get('year', None)
+        tech_report_entry.doi = fields_dict.get('doi', None)
 
         institution_data = TechReportEntry.parse_institution(fields_dict.get('institution', None))
         tech_report_entry.institution_full = institution_data[0]
@@ -80,9 +81,12 @@ class TechReportEntry(GenericEntry):
         if self.compose_institution(fields_names):
             lines.append(f'    institution = {{{self.compose_institution(fields_names)}}},')
         if ('month' in fields_names) and self.month:
-            lines.append(f'    month = {{{self.month}}}')
+            lines.append(f'    month = {{{self.month}}},')
         if ('year' in fields_names) and self.year:
-            lines.append(f'    year = {{{self.year}}}')
+            lines.append(f'    year = {{{self.year}}},')
+        if ('doi' in fields_names) and self.doi:
+            lines.append(f'    doi = {{{self.doi}}},')
+        lines[-1] = lines[-1][:-1]  # Remove trailing comma
         lines.append('}')
         export_string = '\n'.join(lines)
         return export_string

@@ -30,6 +30,7 @@ class arXivEntry(GenericEntry):
         arxiv_entry.eid = arXivEntry.parse_eid(fields_dict.get('eid', None))
         arxiv_entry.month = fields_dict.get('month', None)
         arxiv_entry.year = fields_dict.get('year', None)
+        arxiv_entry.doi = fields_dict.get('doi', None)
         return arxiv_entry
 
     @staticmethod
@@ -65,7 +66,10 @@ class arXivEntry(GenericEntry):
         if ('eprint' in fields_names) and self.eid:
             lines.append(f'    eprint = {{{self.eid}}},')
         if ('year' in fields_names) and self.year:
-            lines.append(f'    year = {{{self.year}}}')
+            lines.append(f'    year = {{{self.year}}},')
+        if ('doi' in fields_names) and self.doi:
+            lines.append(f'    doi = {{{self.doi}}},')
+        lines[-1] = lines[-1][:-1]  # Remove trailing comma
         lines.append('}')
         export_string = '\n'.join(lines)
         return export_string

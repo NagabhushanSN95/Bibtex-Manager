@@ -27,6 +27,7 @@ class bioRxivEntry(GenericEntry):
         arxiv_entry.eid = fields_dict.get('eid', None)
         arxiv_entry.month = fields_dict.get('month', None)
         arxiv_entry.year = fields_dict.get('year', None)
+        arxiv_entry.doi = fields_dict.get('doi', None)
         return arxiv_entry
 
     def get_export_string(self, fields_names: list):
@@ -47,7 +48,10 @@ class bioRxivEntry(GenericEntry):
         if ('eid' in fields_names) and self.eid:
             lines.append(f'    eid = {{{self.eid}}},')
         if ('year' in fields_names) and self.year:
-            lines.append(f'    year = {{{self.year}}}')
+            lines.append(f'    year = {{{self.year}}},')
+        if ('doi' in fields_names) and self.doi:
+            lines.append(f'    doi = {{{self.doi}}},')
+        lines[-1] = lines[-1][:-1]  # Remove trailing comma
         lines.append('}')
         export_string = '\n'.join(lines)
         return export_string

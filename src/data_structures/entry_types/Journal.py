@@ -36,6 +36,7 @@ class JournalEntry(GenericEntry):
         journal_entry.author = fields_dict.get('author', None)
         journal_entry.month = fields_dict.get('month', None)
         journal_entry.year = fields_dict.get('year', None)
+        journal_entry.doi = fields_dict.get('doi', None)
         journal_entry.organization = fields_dict.get('organization', None)
         journal_entry.volume = fields_dict.get('volume', None)
         journal_entry.number = fields_dict.get('number', None)
@@ -117,9 +118,12 @@ class JournalEntry(GenericEntry):
         if ('pages' in fields_names) and self.pages:
             lines.append(f'    pages = {{{self.pages}}},')
         if ('month' in fields_names) and self.month:
-            lines.append(f'    month = {{{self.month}}}')
+            lines.append(f'    month = {{{self.month}}},')
         if ('year' in fields_names) and self.year:
-            lines.append(f'    year = {{{self.year}}}')
+            lines.append(f'    year = {{{self.year}}},')
+        if ('doi' in fields_names) and self.doi:
+            lines.append(f'    doi = {{{self.doi}}},')
+        lines[-1] = lines[-1][:-1]  # Remove trailing comma
         lines.append('}')
         export_string = '\n'.join(lines)
         return export_string
