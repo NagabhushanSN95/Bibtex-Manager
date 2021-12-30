@@ -1169,6 +1169,23 @@
             "volume": null
         },
         {
+            "name": "penner2017soft3d",
+            "class_name": "JournalEntry",
+            "comment": "Soft 3D Reconstruction",
+            "title": "Soft {3D} Reconstruction for View Synthesis",
+            "author": "Penner, Eric and Zhang, Li",
+            "month": "nov",
+            "year": "2017",
+            "doi": "10.1145/3130800.3130855",
+            "journal_full": "ACM Transactions on Graphics",
+            "journal_short": "ACM Trans. Graph.",
+            "journal_abbreviation": "TOG",
+            "organization": null,
+            "volume": "36",
+            "number": "6",
+            "pages": null
+        },
+        {
             "name": "ranjan2017optical",
             "class_name": "ConferenceEntry",
             "comment": "SPyNet",
@@ -1694,6 +1711,22 @@
             "volume": null
         },
         {
+            "name": "yao2018mvsnet",
+            "class_name": "ConferenceEntry",
+            "comment": "MVS-Net",
+            "title": "{MVSNet}: Depth Inference for Unstructured Multi-view Stereo",
+            "author": "Yao, Yao and Luo, Zixin and Li, Shiwei and Fang, Tian and Quan, Long",
+            "month": "September",
+            "year": "2018",
+            "doi": null,
+            "booktitle_full": "European Conference on Computer Vision",
+            "booktitle_short": "Eur. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ECCV",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
             "name": "yu2018bdd100k",
             "class_name": "arXivEntry",
             "comment": "BDD100K",
@@ -1977,6 +2010,23 @@
             "organization": null,
             "pages": null,
             "volume": null
+        },
+        {
+            "name": "mildenhall2019llff",
+            "class_name": "JournalEntry",
+            "comment": "LLFF",
+            "title": "Local Light Field Fusion: Practical View Synthesis with Prescriptive Sampling Guidelines",
+            "author": "Mildenhall, Ben and Srinivasan, Pratul P. and Ortiz-Cayon, Rodrigo and Kalantari, Nima Khademi and Ramamoorthi, Ravi and Ng, Ren and Kar, Abhishek",
+            "month": "jul",
+            "year": "2019",
+            "doi": "10.1145/3306346.3322980",
+            "journal_full": "ACM Transactions on Graphics",
+            "journal_short": "ACM Trans. Graph.",
+            "journal_abbreviation": "TOG",
+            "organization": null,
+            "volume": "38",
+            "number": "4",
+            "pages": null
         },
         {
             "name": "nazeri2019edgeconnect",
@@ -2347,6 +2397,18 @@
             "note": null
         },
         {
+            "name": "nguyen2020rgbd",
+            "class_name": "arXivEntry",
+            "comment": "RGBD-Net",
+            "title": "{RGBD-Net}: Predicting color and depth images for novel views synthesis",
+            "author": "Nguyen, Phong and Karnewar, Animesh and Huynh, Lam and Rahtu, Esa and Matas, Jiri and Heikkila, Janne",
+            "month": "nov",
+            "year": "2020",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2011.14398"
+        },
+        {
             "name": "oprea2020review",
             "class_name": "JournalEntry",
             "comment": "",
@@ -2513,6 +2575,18 @@
             "note": "Accessed: 07-Nov-2021"
         },
         {
+            "name": "chen2021mvsnerf",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "{MVSNeRF}: Fast Generalizable Radiance Field Reconstruction from Multi-View Stereo",
+            "author": "Chen, Anpei and Xu, Zexiang and Zhao, Fuqiang and Zhang, Xiaoshuai and Xiang, Fanbo and Yu, Jingyi and Su, Hao",
+            "month": "mar",
+            "year": "2021",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2103.15595"
+        },
+        {
             "name": "gao2021dynamic",
             "class_name": "arXivEntry",
             "comment": "Dynamic View Synthesis",
@@ -2523,6 +2597,34 @@
             "doi": null,
             "journal": "arXiv e-prints",
             "eid": "2105.06468"
+        },
+        {
+            "name": "johari2021geonerf",
+            "class_name": "arXivEntry",
+            "comment": "GeoNeRF",
+            "title": "{GeoNeRF}: Generalizing NeRF with Geometry Priors",
+            "author": "Mahdi Johari, Mohammad and Lepoittevin, Yann and Fleuret, Fran{\\c{c}}ois",
+            "month": "nov",
+            "year": "2021",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2111.13539"
+        },
+        {
+            "name": "li2021mine",
+            "class_name": "ConferenceEntry",
+            "comment": "MINE",
+            "title": "{MINE}: Towards Continuous Depth MPI With NeRF for Novel View Synthesis",
+            "author": "Li, Jiaxin and Feng, Zijian and She, Qi and Ding, Henghui and Wang, Changhu and Lee, Gim Hee",
+            "month": "October",
+            "year": "2021",
+            "doi": null,
+            "booktitle_full": "IEEE International Conference on Computer Vision",
+            "booktitle_short": "IEEE Int. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ICCV",
+            "organization": null,
+            "pages": "12578-12588",
+            "volume": null
         },
         {
             "name": "lin2021deep",
@@ -2557,6 +2659,18 @@
             "volume": null
         },
         {
+            "name": "rochow2021fadiv",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "{FaDIV-Syn}: Fast Depth-Independent View Synthesis",
+            "author": "Rochow, Andre and Schwarz, Max and Weinmann, Michael and Behnke, Sven",
+            "month": "jun",
+            "year": "2021",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2106.13139"
+        },
+        {
             "name": "sarkar2021decomposing",
             "class_name": "ConferenceWorkshopEntry",
             "comment": "",
@@ -2588,6 +2702,18 @@
             "eid": "2005.00356"
         },
         {
+            "name": "suhail2021light",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "Light Field Neural Rendering",
+            "author": "Suhail, Mohammed and Esteves, Carlos and Sigal, Leonid and Makadia, Ameesh",
+            "month": "dec",
+            "year": "2021",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2112.09687"
+        },
+        {
             "name": "sun2021autoflow",
             "class_name": "ConferenceEntry",
             "comment": "AutoFlow",
@@ -2615,6 +2741,54 @@
             "journal": null,
             "url": "https://www.turbosquid.com/",
             "note": "Accessed: 07-Nov-2021"
+        },
+        {
+            "name": "wang2021ibrnet",
+            "class_name": "ConferenceEntry",
+            "comment": "IBRNet",
+            "title": "{IBRNet}: Learning Multi-View Image-Based Rendering",
+            "author": "Wang, Qianqian and Wang, Zhicheng and Genova, Kyle and Srinivasan, Pratul P. and Zhou, Howard and Barron, Jonathan T. and Martin-Brualla, Ricardo and Snavely, Noah and Funkhouser, Thomas",
+            "month": "June",
+            "year": "2021",
+            "doi": null,
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "4690-4699",
+            "volume": null
+        },
+        {
+            "name": "wizadwongsa2021nex",
+            "class_name": "ConferenceEntry",
+            "comment": "NeX",
+            "title": "{NeX}: Real-Time View Synthesis With Neural Basis Expansion",
+            "author": "Wizadwongsa, Suttisak and Phongthawee, Pakkapon and Yenphraphai, Jiraphon and Suwajanakorn, Supasorn",
+            "month": "June",
+            "year": "2021",
+            "doi": null,
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "8534-8543",
+            "volume": null
+        },
+        {
+            "name": "yu2021pixelnerf",
+            "class_name": "ConferenceEntry",
+            "comment": "pixel NeRF",
+            "title": "{pixelNeRF}: Neural Radiance Fields From One or Few Images",
+            "author": "Yu, Alex and Ye, Vickie and Tancik, Matthew and Kanazawa, Angjoo",
+            "month": "June",
+            "year": "2021",
+            "doi": null,
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "4578-4587",
+            "volume": null
         },
         {
             "name": "kanchana2022ivp",
