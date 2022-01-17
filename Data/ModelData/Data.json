@@ -2690,18 +2690,6 @@
             "volume": "148"
         },
         {
-            "name": "somraj2021pvqa",
-            "class_name": "arXivEntry",
-            "comment": "PVQA",
-            "title": "Understanding the Perceived Quality of Video Predictions",
-            "author": "Somraj, Nagabhushan and Kashi, Manoj Surya and Arun, S. P. and Soundararajan, Rajiv",
-            "month": "June",
-            "year": "2021",
-            "doi": null,
-            "journal": "arXiv e-prints",
-            "eid": "2005.00356"
-        },
-        {
             "name": "suhail2021light",
             "class_name": "arXivEntry",
             "comment": "",
@@ -2805,6 +2793,23 @@
             "organization": null,
             "pages": null,
             "volume": null
+        },
+        {
+            "name": "somraj2022pvqa",
+            "class_name": "JournalEntry",
+            "comment": "PVQA",
+            "title": "Understanding the Perceived Quality of Video Predictions",
+            "author": "Somraj, Nagabhushan and Kashi, Manoj Surya and Arun, S. P. and Soundararajan, Rajiv",
+            "month": null,
+            "year": "2022",
+            "doi": "https://doi.org/10.1016/j.image.2021.116626",
+            "journal_full": "Signal Processing: Image Communication",
+            "journal_short": "Sign. Process. Image Commun.",
+            "journal_abbreviation": "SPIC",
+            "organization": null,
+            "volume": "102",
+            "number": null,
+            "pages": "116626"
         }
     ]
 }
