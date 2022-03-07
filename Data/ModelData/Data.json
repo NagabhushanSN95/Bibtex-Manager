@@ -2350,6 +2350,22 @@
             "eid": "860759"
         },
         {
+            "name": "kong2020fdflownet",
+            "class_name": "ConferenceEntry",
+            "comment": "FD FlowNet",
+            "title": "{FDFlowNet}: Fast Optical Flow Estimation Using A Deep Lightweight Network",
+            "author": "Kong, Lingtong and Yang, Jie",
+            "month": null,
+            "year": "2020",
+            "doi": "10.1109/ICIP40778.2020.9191101",
+            "booktitle_full": "IEEE International Conference on Image Processing",
+            "booktitle_short": "IEEE Int. Conf. Image Process.",
+            "booktitle_abbreviation": "ICIP",
+            "organization": null,
+            "pages": "1501-1505",
+            "volume": null
+        },
+        {
             "name": "li2020visual",
             "class_name": "arXivEntry",
             "comment": "VGPL",
