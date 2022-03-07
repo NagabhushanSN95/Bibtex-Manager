@@ -970,6 +970,22 @@
             "note": "Accessed: 12-October-2021"
         },
         {
+            "name": "van2016asynchronous",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "The Asynchronous Time Warp for Virtual Reality on Consumer Hardware",
+            "author": "van Waveren, J. M. P.",
+            "month": null,
+            "year": "2016",
+            "doi": "10.1145/2993369.2993375",
+            "booktitle_full": "ACM Conference on Virtual Reality Software and Technology",
+            "booktitle_short": null,
+            "booktitle_abbreviation": null,
+            "organization": null,
+            "pages": "37\u201346",
+            "volume": null
+        },
+        {
             "name": "yu2016back",
             "class_name": "ConferenceWorkshopEntry",
             "comment": "",
@@ -1002,6 +1018,17 @@
             "booktitle_abbreviation": "ECCV",
             "organization": "Springer",
             "pages": "286--301",
+            "volume": null
+        },
+        {
+            "name": "barnes2017positional",
+            "class_name": "BookEntry",
+            "comment": "",
+            "title": "A positional timewarp accelerator for mobile virtual reality devices",
+            "author": "Barnes, Russell M",
+            "month": null,
+            "year": "2017",
+            "doi": null,
             "volume": null
         },
         {
@@ -2627,6 +2654,22 @@
             "volume": null
         },
         {
+            "name": "li2021neural",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes",
+            "author": "Li, Zhengqi and Niklaus, Simon and Snavely, Noah and Wang, Oliver",
+            "month": "June",
+            "year": "2021",
+            "doi": null,
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "6498-6508",
+            "volume": null
+        },
+        {
             "name": "lin2021deep",
             "class_name": "ConferenceEntry",
             "comment": "",
@@ -2657,6 +2700,18 @@
             "organization": null,
             "pages": "701-710",
             "volume": null
+        },
+        {
+            "name": "park2021hypernerf",
+            "class_name": "arXivEntry",
+            "comment": "Hyper NeRF",
+            "title": "{HyperNeRF}: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields",
+            "author": "Park, Keunhong and Sinha, Utkarsh and Hedman, Peter and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Martin-Brualla, Ricardo and Seitz, Steven M.",
+            "month": "jun",
+            "year": "2021",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2106.13228"
         },
         {
             "name": "rochow2021fadiv",
