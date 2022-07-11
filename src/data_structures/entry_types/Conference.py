@@ -12,7 +12,7 @@ from typing import List
 
 from data_structures.entry_types.Generic import GenericEntry
 
-BOOKTITLE_ABBREVIATION_PATTERN = r'(.+?) \((\w+)\)$'
+BOOKTITLE_ABBREVIATION_PATTERN = r'(.+?) \(([\w-]+)\)$'
 
 
 @dataclass(eq=False)
