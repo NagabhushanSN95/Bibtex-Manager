@@ -28,6 +28,8 @@ class arXivEntry(GenericEntry):
         arxiv_entry.title = fields_dict.get('title', None)
         arxiv_entry.author = fields_dict.get('author', None)
         arxiv_entry.eid = arXivEntry.parse_eid(fields_dict.get('eid', None))
+        if arxiv_entry.eid is None:
+            arxiv_entry.eid = arXivEntry.parse_eid(fields_dict.get('pages', None))
         arxiv_entry.month = fields_dict.get('month', None)
         arxiv_entry.year = fields_dict.get('year', None)
         arxiv_entry.doi = fields_dict.get('doi', None)
