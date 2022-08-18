@@ -12,7 +12,6 @@ from typing import List
 
 from data_structures.entry_types.EntryFactory import EntryFactory
 from data_structures.entry_types.Generic import GenericEntry
-import simplejson
 
 
 @dataclass()
@@ -23,6 +22,7 @@ class EntryCollection:
         self.datastore_path = Path('../Data/ModelData/Data.json')
         self.entries = []
         self.load_from_disk()
+        return
 
     def load_from_disk(self):
         if not self.datastore_path.exists():
@@ -42,7 +42,7 @@ class EntryCollection:
             self.datastore_path.parent.mkdir(parents=True)
         data_dict = dataclasses.asdict(self)
         with open(self.datastore_path.as_posix(), 'w') as data_file:
-            simplejson.dump(data_dict, data_file, indent=4)
+            json.dump(data_dict, data_file, indent=4)
         return
 
     def add_entry(self, entry: GenericEntry):
