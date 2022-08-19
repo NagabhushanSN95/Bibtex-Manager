@@ -8,6 +8,7 @@ To manage references bib files.
 3. Automatic sorting of entries according to year [Convention](./res/configs/Conventions.md)
 4. Warnings to inconsistencies in journal/conference names [More Info](res/short_forms/ReadMe.md)
 5. Warnings to duplicate entries with just a change in year
+6. [Script](src/utils/MissingDataScraper.py) to scrape missing bib information from google scholar.
 
 
 ## Conventions:
