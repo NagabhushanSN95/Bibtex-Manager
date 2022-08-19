@@ -161,8 +161,8 @@ class MissingDataScraper:
             if param in new_entry:
                 if old_entry[param] is None:
                     old_entry[param] = new_entry[param]
-                else:
-                    warning_required = warning_required or (old_entry[param] != new_entry[param])
+                elif old_entry[param] != new_entry[param]:
+                    warning_required = True
                     inconsistencies.append((old_entry[param], new_entry[param]))
         if warning_required:
             warning_message = f'Inconsistencies found in {old_entry["name"]}: ' + str(inconsistencies)
