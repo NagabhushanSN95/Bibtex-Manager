@@ -76,16 +76,22 @@ class ConferenceEntry(GenericEntry):
                 booktitle = self.booktitle_full
             else:
                 booktitle = self.booktitle_short
+            if (booktitle is not None) and ('proceedings' in fields_names1):
+                booktitle = 'Proceedings of the ' + booktitle
         elif 'booktitle_short' in fields_names1:
             if self.booktitle_short:
                 booktitle = self.booktitle_short
             else:
                 booktitle = self.booktitle_full
+            if (booktitle is not None) and ('proceedings' in fields_names1):
+                booktitle = 'Proc. ' + booktitle
         elif 'booktitle_abbreviation' in fields_names1:
             if self.booktitle_abbreviation is None:
                 booktitle = self.booktitle_full
             else:
                 booktitle = self.booktitle_abbreviation
+            if (booktitle is not None) and ('proceedings' in fields_names1):
+                booktitle = 'Proc. ' + booktitle
         else:
             return None
         if 'booktitle_abbreviation' in fields_names1 and self.booktitle_abbreviation:
