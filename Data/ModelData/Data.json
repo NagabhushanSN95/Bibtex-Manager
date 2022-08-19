@@ -94,8 +94,8 @@
             "year": "1999",
             "doi": null,
             "booktitle_full": "IEEE International Conference on Computer Vision",
-            "booktitle_short": null,
-            "booktitle_abbreviation": null,
+            "booktitle_short": "IEEE Int. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ICCV",
             "organization": "IEEE",
             "pages": "722--729",
             "volume": "2"
