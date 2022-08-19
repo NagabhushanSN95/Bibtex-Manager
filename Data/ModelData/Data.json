@@ -151,9 +151,9 @@
             "booktitle_full": "Asilomar Conference on Signals, Systems Computers",
             "booktitle_short": "Asilomar Conf. Signals, Syst. Comput.",
             "booktitle_abbreviation": null,
-            "organization": null,
-            "pages": null,
-            "volume": null
+            "organization": "IEEE",
+            "pages": "1398--1402",
+            "volume": "2"
         },
         {
             "name": "wiegand2003overview",
@@ -170,7 +170,7 @@
             "organization": null,
             "volume": "13",
             "number": "7",
-            "pages": "560-576"
+            "pages": "560--576"
         },
         {
             "name": "criminisi2004region",
@@ -187,7 +187,7 @@
             "organization": null,
             "volume": "13",
             "number": "9",
-            "pages": "1200-1212"
+            "pages": "1200--1212"
         },
         {
             "name": "schuldt2004recognizing",
@@ -201,9 +201,9 @@
             "booktitle_full": "International Conference on Pattern Recognition",
             "booktitle_short": "Int. Conf. Pattern Recog.",
             "booktitle_abbreviation": "ICPR",
-            "organization": null,
-            "pages": null,
-            "volume": null
+            "organization": "IEEE",
+            "pages": "32--36",
+            "volume": "3"
         },
         {
             "name": "wang2004image",
@@ -271,7 +271,7 @@
             "organization": null,
             "volume": "29",
             "number": "3",
-            "pages": "463-476"
+            "pages": "463--476"
         },
         {
             "name": "barnes2009patchmatch",
@@ -319,8 +319,8 @@
             "booktitle_full": "IEEE International Conference on Acoustics, Speech and Signal Processing",
             "booktitle_short": "IEEE Int. Conf. Acoust. Speech Signal Process.",
             "booktitle_abbreviation": "ICASSP",
-            "organization": null,
-            "pages": null,
+            "organization": "IEEE",
+            "pages": "2430--2433",
             "volume": null
         },
         {
@@ -352,9 +352,9 @@
             "booktitle_full": "SPIE Human Vision and Electronic Imaging",
             "booktitle_short": "SPIE Human Vis. Electron. Imag.",
             "booktitle_abbreviation": null,
-            "organization": null,
-            "pages": null,
-            "volume": null
+            "organization": "SPIE",
+            "pages": "128--137",
+            "volume": "7527"
         },
         {
             "name": "baker2011middlebury",
@@ -402,8 +402,8 @@
             "booktitle_full": "IEEE International Conference on Image Processing",
             "booktitle_short": "IEEE Int. Conf. Image Process.",
             "booktitle_abbreviation": "ICIP",
-            "organization": null,
-            "pages": null,
+            "organization": "IEEE",
+            "pages": "2505--2508",
             "volume": null
         },
         {
@@ -549,7 +549,7 @@
             "booktitle_short": "IEEE Int. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ICCV",
             "organization": null,
-            "pages": null,
+            "pages": "2248--2255",
             "volume": null
         },
         {
@@ -613,8 +613,8 @@
             "booktitle_full": "European Conference on Computer Vision",
             "booktitle_short": "Eur. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ECCV",
-            "organization": null,
-            "pages": null,
+            "organization": "Springer",
+            "pages": "818--833",
             "volume": null
         },
         {
@@ -643,7 +643,7 @@
             "booktitle_short": "IEEE Int. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ICCV",
             "organization": null,
-            "pages": null,
+            "pages": "2758--2766",
             "volume": null
         },
         {
@@ -688,7 +688,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "1164--1172",
             "volume": null
         },
         {
@@ -703,7 +703,7 @@
             "booktitle_full": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
             "booktitle_short": null,
             "booktitle_abbreviation": null,
-            "organization": null,
+            "organization": "Springer",
             "pages": "234--241",
             "volume": null
         },
@@ -752,8 +752,8 @@
             "booktitle_full": "International Conference on Machine Learning",
             "booktitle_short": "Int. Conf. Mach. Learn.",
             "booktitle_abbreviation": "ICML",
-            "organization": null,
-            "pages": null,
+            "organization": "PMLR",
+            "pages": "843--852",
             "volume": null
         },
         {
@@ -769,7 +769,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "1--9",
             "volume": null
         },
         {
@@ -785,7 +785,7 @@
             "booktitle_short": "IEEE Int. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ICCV",
             "organization": null,
-            "pages": null,
+            "pages": "4489--4497",
             "volume": null
         },
         {
@@ -802,7 +802,7 @@
             "booktitle_abbreviation": "NeurIPS",
             "organization": null,
             "pages": null,
-            "volume": null
+            "volume": "28"
         },
         {
             "name": "agrawal2016learning",
@@ -818,7 +818,7 @@
             "booktitle_abbreviation": "NeurIPS",
             "organization": null,
             "pages": null,
-            "volume": null
+            "volume": "29"
         },
         {
             "name": "finn2016unsupervised",
@@ -834,7 +834,7 @@
             "booktitle_abbreviation": "NeurIPS",
             "organization": null,
             "pages": null,
-            "volume": null
+            "volume": "29"
         },
         {
             "name": "he2016deep",
@@ -849,7 +849,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "770--778",
             "volume": null
         },
         {
@@ -882,7 +882,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "1781--1789",
             "volume": null
         },
         {
@@ -970,7 +970,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "2536--2544",
             "volume": null
         },
         {
@@ -987,7 +987,7 @@
             "booktitle_abbreviation": "NeurIPS",
             "organization": null,
             "pages": null,
-            "volume": null
+            "volume": "29"
         },
         {
             "name": "szegedy2016rethinking",
@@ -1002,7 +1002,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "2818--2826",
             "volume": null
         },
         {
@@ -1031,7 +1031,7 @@
             "booktitle_short": null,
             "booktitle_abbreviation": null,
             "organization": null,
-            "pages": "37\u201346",
+            "pages": "37--46",
             "volume": null
         },
         {
@@ -1095,7 +1095,7 @@
             "organization": null,
             "volume": "24",
             "number": "3",
-            "pages": "329-333"
+            "pages": "329--333"
         },
         {
             "name": "ebert2017self",
@@ -1110,7 +1110,7 @@
             "booktitle_short": "Conf. Robot Learn.",
             "booktitle_abbreviation": "CoRL",
             "organization": null,
-            "pages": null,
+            "pages": "344--356",
             "volume": null
         },
         {
@@ -1158,8 +1158,8 @@
             "booktitle_full": "International Conference on Quality of Multimedia Experience",
             "booktitle_short": "Int. Conf. Qual. Multimedia Exper.",
             "booktitle_abbreviation": "QoMEX",
-            "organization": null,
-            "pages": null,
+            "organization": "IEEE",
+            "pages": "1--6",
             "volume": null
         },
         {
@@ -1177,7 +1177,7 @@
             "organization": null,
             "volume": "36",
             "number": "4",
-            "pages": null
+            "pages": "1--14"
         },
         {
             "name": "ilg2017flownet2",
@@ -1192,7 +1192,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "2462--2470",
             "volume": null
         },
         {
@@ -1225,7 +1225,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "4681--4690",
             "volume": null
         },
         {
@@ -1241,7 +1241,7 @@
             "booktitle_short": "IEEE Int. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ICCV",
             "organization": null,
-            "pages": null,
+            "pages": "1744--1752",
             "volume": null
         },
         {
@@ -1275,7 +1275,7 @@
             "organization": null,
             "volume": "36",
             "number": "6",
-            "pages": null
+            "pages": "1--11"
         },
         {
             "name": "ranjan2017optical",
@@ -1290,7 +1290,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "4161--4170",
             "volume": null
         },
         {
@@ -1321,8 +1321,8 @@
             "booktitle_full": "International Conference on Machine Learning",
             "booktitle_short": "Int. Conf. Mach. Learn.",
             "booktitle_abbreviation": "ICML",
-            "organization": null,
-            "pages": "3560-3569",
+            "organization": "PMLR",
+            "pages": "3560--3569",
             "volume": null
         },
         {
@@ -1355,7 +1355,7 @@
             "booktitle_abbreviation": "NeurIPS",
             "organization": null,
             "pages": "153--164",
-            "volume": null
+            "volume": "30"
         },
         {
             "name": "zhou2017unsupervised",
@@ -1370,7 +1370,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "1851--1858",
             "volume": null
         },
         {
@@ -1434,7 +1434,7 @@
             "booktitle_short": "Eur. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ECCV",
             "organization": null,
-            "pages": null,
+            "pages": "753--769",
             "volume": null
         },
         {
@@ -1462,8 +1462,8 @@
             "booktitle_full": "International Conference on Machine Learning",
             "booktitle_short": "Int. Conf. Mach. Learn.",
             "booktitle_abbreviation": "ICML",
-            "organization": null,
-            "pages": null,
+            "organization": "PMLR",
+            "pages": "1174--1183",
             "volume": null
         },
         {
@@ -1479,7 +1479,7 @@
             "booktitle_short": "Eur. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ECCV",
             "organization": null,
-            "pages": null,
+            "pages": "452--467",
             "volume": null
         },
         {
@@ -1495,7 +1495,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "8981--8989",
             "volume": null
         },
         {
@@ -1511,7 +1511,7 @@
             "booktitle_short": "Eur. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ECCV",
             "organization": null,
-            "pages": null,
+            "pages": "690--706",
             "volume": null
         },
         {
@@ -1527,7 +1527,7 @@
             "booktitle_short": "Int. Conf. Learn. Represent.",
             "booktitle_abbreviation": "ICLR",
             "organization": null,
-            "pages": null,
+            "pages": "1--12",
             "volume": null
         },
         {
@@ -1555,7 +1555,7 @@
             "journal_short": null,
             "journal_abbreviation": null,
             "organization": null,
-            "volume": null,
+            "volume": "25",
             "number": null,
             "pages": null
         },
@@ -1572,7 +1572,7 @@
             "booktitle_short": "Eur. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ECCV",
             "organization": null,
-            "pages": null,
+            "pages": "170--185",
             "volume": null
         },
         {
@@ -1588,7 +1588,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "6536--6545",
             "volume": null
         },
         {
@@ -1604,7 +1604,7 @@
             "booktitle_short": "Eur. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ECCV",
             "organization": null,
-            "pages": null,
+            "pages": "85--100",
             "volume": null
         },
         {
@@ -1621,7 +1621,7 @@
             "booktitle_abbreviation": "AAAI",
             "organization": null,
             "pages": null,
-            "volume": null
+            "volume": "32"
         },
         {
             "name": "mormont2018comparison",
@@ -1656,7 +1656,7 @@
             "booktitle_abbreviation": "NeurIPS",
             "organization": null,
             "pages": "8799--8810",
-            "volume": null
+            "volume": "31"
         },
         {
             "name": "nguyen2018deep",
@@ -1687,7 +1687,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "1808--1817",
             "volume": null
         },
         {
@@ -1703,7 +1703,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "8934--8943",
             "volume": null
         },
         {
@@ -1735,7 +1735,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "1526--1535",
             "volume": null
         },
         {
@@ -1767,7 +1767,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "4884--4893",
             "volume": null
         },
         {
@@ -1800,7 +1800,7 @@
             "booktitle_abbreviation": "NeurIPS",
             "organization": null,
             "pages": null,
-            "volume": null
+            "volume": "31"
         },
         {
             "name": "yao2018mvsnet",
@@ -1815,7 +1815,7 @@
             "booktitle_short": "Eur. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ECCV",
             "organization": null,
-            "pages": null,
+            "pages": "767--783",
             "volume": null
         },
         {
@@ -1843,7 +1843,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "586--595",
             "volume": null
         },
         {
@@ -1876,7 +1876,7 @@
             "booktitle_short": "Eur. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ECCV",
             "organization": null,
-            "pages": null,
+            "pages": "421--436",
             "volume": null
         },
         {
@@ -1909,7 +1909,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "3703--3712",
             "volume": null
         },
         {
@@ -1927,7 +1927,7 @@
             "organization": null,
             "volume": "43",
             "number": "3",
-            "pages": "933-948"
+            "pages": "933--948"
         },
         {
             "name": "brendel2019approximating",
@@ -1974,7 +1974,7 @@
             "booktitle_short": "IEEE Int. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ICCV",
             "organization": null,
-            "pages": null,
+            "pages": "9006--9015",
             "volume": null
         },
         {
@@ -2023,7 +2023,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "5792--5801",
             "volume": null
         },
         {
@@ -2068,7 +2068,7 @@
             "booktitle_short": "IEEE Int. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ICCV",
             "organization": null,
-            "pages": null,
+            "pages": "4413--4421",
             "volume": null
         },
         {
@@ -2084,7 +2084,7 @@
             "booktitle_short": "Int. Conf. Multimedia",
             "booktitle_abbreviation": "ACM-MM",
             "organization": null,
-            "pages": null,
+            "pages": "2351--2359",
             "volume": null
         },
         {
@@ -2100,7 +2100,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "4571--4580",
             "volume": null
         },
         {
@@ -2118,7 +2118,7 @@
             "organization": null,
             "volume": "38",
             "number": "4",
-            "pages": null
+            "pages": "1--14"
         },
         {
             "name": "nazeri2019edgeconnect",
@@ -2166,7 +2166,7 @@
             "booktitle_abbreviation": "NeurIPS",
             "organization": null,
             "pages": "3347--3357",
-            "volume": null
+            "volume": "32"
         },
         {
             "name": "ranjan2019competitive",
@@ -2181,7 +2181,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "12240--12249",
             "volume": null
         },
         {
@@ -2265,7 +2265,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "3723--3732",
             "volume": null
         },
         {
@@ -2281,7 +2281,7 @@
             "booktitle_short": "IEEE Int. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ICCV",
             "organization": null,
-            "pages": null,
+            "pages": "4471--4480",
             "volume": null
         },
         {
@@ -2381,8 +2381,8 @@
             "booktitle_full": "European Conference on Computer Vision",
             "booktitle_short": "Eur. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ECCV",
-            "organization": null,
-            "pages": null,
+            "organization": "Springer",
+            "pages": "312--329",
             "volume": null
         },
         {
@@ -2400,7 +2400,7 @@
             "organization": null,
             "volume": "43",
             "number": "8",
-            "pages": "2555-2569"
+            "pages": "2555--2569"
         },
         {
             "name": "jacob2020deep",
@@ -2426,8 +2426,8 @@
             "booktitle_full": "IEEE International Conference on Image Processing",
             "booktitle_short": "IEEE Int. Conf. Image Process.",
             "booktitle_abbreviation": "ICIP",
-            "organization": null,
-            "pages": "1501-1505",
+            "organization": "IEEE",
+            "pages": "1501--1505",
             "volume": null
         },
         {
@@ -2455,7 +2455,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "6489--6498",
             "volume": null
         },
         {
@@ -2473,7 +2473,7 @@
             "organization": null,
             "volume": "42",
             "number": "6",
-            "pages": "1289-1302"
+            "pages": "1289--1302"
         },
         {
             "name": "mildenhall2020nerf",
@@ -2487,7 +2487,7 @@
             "booktitle_full": "European Conference on Computer Vision",
             "booktitle_short": "Eur. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ECCV",
-            "organization": null,
+            "organization": "Springer",
             "pages": "405--421",
             "volume": null
         },
@@ -2558,7 +2558,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "8028--8038",
             "volume": null
         },
         {
@@ -2585,7 +2585,7 @@
             "booktitle_full": "European Conference on Computer Vision",
             "booktitle_short": "Eur. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ECCV",
-            "organization": null,
+            "organization": "Springer",
             "pages": "402--419",
             "volume": null
         },
@@ -2602,7 +2602,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "551--560",
             "volume": null
         },
         {
@@ -2650,7 +2650,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "5539--5548",
             "volume": null
         },
         {
@@ -2682,7 +2682,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": null,
+            "pages": "5336--5345",
             "volume": null
         },
         {
@@ -2747,7 +2747,7 @@
             "booktitle_short": "IEEE Int. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ICCV",
             "organization": null,
-            "pages": "12578-12588",
+            "pages": "12578--12588",
             "volume": null
         },
         {
@@ -2779,7 +2779,7 @@
             "booktitle_short": "IEEE Int. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ICCV",
             "organization": null,
-            "pages": "1749-1758",
+            "pages": "1749--1758",
             "volume": null
         },
         {
@@ -2795,7 +2795,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "701-710",
+            "pages": "701--710",
             "volume": null
         },
         {
@@ -2866,7 +2866,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "10093-10102",
+            "pages": "10093--10102",
             "volume": null
         },
         {
@@ -2911,7 +2911,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "4690-4699",
+            "pages": "4690--4699",
             "volume": null
         },
         {
@@ -2927,7 +2927,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "8534-8543",
+            "pages": "8534--8543",
             "volume": null
         },
         {
@@ -2955,7 +2955,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "4578-4587",
+            "pages": "4578--4587",
             "volume": null
         },
         {
@@ -2971,9 +2971,9 @@
             "journal_short": null,
             "journal_abbreviation": "RAL",
             "organization": null,
-            "volume": null,
-            "number": null,
-            "pages": null
+            "volume": "7",
+            "number": "2",
+            "pages": "3491--3498"
         },
         {
             "name": "kanchana2022ivp",
@@ -2988,7 +2988,7 @@
             "booktitle_short": "IEEE Winter Conf. App. Comput. Vis.",
             "booktitle_abbreviation": "WACV",
             "organization": null,
-            "pages": null,
+            "pages": "3541--3550",
             "volume": null
         },
         {
