@@ -8,6 +8,7 @@ from dataclasses import dataclass
 from typing import List
 
 from data_structures.entry_types.Generic import GenericEntry
+from utils import MonthUtils
 
 
 @dataclass(eq=False)
@@ -23,7 +24,7 @@ class BookEntry(GenericEntry):
         book_entry.comment = comment
         book_entry.title = fields_dict.get('title', None)
         book_entry.author = fields_dict.get('author', None)
-        book_entry.month = fields_dict.get('month', None)
+        book_entry.month = MonthUtils.month_to_long(fields_dict.get('month', None))
         book_entry.year = fields_dict.get('year', None)
         book_entry.volume = fields_dict.get('volume', None)
         book_entry.doi = fields_dict.get('doi', None)
@@ -44,8 +45,9 @@ class BookEntry(GenericEntry):
             lines.append(f'    author = {{{self.author}}},')
         if ('volume' in fields_names) and self.volume:
             lines.append(f'    volume = {{{self.volume}}},')
-        if ('month' in fields_names) and self.month:
-            lines.append(f'    month = {{{self.month}}},')
+        month_str = self.compose_month(fields_names)
+        if month_str is not None:
+            lines.append(f'    month = {{{month_str}}},')
         if ('year' in fields_names) and self.year:
             lines.append(f'    year = {{{self.year}}},')
         if ('doi' in fields_names) and self.doi:

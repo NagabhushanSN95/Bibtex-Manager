@@ -8,6 +8,7 @@ from dataclasses import dataclass
 from typing import List
 
 from data_structures.entry_types.Generic import GenericEntry
+from utils import MonthUtils
 
 
 @dataclass(eq=False)
@@ -25,7 +26,7 @@ class bioRxivEntry(GenericEntry):
         arxiv_entry.title = fields_dict.get('title', None)
         arxiv_entry.author = fields_dict.get('author', None)
         arxiv_entry.eid = fields_dict.get('eid', None)
-        arxiv_entry.month = fields_dict.get('month', None)
+        arxiv_entry.month = MonthUtils.month_to_long(fields_dict.get('month', None))
         arxiv_entry.year = fields_dict.get('year', None)
         arxiv_entry.doi = fields_dict.get('doi', None)
         return arxiv_entry
@@ -47,6 +48,9 @@ class bioRxivEntry(GenericEntry):
             lines.append(f'    journal = {{{self.journal}}},')
         if ('eid' in fields_names) and self.eid:
             lines.append(f'    eid = {{{self.eid}}},')
+        month_str = self.compose_month(fields_names)
+        if month_str is not None:
+            lines.append(f'    month = {{{month_str}}},')
         if ('year' in fields_names) and self.year:
             lines.append(f'    year = {{{self.year}}},')
         if ('doi' in fields_names) and self.doi:

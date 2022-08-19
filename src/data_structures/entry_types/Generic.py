@@ -9,6 +9,8 @@ import re
 from dataclasses import dataclass
 from typing import List
 
+from utils import MonthUtils
+
 BIB_FIELD_PATTERN = r'(\w+?) *?= *?{(.+)},?'
 BIB_ENTRY_NAME_PATTERN = r'@\w+{(.+),'
 
@@ -87,6 +89,15 @@ class GenericEntry:
                 else:
                     print(f'Warning: Unable to parse "{line1}"')
         return fields_dict
+
+    def compose_month(self, fields_names1: list):
+        month = None
+        if self.month is not None:
+            if 'month' in fields_names1:
+                month = self.month
+            elif 'month_short' in fields_names1:
+                month = MonthUtils.month_long_to_short(self.month)
+        return month
 
     @abc.abstractmethod
     def get_export_string(self, fields_names: list):

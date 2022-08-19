@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import List
 
 from data_structures.entry_types.Generic import GenericEntry
+from utils import MonthUtils
 
 JOURNAL_ABBREVIATION_PATTERN = r'(.+?) \((\w+)\)$'
 
@@ -34,7 +35,7 @@ class JournalEntry(GenericEntry):
         journal_entry.comment = comment
         journal_entry.title = fields_dict.get('title', None)
         journal_entry.author = fields_dict.get('author', None)
-        journal_entry.month = fields_dict.get('month', None)
+        journal_entry.month = MonthUtils.month_to_long(fields_dict.get('month', None))
         journal_entry.year = fields_dict.get('year', None)
         journal_entry.doi = fields_dict.get('doi', None)
         journal_entry.organization = fields_dict.get('organization', None)
@@ -109,16 +110,18 @@ class JournalEntry(GenericEntry):
             lines.append(f'    title = {{{self.title}}},')
         if ('author' in fields_names) and self.author:
             lines.append(f'    author = {{{self.author}}},')
-        if self.compose_journal(fields_names):
-            lines.append(f'    journal = {{{self.compose_journal(fields_names)}}},')
+        journal_str = self.compose_journal(fields_names)
+        if journal_str is not None:
+            lines.append(f'    journal = {{{journal_str}}},')
         if ('volume' in fields_names) and self.volume:
             lines.append(f'    volume = {{{self.volume}}},')
         if ('number' in fields_names) and self.number:
             lines.append(f'    number = {{{self.number}}},')
         if ('pages' in fields_names) and self.pages:
             lines.append(f'    pages = {{{self.pages}}},')
-        if ('month' in fields_names) and self.month:
-            lines.append(f'    month = {{{self.month}}},')
+        month_str = self.compose_month(fields_names)
+        if month_str is not None:
+            lines.append(f'    month = {{{month_str}}},')
         if ('year' in fields_names) and self.year:
             lines.append(f'    year = {{{self.year}}},')
         if ('doi' in fields_names) and self.doi:

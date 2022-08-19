@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import List
 
 from data_structures.entry_types.Generic import GenericEntry
+from utils import MonthUtils
 
 BOOKTITLE_PATTERN1 = r'(.+?)( \(\w+\))? workshop on (.+?)( \(\w+\))?$'
 BOOKTITLE_PATTERN2 = r'(.+?)( \(\w+\))? Workshops$'
@@ -37,7 +38,7 @@ class ConferenceWorkshopEntry(GenericEntry):
         conf_entry.comment = comment
         conf_entry.title = fields_dict.get('title', None)
         conf_entry.author = fields_dict.get('author', None)
-        conf_entry.month = fields_dict.get('month', None)
+        conf_entry.month = MonthUtils.month_to_long(fields_dict.get('month', None))
         conf_entry.year = fields_dict.get('year', None)
         conf_entry.doi = fields_dict.get('doi', None)
         conf_entry.organization = fields_dict.get('organization', None)
@@ -169,8 +170,9 @@ class ConferenceWorkshopEntry(GenericEntry):
             lines.append(f'    author = {{{self.author}}},')
         if self.compose_booktitle(fields_names):
             lines.append(f'    booktitle = {{{self.compose_booktitle(fields_names)}}},')
-        if ('month' in fields_names) and self.month:
-            lines.append(f'    month = {{{self.month}}},')
+        month_str = self.compose_month(fields_names)
+        if month_str is not None:
+            lines.append(f'    month = {{{month_str}}},')
         if ('year' in fields_names) and self.year:
             lines.append(f'    year = {{{self.year}}},')
         if ('doi' in fields_names) and self.doi:

@@ -9,6 +9,7 @@ from dataclasses import dataclass
 from typing import List
 
 from data_structures.entry_types.Generic import GenericEntry
+from utils import MonthUtils
 
 EID_PATTERN = r'arXiv:(\d+.\d+)$'
 
@@ -30,7 +31,7 @@ class arXivEntry(GenericEntry):
         arxiv_entry.eid = arXivEntry.parse_eid(fields_dict.get('eid', None))
         if arxiv_entry.eid is None:
             arxiv_entry.eid = arXivEntry.parse_eid(fields_dict.get('pages', None))
-        arxiv_entry.month = fields_dict.get('month', None)
+        arxiv_entry.month = MonthUtils.month_to_long(fields_dict.get('month', None))
         arxiv_entry.year = fields_dict.get('year', None)
         arxiv_entry.doi = fields_dict.get('doi', None)
         return arxiv_entry
@@ -67,6 +68,9 @@ class arXivEntry(GenericEntry):
             lines.append(f'    archivePrefix = {{arXiv}},')
         if ('eprint' in fields_names) and self.eid:
             lines.append(f'    eprint = {{{self.eid}}},')
+        month_str = self.compose_month(fields_names)
+        if month_str is not None:
+            lines.append(f'    month = {{{month_str}}},')
         if ('year' in fields_names) and self.year:
             lines.append(f'    year = {{{self.year}}},')
         if ('doi' in fields_names) and self.doi:

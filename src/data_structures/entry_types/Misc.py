@@ -9,6 +9,7 @@ from dataclasses import dataclass
 from typing import List
 
 from data_structures.entry_types.Generic import GenericEntry
+from utils import MonthUtils
 
 
 @dataclass(eq=False)
@@ -27,7 +28,7 @@ class MiscEntry(GenericEntry):
         book_entry.title = fields_dict.get('title', None)
         book_entry.author = fields_dict.get('author', None)
         book_entry.journal = fields_dict.get('journal', None)
-        book_entry.month = fields_dict.get('month', None)
+        book_entry.month = MonthUtils.month_to_long(fields_dict.get('month', None))
         book_entry.year = fields_dict.get('year', None)
         book_entry.doi = fields_dict.get('doi', None)
         if fields_dict.get('howpublished', None) is not None:
@@ -60,8 +61,9 @@ class MiscEntry(GenericEntry):
             lines.append(f'    howpublished = {{\\url{{{self.url}}}}},')
         if ('note' in fields_names) and self.note:
             lines.append(f'    note = {{{self.note}}},')
-        if ('month' in fields_names) and self.month:
-            lines.append(f'    month = {{{self.month}}},')
+        month_str = self.compose_month(fields_names)
+        if month_str is not None:
+            lines.append(f'    month = {{{month_str}}},')
         if ('year' in fields_names) and self.year:
             lines.append(f'    year = {{{self.year}}},')
         if ('doi' in fields_names) and self.doi:

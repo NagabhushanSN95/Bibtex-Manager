@@ -10,6 +10,7 @@ from pathlib import Path
 from typing import List
 
 from data_structures.entry_types.Generic import GenericEntry
+from utils import MonthUtils
 
 
 @dataclass(eq=False)
@@ -26,7 +27,7 @@ class TechReportEntry(GenericEntry):
         tech_report_entry.comment = comment
         tech_report_entry.title = fields_dict.get('title', None)
         tech_report_entry.author = fields_dict.get('author', None)
-        tech_report_entry.month = fields_dict.get('month', None)
+        tech_report_entry.month = MonthUtils.month_to_long(fields_dict.get('month', None))
         tech_report_entry.year = fields_dict.get('year', None)
         tech_report_entry.doi = fields_dict.get('doi', None)
 
@@ -80,8 +81,9 @@ class TechReportEntry(GenericEntry):
             lines.append(f'    author = {{{self.author}}},')
         if self.compose_institution(fields_names):
             lines.append(f'    institution = {{{self.compose_institution(fields_names)}}},')
-        if ('month' in fields_names) and self.month:
-            lines.append(f'    month = {{{self.month}}},')
+        month_str = self.compose_month(fields_names)
+        if month_str is not None:
+            lines.append(f'    month = {{{month_str}}},')
         if ('year' in fields_names) and self.year:
             lines.append(f'    year = {{{self.year}}},')
         if ('doi' in fields_names) and self.doi:
