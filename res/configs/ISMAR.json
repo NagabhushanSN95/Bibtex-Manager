@@ -1,0 +1,10 @@
+{
+  "ConferenceEntry": ["title", "author", "booktitle_full", "booktitle_abbreviation", "year", "doi"],
+  "ConferenceWorkshopEntry": ["title", "author", "booktitle_full", "booktitle_abbreviation", "workshop_full", "workshop_abbreviation", "year", "doi"],
+  "JournalEntry": ["title", "author", "journal_full", "journal_abbreviation", "volume", "number", "pages", "month_short", "year", "doi"],
+  "arXivEntry": ["title", "author", "journal", "eid", "pages", "archivePrefix", "eprint", "month_short", "year", "doi"],
+  "bioRxivEntry": ["title", "author", "journal", "eid", "month_short", "year", "doi"],
+  "TechReportEntry": ["title", "author", "institution_full", "month_short", "year", "doi"],
+  "BookEntry": ["title", "author", "volume", "month_short", "year", "doi"],
+  "MiscEntry": ["title", "author", "journal", "url", "note", "year", "doi"]
+}
