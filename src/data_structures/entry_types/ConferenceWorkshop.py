@@ -11,10 +11,10 @@ from pathlib import Path
 from typing import List
 
 from data_structures.entry_types.Generic import GenericEntry
-from utils import MonthUtils
+from utils import MonthUtils, CommonUtils
 
-BOOKTITLE_PATTERN1 = r'(.+?)( \(\w+\))? workshop on (.+?)( \(\w+\))?$'
-BOOKTITLE_PATTERN2 = r'(.+?)( \(\w+\))? Workshops$'
+BOOKTITLE_PATTERN1 = r'(?:Proceedings of the )?(.+?)( \(\w+\))? workshop on (.+?)( \(\w+\))?$'
+BOOKTITLE_PATTERN2 = r'(?:Proceedings of the )?(.+?)( \(\w+\))? Workshops$'
 
 
 @dataclass(eq=False)
@@ -196,9 +196,11 @@ class ConferenceWorkshopEntry(GenericEntry):
 
         if not self.booktitle_full:
             if self.booktitle_short:
-                booktitle_data = self.get_matching_booktitle_data(booktitles_data, self.booktitle_short, index=1)
+                booktitle_data = self.get_matching_booktitles_data(booktitles_data, self.booktitle_short, index=1)
+                booktitle_data = CommonUtils.get_list_element(booktitle_data, 0)
             elif self.booktitle_abbreviation:
-                booktitle_data = self.get_matching_booktitle_data(booktitles_data, self.booktitle_abbreviation, index=2)
+                booktitle_data = self.get_matching_booktitles_data(booktitles_data, self.booktitle_abbreviation, index=2)
+                booktitle_data = CommonUtils.get_list_element(booktitle_data, 0)
             else:
                 booktitle_data = None
             if booktitle_data and booktitle_data[0]:
@@ -206,9 +208,11 @@ class ConferenceWorkshopEntry(GenericEntry):
 
         if not self.booktitle_short:
             if self.booktitle_full:
-                booktitle_data = self.get_matching_booktitle_data(booktitles_data, self.booktitle_full, index=0)
+                booktitle_data = self.get_matching_booktitles_data(booktitles_data, self.booktitle_full, index=0)
+                booktitle_data = CommonUtils.get_list_element(booktitle_data, 0)
             elif self.booktitle_abbreviation:
-                booktitle_data = self.get_matching_booktitle_data(booktitles_data, self.booktitle_abbreviation, index=2)
+                booktitle_data = self.get_matching_booktitles_data(booktitles_data, self.booktitle_abbreviation, index=2)
+                booktitle_data = CommonUtils.get_list_element(booktitle_data, 0)
             else:
                 booktitle_data = None
             if booktitle_data and booktitle_data[1]:
@@ -216,9 +220,11 @@ class ConferenceWorkshopEntry(GenericEntry):
 
         if not self.booktitle_abbreviation:
             if self.booktitle_full:
-                booktitle_data = self.get_matching_booktitle_data(booktitles_data, self.booktitle_full, index=0)
+                booktitle_data = self.get_matching_booktitles_data(booktitles_data, self.booktitle_full, index=0)
+                booktitle_data = CommonUtils.get_list_element(booktitle_data, 0)
             elif self.booktitle_short:
-                booktitle_data = self.get_matching_booktitle_data(booktitles_data, self.booktitle_short, index=1)
+                booktitle_data = self.get_matching_booktitles_data(booktitles_data, self.booktitle_short, index=1)
+                booktitle_data = CommonUtils.get_list_element(booktitle_data, 0)
             else:
                 booktitle_data = None
             if booktitle_data and booktitle_data[2]:
@@ -236,35 +242,40 @@ class ConferenceWorkshopEntry(GenericEntry):
         return booktitles_data
 
     @staticmethod
-    def get_matching_booktitle_data(booktitles_data: List[tuple], search_str: str, index: int):
+    def get_matching_booktitles_data(booktitles_data: List[tuple], search_str: str, index: int):
+        matching_booktitles_data = []
         for booktitle_data in booktitles_data:
             if booktitle_data[index] == search_str:
-                return booktitle_data
-        return None
+                matching_booktitles_data.append(booktitle_data)
+        return matching_booktitles_data
 
     def check_inconsistencies(self):
         self.check_booktitle_inconsistencies()
 
     def check_booktitle_inconsistencies(self):
-        def match_booktitle(booktitle_data1: tuple):
-            if booktitle_data1:
-                if (booktitle_data1[0] and (self.booktitle_full != booktitle_data1[0])) or \
-                        (booktitle_data1[1] and (self.booktitle_short != booktitle_data1[1])) or \
-                        (booktitle_data1[2] and (self.booktitle_abbreviation != booktitle_data1[2])):
-                    return True
-            return False
+        def match_booktitle_(matched_booktitles_data_: List[tuple]):
+            match_found = False
+            if len(matched_booktitles_data_) == 0:
+                match_found = True
+            else:
+                for matched_booktitle_data_ in matched_booktitles_data_:
+                    if ((not matched_booktitle_data_[0]) or (self.booktitle_full == matched_booktitle_data_[0])) and \
+                            ((not matched_booktitle_data_[1]) or (self.booktitle_short == matched_booktitle_data_[1])) and \
+                            ((not matched_booktitle_data_[2]) or (self.booktitle_abbreviation == matched_booktitle_data_[2])):
+                        match_found = True
+            return match_found
 
         booktitles_data = self.get_booktitles_data()
         inconsistencies = False
         if self.booktitle_full:
-            booktitle_data = self.get_matching_booktitle_data(booktitles_data, self.booktitle_full, index=0)
-            inconsistencies = inconsistencies or match_booktitle(booktitle_data)
+            matched_booktitles_data = self.get_matching_booktitles_data(booktitles_data, self.booktitle_full, index=0)
+            inconsistencies = inconsistencies or (not match_booktitle_(matched_booktitles_data))
         if self.booktitle_short:
-            booktitle_data = self.get_matching_booktitle_data(booktitles_data, self.booktitle_short, index=1)
-            inconsistencies = inconsistencies or match_booktitle(booktitle_data)
+            matched_booktitles_data = self.get_matching_booktitles_data(booktitles_data, self.booktitle_short, index=1)
+            inconsistencies = inconsistencies or (not match_booktitle_(matched_booktitles_data))
         if self.booktitle_abbreviation:
-            booktitle_data = self.get_matching_booktitle_data(booktitles_data, self.booktitle_abbreviation, index=2)
-            inconsistencies = inconsistencies or match_booktitle(booktitle_data)
+            matched_booktitles_data = self.get_matching_booktitles_data(booktitles_data, self.booktitle_abbreviation, index=2)
+            inconsistencies = inconsistencies or (not match_booktitle_(matched_booktitles_data))
 
         if inconsistencies:
             print(f'Inconsistencies found in booktitle for entry {self.name}.')

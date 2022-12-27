@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import List
 
 from data_structures.entry_types.Generic import GenericEntry
-from utils import MonthUtils
+from utils import MonthUtils, CommonUtils
 
 JOURNAL_ABBREVIATION_PATTERN = r'(.+?) \((\w+)\)$'
 
@@ -139,9 +139,11 @@ class JournalEntry(GenericEntry):
 
         if not self.journal_full:
             if self.journal_short:
-                journal_data = self.get_matching_journal_data(journals_data, self.journal_short, index=1)
+                journal_data = self.get_matching_journals_data(journals_data, self.journal_short, index=1)
+                journal_data = CommonUtils.get_list_element(journal_data, 0)
             elif self.journal_abbreviation:
-                journal_data = self.get_matching_journal_data(journals_data, self.journal_abbreviation, index=2)
+                journal_data = self.get_matching_journals_data(journals_data, self.journal_abbreviation, index=2)
+                journal_data = CommonUtils.get_list_element(journal_data, 0)
             else:
                 journal_data = None
             if journal_data and journal_data[0]:
@@ -149,9 +151,11 @@ class JournalEntry(GenericEntry):
 
         if not self.journal_short:
             if self.journal_full:
-                journal_data = self.get_matching_journal_data(journals_data, self.journal_full, index=0)
+                journal_data = self.get_matching_journals_data(journals_data, self.journal_full, index=0)
+                journal_data = CommonUtils.get_list_element(journal_data, 0)
             elif self.journal_abbreviation:
-                journal_data = self.get_matching_journal_data(journals_data, self.journal_abbreviation, index=2)
+                journal_data = self.get_matching_journals_data(journals_data, self.journal_abbreviation, index=2)
+                journal_data = CommonUtils.get_list_element(journal_data, 0)
             else:
                 journal_data = None
             if journal_data and journal_data[1]:
@@ -159,9 +163,11 @@ class JournalEntry(GenericEntry):
 
         if not self.journal_abbreviation:
             if self.journal_full:
-                journal_data = self.get_matching_journal_data(journals_data, self.journal_full, index=0)
+                journal_data = self.get_matching_journals_data(journals_data, self.journal_full, index=0)
+                journal_data = CommonUtils.get_list_element(journal_data, 0)
             elif self.journal_short:
-                journal_data = self.get_matching_journal_data(journals_data, self.journal_short, index=1)
+                journal_data = self.get_matching_journals_data(journals_data, self.journal_short, index=1)
+                journal_data = CommonUtils.get_list_element(journal_data, 0)
             else:
                 journal_data = None
             if journal_data and journal_data[2]:
@@ -176,35 +182,40 @@ class JournalEntry(GenericEntry):
         return journals_data
 
     @staticmethod
-    def get_matching_journal_data(journals_data: List[tuple], search_str: str, index: int):
+    def get_matching_journals_data(journals_data: List[tuple], search_str: str, index: int):
+        matching_journals_data = []
         for journal_data in journals_data:
             if journal_data[index] == search_str:
-                return journal_data
-        return None
+                matching_journals_data.append(journal_data)
+        return matching_journals_data
 
     def check_inconsistencies(self):
         self.check_journal_inconsistencies()
 
     def check_journal_inconsistencies(self):
-        def match_journal(journal_data1: tuple):
-            if journal_data1:
-                if (journal_data1[0] and (self.journal_full != journal_data1[0])) or \
-                        (journal_data1[1] and (self.journal_short != journal_data1[1])) or \
-                        (journal_data1[2] and (self.journal_abbreviation != journal_data1[2])):
-                    return True
-            return False
+        def match_journal_(matching_journals_data_: List[tuple]):
+            match_found = False
+            if len(matching_journals_data_) == 0:
+                match_found = True
+            else:
+                for matching_journal_data_ in matching_journals_data_:
+                    if ((not matching_journal_data_[0]) or (self.journal_full == matching_journal_data_[0])) and \
+                            ((not matching_journal_data_[1]) or (self.journal_short == matching_journal_data_[1])) and \
+                            ((not matching_journal_data_[2]) or (self.journal_abbreviation == matching_journal_data_[2])):
+                        match_found = True
+            return match_found
 
         journals_data = self.get_journals_data()
         inconsistencies = False
         if self.journal_full:
-            journal_data = self.get_matching_journal_data(journals_data, self.journal_full, index=0)
-            inconsistencies = inconsistencies or match_journal(journal_data)
+            matching_journals_data = self.get_matching_journals_data(journals_data, self.journal_full, index=0)
+            inconsistencies = inconsistencies or (not match_journal_(matching_journals_data))
         if self.journal_short:
-            journal_data = self.get_matching_journal_data(journals_data, self.journal_short, index=1)
-            inconsistencies = inconsistencies or match_journal(journal_data)
+            matching_journals_data = self.get_matching_journals_data(journals_data, self.journal_short, index=1)
+            inconsistencies = inconsistencies or (not match_journal_(matching_journals_data))
         if self.journal_abbreviation:
-            journal_data = self.get_matching_journal_data(journals_data, self.journal_abbreviation, index=2)
-            inconsistencies = inconsistencies or match_journal(journal_data)
+            matching_journals_data = self.get_matching_journals_data(journals_data, self.journal_abbreviation, index=2)
+            inconsistencies = inconsistencies or (not match_journal_(matching_journals_data))
 
         if inconsistencies:
             print(f'Inconsistencies found in journal for entry {self.name}.')
