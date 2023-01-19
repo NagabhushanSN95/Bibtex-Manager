@@ -51,7 +51,7 @@ class BibtexIterator:
 
 
 def main():
-    bibtex_filepath = Path('/home/nagabhushan/Documents/References.bib')
+    bibtex_filepath = Path('../tmp/References.bib')
     with open(bibtex_filepath.as_posix(), 'r') as bibtex_file:
         lines = bibtex_file.readlines()
         lines = [line.rstrip() for line in lines]

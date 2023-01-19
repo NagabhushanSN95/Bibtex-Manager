@@ -457,6 +457,22 @@
             "pages": "1--10"
         },
         {
+            "name": "krizhevsky2012alexnet",
+            "class_name": "ConferenceEntry",
+            "comment": "AlexNet",
+            "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+            "author": "Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E",
+            "month": null,
+            "year": "2012",
+            "doi": null,
+            "booktitle_full": "Advances in Neural Information Processing Systems",
+            "booktitle_short": "Adv. Neural Inf. Process. Syst.",
+            "booktitle_abbreviation": "NeurIPS",
+            "organization": null,
+            "pages": null,
+            "volume": "25"
+        },
+        {
             "name": "mittal2012no",
             "class_name": "JournalEntry",
             "comment": "BRISQUE",
@@ -1483,6 +1499,22 @@
             "volume": null
         },
         {
+            "name": "huang2018deepmvs",
+            "class_name": "ConferenceEntry",
+            "comment": "Deep MVS",
+            "title": "{DeepMVS}: Learning Multi-View Stereopsis",
+            "author": "Huang, Po-Han and Matzen, Kevin and Kopf, Johannes and Ahuja, Narendra and Huang, Jia-Bin",
+            "month": "June",
+            "year": "2018",
+            "doi": null,
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "2821--2830",
+            "volume": null
+        },
+        {
             "name": "hui2018liteflownet",
             "class_name": "ConferenceEntry",
             "comment": "LiteFlowNet",
@@ -2370,6 +2402,18 @@
             "pages": "2007--2028"
         },
         {
+            "name": "gao2020portrait",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "Portrait Neural Radiance Fields from a Single Image",
+            "author": "Gao, Chen and Shih, Yichang and Lai, Wei-Sheng and Liang, Chia-Kai and Huang, Jia-Bin",
+            "month": null,
+            "year": "2020",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2012.05903"
+        },
+        {
             "name": "han2020memory",
             "class_name": "ConferenceEntry",
             "comment": "MemDPC",
@@ -2715,6 +2759,22 @@
             "note": "Accessed: 07-Nov-2021"
         },
         {
+            "name": "chan2021pigan",
+            "class_name": "ConferenceEntry",
+            "comment": "Pi-GAN",
+            "title": "{Pi-GAN}: Periodic Implicit Generative Adversarial Networks for {3D}-Aware Image Synthesis",
+            "author": "Chan, Eric R. and Monteiro, Marco and Kellnhofer, Petr and Wu, Jiajun and Wetzstein, Gordon",
+            "month": "June",
+            "year": "2021",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "5799-5809",
+            "volume": null
+        },
+        {
             "name": "chen2021mvsnerf",
             "class_name": "arXivEntry",
             "comment": "",
@@ -2841,6 +2901,22 @@
             "doi": null,
             "journal": "arXiv e-prints",
             "eid": "2106.13228"
+        },
+        {
+            "name": "radford2021clip",
+            "class_name": "ConferenceEntry",
+            "comment": "CLIP",
+            "title": "Learning Transferable Visual Models From Natural Language Supervision",
+            "author": "Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and Krueger, Gretchen and Sutskever, Ilya",
+            "month": "July",
+            "year": "2021",
+            "doi": null,
+            "booktitle_full": "International Conference on Machine Learning",
+            "booktitle_short": "Int. Conf. Mach. Learn.",
+            "booktitle_abbreviation": "ICML",
+            "organization": "PMLR",
+            "pages": "8748--8763",
+            "volume": "139"
         },
         {
             "name": "rochow2021fadiv",
@@ -3007,6 +3083,22 @@
             "volume": null
         },
         {
+            "name": "cai2022pix2nerf",
+            "class_name": "ConferenceEntry",
+            "comment": "pix2NeRF",
+            "title": "{Pix2NeRF}: Unsupervised Conditional {p-GAN} for Single Image to Neural Radiance Fields Translation",
+            "author": "Cai, Shengqu and Obukhov, Anton and Dai, Dengxin and Van Gool, Luc",
+            "month": "June",
+            "year": "2022",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "3981--3990",
+            "volume": null
+        },
+        {
             "name": "deng2022dsnerf",
             "class_name": "ConferenceEntry",
             "comment": "DS-NeRF",
@@ -3121,6 +3213,18 @@
             "pages": "116626"
         },
         {
+            "name": "xu2022sinnerf",
+            "class_name": "arXivEntry",
+            "comment": "SinNeRF",
+            "title": "{SinNeRF}: Training Neural Radiance Fields on Complex Scenes from a Single Image",
+            "author": "Xu, Dejia and Jiang, Yifan and Wang, Peihao and Fan, Zhiwen and Shi, Humphrey and Wang, Zhangyang",
+            "month": null,
+            "year": "2022",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": null
+        },
+        {
             "name": "zhang2022video",
             "class_name": "arXivEntry",
             "comment": "",
@@ -3131,6 +3235,22 @@
             "doi": null,
             "journal": "arXiv e-prints",
             "eid": "2205.02084"
+        },
+        {
+            "name": "lin2023vision",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Vision Transformer for {NeRF}-Based View Synthesis From a Single Input Image",
+            "author": "Lin, Kai-En and Lin, Yen-Chen and Lai, Wei-Sheng and Lin, Tsung-Yi and Shih, Yi-Chang and Ramamoorthi, Ravi",
+            "month": "January",
+            "year": "2023",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF Winter Conference on Applications of Computer Vision",
+            "booktitle_short": "IEEE/CVF Winter Conf. App. Comput. Vis.",
+            "booktitle_abbreviation": "WACV",
+            "organization": null,
+            "pages": "806--815",
+            "volume": null
         }
     ]
 }

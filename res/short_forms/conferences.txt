@@ -16,6 +16,7 @@
 ("IEEE International Conference on Machine Learning and Applications", "IEEE Int. Conf. Mach. Learn. App.", "ICMLA")
 ("IEEE International Symposium on Circuits and Systems", "IEEE Int. Symp. Circuits Syst.", "ISCAS")
 ("IEEE Winter Conference on Applications of Computer Vision", "IEEE Winter Conf. App. Comput. Vis.", "WACV")
+("IEEE/CVF Winter Conference on Applications of Computer Vision", "IEEE/CVF Winter Conf. App. Comput. Vis.", "WACV")
 ("International Conference on Learning Representations", "Int. Conf. Learn. Represent.", "ICLR")
 ("International Conference on Machine Learning", "Int. Conf. Mach. Learn.", "ICML")
 ("International Conference on Multimedia and Expo", "Int. Conf. Multimedia Expo", "ICME")
