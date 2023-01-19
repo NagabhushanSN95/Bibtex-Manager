@@ -3132,6 +3132,22 @@
             "pages": "3491--3498"
         },
         {
+            "name": "han2022single",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Single-View View Synthesis in the Wild with Learned Adaptive Multiplane Images",
+            "author": "Han, Yuxuan and Wang, Ruicheng and Yang, Jiaolong",
+            "month": null,
+            "year": "2022",
+            "doi": null,
+            "booktitle_full": "ACM SIGGRAPH",
+            "booktitle_short": null,
+            "booktitle_abbreviation": null,
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
             "name": "kanchana2022ivp",
             "class_name": "ConferenceEntry",
             "comment": "IVP",
