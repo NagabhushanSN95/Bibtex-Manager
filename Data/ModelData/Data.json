@@ -821,6 +821,23 @@
             "volume": "28"
         },
         {
+            "name": "aanaes2016dtu",
+            "class_name": "JournalEntry",
+            "comment": "DTU dataset",
+            "title": "Large-Scale Data for Multiple-View Stereopsis",
+            "author": "Aan{\\ae}s, Henrik and Jensen, Rasmus Ramsb{\\o}l and Vogiatzis, George and Tola, Engin and Dahl, Anders Bjorholm",
+            "month": null,
+            "year": "2016",
+            "doi": null,
+            "journal_full": "International Journal of Computer Vision",
+            "journal_short": "Int. J. Comput. Vis.",
+            "journal_abbreviation": "IJCV",
+            "organization": null,
+            "volume": null,
+            "number": null,
+            "pages": "1--16"
+        },
+        {
             "name": "agrawal2016learning",
             "class_name": "ConferenceEntry",
             "comment": "",
