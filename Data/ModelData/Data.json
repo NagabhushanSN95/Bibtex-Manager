@@ -3032,7 +3032,7 @@
             "month": "June",
             "year": "2021",
             "doi": null,
-            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
@@ -3149,6 +3149,18 @@
             "pages": "3491--3498"
         },
         {
+            "name": "hamdi2022sparf",
+            "class_name": "arXivEntry",
+            "comment": "SPARF",
+            "title": "{SPARF}: Large-Scale Learning of 3D Sparse Radiance Fields from Few Input Images",
+            "author": "Hamdi, Abdullah and Ghanem, Bernard and Nie{\\ss}ner, Matthias",
+            "month": null,
+            "year": "2022",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2212.09100"
+        },
+        {
             "name": "han2022single",
             "class_name": "ConferenceEntry",
             "comment": "",
@@ -3162,6 +3174,22 @@
             "booktitle_abbreviation": null,
             "organization": null,
             "pages": null,
+            "volume": null
+        },
+        {
+            "name": "johari2022geonerf",
+            "class_name": "ConferenceEntry",
+            "comment": "GeoNeRF",
+            "title": "GeoNeRF: Generalizing NeRF With Geometry Priors",
+            "author": "Johari, Mohammad Mahdi and Lepoittevin, Yann and Fleuret, Fran\\c{c}ois",
+            "month": "June",
+            "year": "2022",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "18365-18375",
             "volume": null
         },
         {
@@ -3284,6 +3312,18 @@
             "organization": null,
             "pages": "806--815",
             "volume": null
+        },
+        {
+            "name": "wimbauer2023behind",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "Behind the Scenes: Density Fields for Single View Reconstruction",
+            "author": "Wimbauer, Felix and Yang, Nan and Rupprecht, Christian and Cremers, Daniel",
+            "month": null,
+            "year": "2023",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2301.07668"
         }
     ]
 }
