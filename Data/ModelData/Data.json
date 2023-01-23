@@ -569,6 +569,17 @@
             "volume": null
         },
         {
+            "name": "corder2014nonparametric",
+            "class_name": "BookEntry",
+            "comment": "",
+            "title": "Nonparametric statistics: A step-by-step approach",
+            "author": "Corder, Gregory W and Foreman, Dale I",
+            "month": null,
+            "year": "2014",
+            "doi": null,
+            "volume": null
+        },
+        {
             "name": "goodfellow2014gan",
             "class_name": "ConferenceEntry",
             "comment": "GAN",
