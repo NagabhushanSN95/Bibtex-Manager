@@ -68,6 +68,22 @@
             "volume": null
         },
         {
+            "name": "collins1996spacesweep",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "A Space-Sweep Approach to True Multi-Image Matching",
+            "author": "Collins, R.T.",
+            "month": null,
+            "year": "1996",
+            "doi": "10.1109/CVPR.1996.517097",
+            "booktitle_full": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Comp. Soc. Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "358-363",
+            "volume": null
+        },
+        {
             "name": "rao1999predictive",
             "class_name": "JournalEntry",
             "comment": "",
@@ -173,6 +189,22 @@
             "pages": "560--576"
         },
         {
+            "name": "yang2003multiresolution",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Multi-Resolution Real-Time Stereo on Commodity Graphics Hardware",
+            "author": "Ruigang Yang and Pollefeys, M.",
+            "month": null,
+            "year": "2003",
+            "doi": "10.1109/CVPR.2003.1211356",
+            "booktitle_full": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Comp. Soc. Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "I-I",
+            "volume": "1"
+        },
+        {
             "name": "criminisi2004region",
             "class_name": "JournalEntry",
             "comment": "Criminisi et. al.",
@@ -238,6 +270,22 @@
             "volume": "24",
             "number": "3",
             "pages": "1090--1097"
+        },
+        {
+            "name": "gallup2007realtime",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Real-Time Plane-Sweeping Stereo with Multiple Sweeping Directions",
+            "author": "Gallup, David and Frahm, Jan-Michael and Mordohai, Philippos and Yang, Qingxiong and Pollefeys, Marc",
+            "month": null,
+            "year": "2007",
+            "doi": "10.1109/CVPR.2007.383245",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "1-8",
+            "volume": null
         },
         {
             "name": "szekely2007measuring",
@@ -879,6 +927,22 @@
             "organization": null,
             "pages": null,
             "volume": "29"
+        },
+        {
+            "name": "ha2016highquality",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "High-Quality Depth From Uncalibrated Small Motion Clip",
+            "author": "Ha, Hyowon and Im, Sunghoon and Park, Jaesik and Jeon, Hae-Gon and Kweon, In So",
+            "month": "June",
+            "year": "2016",
+            "doi": null,
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": null,
+            "volume": null
         },
         {
             "name": "he2016deep",
@@ -2054,6 +2118,18 @@
             "volume": null
         },
         {
+            "name": "im2019dpsnet",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "{DPSNet}: End-to-end Deep Plane Sweep Stereo",
+            "author": "Im, Sunghoon and Jeon, Hae-Gon and Lin, Stephen and Kweon, In So",
+            "month": null,
+            "year": "2019",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "1905.00538"
+        },
+        {
             "name": "khan2019novel",
             "class_name": "JournalEntry",
             "comment": "",
@@ -3006,6 +3082,22 @@
             "volume": null
         },
         {
+            "name": "tancik2021metanerf",
+            "class_name": "ConferenceEntry",
+            "comment": "MetaNeRF",
+            "title": "Learned Initializations for Optimizing Coordinate-Based Neural Representations",
+            "author": "Tancik, Matthew and Mildenhall, Ben and Wang, Terrance and Schmidt, Divi and Srinivasan, Pratul P. and Barron, Jonathan T. and Ng, Ren",
+            "month": "June",
+            "year": "2021",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "2846-2855",
+            "volume": null
+        },
+        {
             "name": "teed2021raft3d",
             "class_name": "ConferenceEntry",
             "comment": "RAFT-3D",
@@ -3093,6 +3185,22 @@
             "organization": null,
             "pages": "4578--4587",
             "volume": null
+        },
+        {
+            "name": "zhang2021ners",
+            "class_name": "ConferenceEntry",
+            "comment": "NeRS",
+            "title": "{NeRS}: Neural Reflectance Surfaces for Sparse-view {3D} Reconstruction in the Wild",
+            "author": "Zhang, Jason and Yang, Gengshan and Tulsiani, Shubham and Ramanan, Deva",
+            "month": null,
+            "year": "2021",
+            "doi": null,
+            "booktitle_full": "Advances in Neural Information Processing Systems",
+            "booktitle_short": "Adv. Neural Inf. Process. Syst.",
+            "booktitle_abbreviation": "NeurIPS",
+            "organization": null,
+            "pages": "29835--29847",
+            "volume": "34"
         },
         {
             "name": "barron2022mipnerf360",
@@ -3236,6 +3344,22 @@
             "volume": null
         },
         {
+            "name": "liu2022neuray",
+            "class_name": "ConferenceEntry",
+            "comment": "NeuRay",
+            "title": "Neural Rays for Occlusion-Aware Image-Based Rendering",
+            "author": "Liu, Yuan and Peng, Sida and Liu, Lingjie and Wang, Qianqian and Wang, Peng and Theobalt, Christian and Zhou, Xiaowei and Wang, Wenping",
+            "month": "June",
+            "year": "2022",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "7824-7833",
+            "volume": null
+        },
+        {
             "name": "niemeyer2022regnerf",
             "class_name": "ConferenceEntry",
             "comment": "RegNeRF",
@@ -3286,15 +3410,35 @@
         },
         {
             "name": "xu2022sinnerf",
-            "class_name": "arXivEntry",
+            "class_name": "ConferenceEntry",
             "comment": "SinNeRF",
             "title": "{SinNeRF}: Training Neural Radiance Fields on Complex Scenes from a Single Image",
             "author": "Xu, Dejia and Jiang, Yifan and Wang, Peihao and Fan, Zhiwen and Shi, Humphrey and Wang, Zhangyang",
             "month": null,
             "year": "2022",
             "doi": null,
-            "journal": "arXiv e-prints",
-            "eid": null
+            "booktitle_full": "European Conference on Computer Vision",
+            "booktitle_short": "Eur. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ECCV",
+            "organization": "Springer",
+            "pages": "736--753",
+            "volume": null
+        },
+        {
+            "name": "yang2022fvor",
+            "class_name": "ConferenceEntry",
+            "comment": "FvOR",
+            "title": "{FvOR}: Robust Joint Shape and Pose Optimization for Few-View Object Reconstruction",
+            "author": "Yang, Zhenpei and Ren, Zhile and Bautista, Miguel Angel and Zhang, Zaiwei and Shan, Qi and Huang, Qixing",
+            "month": "June",
+            "year": "2022",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "2497-2507",
+            "volume": null
         },
         {
             "name": "zhang2022video",
@@ -3307,6 +3451,18 @@
             "doi": null,
             "journal": "arXiv e-prints",
             "eid": "2205.02084"
+        },
+        {
+            "name": "zhou2022sparsefusion",
+            "class_name": "arXivEntry",
+            "comment": "SparseFusion",
+            "title": "{SparseFusion}: Distilling View-conditioned Diffusion for 3D Reconstruction",
+            "author": "Zhou, Zhizhuo and Tulsiani, Shubham",
+            "month": null,
+            "year": "2022",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2212.00792"
         },
         {
             "name": "lin2023vision",
@@ -3335,6 +3491,18 @@
             "doi": null,
             "journal": "arXiv e-prints",
             "eid": "2301.07668"
+        },
+        {
+            "name": "wynn2023diffusionerf",
+            "class_name": "arXivEntry",
+            "comment": "Diffusio-NeRF",
+            "title": "{DiffusioNeRF}: Regularizing Neural Radiance Fields with Denoising Diffusion Models",
+            "author": "Wynn, Jamie and Turmukhambetov, Daniyar",
+            "month": null,
+            "year": "2023",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2302.12231"
         }
     ]
 }
