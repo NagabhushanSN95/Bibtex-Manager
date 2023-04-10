@@ -11,7 +11,7 @@ from typing import List
 from data_structures.entry_types.Generic import GenericEntry
 from utils import MonthUtils
 
-EID_PATTERN = r'arXiv:(\d+.\d+)$'
+EID_PATTERN = r'.+arXiv:(\d+.\d+)$'
 
 
 @dataclass(eq=False)
@@ -31,6 +31,8 @@ class arXivEntry(GenericEntry):
         arxiv_entry.eid = arXivEntry.parse_eid(fields_dict.get('eid', None))
         if arxiv_entry.eid is None:
             arxiv_entry.eid = arXivEntry.parse_eid(fields_dict.get('pages', None))
+        if arxiv_entry.eid is None:
+            arxiv_entry.eid = arXivEntry.parse_eid(fields_dict.get('journal', None))
         arxiv_entry.month = MonthUtils.month_to_long(fields_dict.get('month', None))
         arxiv_entry.year = fields_dict.get('year', None)
         arxiv_entry.doi = fields_dict.get('doi', None)

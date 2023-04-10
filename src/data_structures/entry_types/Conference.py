@@ -13,7 +13,7 @@ from typing import List
 from data_structures.entry_types.Generic import GenericEntry
 from utils import MonthUtils, CommonUtils
 
-BOOKTITLE_ABBREVIATION_PATTERN = r'(?:Proceedings of the )?(.+?) \(([\w-]+)\)$'
+BOOKTITLE_ABBREVIATION_PATTERN = r'(?:Proceedings of the )?(.+?)(?: \(([\w-]+)\))?$'
 
 
 @dataclass(eq=False)

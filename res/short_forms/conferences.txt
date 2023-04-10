@@ -9,6 +9,7 @@
 ("European Conference on Computer Vision", "Eur. Conf. Comput. Vis.", "ECCV")
 ("IEEE Conference on Computer Vision and Pattern Recognition", "IEEE Conf. Comput. Vis. Pattern Recog.", "CVPR")
 ("IEEE/CVF Conference on Computer Vision and Pattern Recognition", "IEEE/CVF Conf. Comput. Vis. Pattern Recog.", "CVPR")
+("IEEE Computer Society Conference on Computer Vision and Pattern Recognition", "IEEE Comp. Soc. Conf. Comput. Vis. Pattern Recog.", "CVPR")
 ("IEEE International Conference on Acoustics, Speech and Signal Processing", "IEEE Int. Conf. Acoust. Speech Signal Process.", "ICASSP")
 ("IEEE International Conference on Computer Vision", "IEEE Int. Conf. Comput. Vis.", "ICCV")
 ("IEEE/CVF International Conference on Computer Vision", "IEEE/CVF Int. Conf. Comput. Vis.", "ICCV")
