@@ -3392,6 +3392,22 @@
             "volume": null
         },
         {
+            "name": "somraj2022decompnet",
+            "class_name": "ConferenceEntry",
+            "comment": "DeCOMPnet",
+            "title": "Temporal View Synthesis of Dynamic Scenes through 3D Object Motion Estimation with Multi-Plane Images",
+            "author": "Somraj, Nagabhushan and Sancheti, Pranali and Soundararajan, Rajiv",
+            "month": "October",
+            "year": "2022",
+            "doi": "10.1109/ISMAR55827.2022.00100",
+            "booktitle_full": "IEEE International Symposium on Mixed and Augmented Reality",
+            "booktitle_short": null,
+            "booktitle_abbreviation": "ISMAR",
+            "organization": null,
+            "pages": "817-826",
+            "volume": null
+        },
+        {
             "name": "somraj2022pvqa",
             "class_name": "JournalEntry",
             "comment": "PVQA",
@@ -3399,7 +3415,7 @@
             "author": "Somraj, Nagabhushan and Kashi, Manoj Surya and Arun, S. P. and Soundararajan, Rajiv",
             "month": null,
             "year": "2022",
-            "doi": "https://doi.org/10.1016/j.image.2021.116626",
+            "doi": "10.1016/j.image.2021.116626",
             "journal_full": "Signal Processing: Image Communication",
             "journal_short": "Sign. Process. Image Commun.",
             "journal_abbreviation": "SPIC",
@@ -3478,6 +3494,22 @@
             "booktitle_abbreviation": "WACV",
             "organization": null,
             "pages": "806--815",
+            "volume": null
+        },
+        {
+            "name": "somraj2023vipnerf",
+            "class_name": "ConferenceEntry",
+            "comment": "ViP-NeRF",
+            "title": "{ViP-NeRF}: Visibility Prior for Sparse Input Neural Radiance Fields",
+            "author": "Somraj, Nagabhushan and Soundararajan, Rajiv",
+            "month": "August",
+            "year": "2023",
+            "doi": "10.1145/3588432.3591539",
+            "booktitle_full": "SIGGRAPH",
+            "booktitle_short": null,
+            "booktitle_abbreviation": null,
+            "organization": null,
+            "pages": null,
             "volume": null
         },
         {
