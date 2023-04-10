@@ -3527,7 +3527,7 @@
         {
             "name": "wynn2023diffusionerf",
             "class_name": "arXivEntry",
-            "comment": "Diffusio-NeRF",
+            "comment": "DiffusioNeRF",
             "title": "{DiffusioNeRF}: Regularizing Neural Radiance Fields with Denoising Diffusion Models",
             "author": "Wynn, Jamie and Turmukhambetov, Daniyar",
             "month": null,
