@@ -2130,6 +2130,22 @@
             "eid": "1905.00538"
         },
         {
+            "name": "ke2019dual",
+            "class_name": "ConferenceEntry",
+            "comment": "Dual Student",
+            "title": "Dual Student: Breaking the Limits of the Teacher in Semi-Supervised Learning",
+            "author": "Ke, Zhanghan and Wang, Daoye and Yan, Qiong and Ren, Jimmy and Lau, Rynson W.H.",
+            "month": "October",
+            "year": "2019",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF International Conference on Computer Vision",
+            "booktitle_short": "IEEE/CVF Int. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ICCV",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
             "name": "khan2019novel",
             "class_name": "JournalEntry",
             "comment": "",
@@ -2903,6 +2919,18 @@
             "eid": "2105.06468"
         },
         {
+            "name": "henderson2021unsupervised",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "Unsupervised Video Prediction from a Single Frame by Estimating {3D} Dynamic Scene Structure",
+            "author": "Henderson, Paul and Lampert, Christoph H and Bickel, Bernd",
+            "month": null,
+            "year": "2021",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2106.09051"
+        },
+        {
             "name": "jain2021dietnerf",
             "class_name": "ConferenceEntry",
             "comment": "DietNeRF",
@@ -3005,6 +3033,22 @@
             "doi": null,
             "journal": "arXiv e-prints",
             "eid": "2106.13228"
+        },
+        {
+            "name": "pumarola2021dnerf",
+            "class_name": "ConferenceEntry",
+            "comment": "D-NeRF",
+            "title": "{D-NeRF}: Neural Radiance Fields for Dynamic Scenes",
+            "author": "Pumarola, Albert and Corona, Enric and Pons-Moll, Gerard and Moreno-Noguer, Francesc",
+            "month": "June",
+            "year": "2021",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "10318-10327",
+            "volume": null
         },
         {
             "name": "radford2021clip",
@@ -3344,6 +3388,22 @@
             "volume": null
         },
         {
+            "name": "li2022neural",
+            "class_name": "ConferenceEntry",
+            "comment": "DyNeRF",
+            "title": "Neural {3D} Video Synthesis From Multi-View Video",
+            "author": "Li, Tianye and Slavcheva, Mira and Zollh\\\"ofer, Michael and Green, Simon and Lassner, Christoph and Kim, Changil and Schmidt, Tanner and Lovegrove, Steven and Goesele, Michael and Newcombe, Richard and Lv, Zhaoyang",
+            "month": "June",
+            "year": "2022",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "5521-5531",
+            "volume": null
+        },
+        {
             "name": "liu2022neuray",
             "class_name": "ConferenceEntry",
             "comment": "NeuRay",
@@ -3457,6 +3517,23 @@
             "volume": null
         },
         {
+            "name": "yang2022survey",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "A Survey on Deep Semi-Supervised Learning",
+            "author": "Yang, Xiangli and Song, Zixing and King, Irwin and Xu, Zenglin",
+            "month": null,
+            "year": "2022",
+            "doi": "10.1109/TKDE.2022.3220219",
+            "journal_full": "IEEE Transactions on Knowledge and Data Engineering",
+            "journal_short": null,
+            "journal_abbreviation": null,
+            "organization": null,
+            "volume": null,
+            "number": null,
+            "pages": "1-20"
+        },
+        {
             "name": "zhang2022video",
             "class_name": "arXivEntry",
             "comment": "",
@@ -3479,6 +3556,30 @@
             "doi": null,
             "journal": "arXiv e-prints",
             "eid": "2212.00792"
+        },
+        {
+            "name": "cao2023hexplane",
+            "class_name": "arXivEntry",
+            "comment": "HexPlane",
+            "title": "{Hexplane}: A Fast Representation for Dynamic Scenes",
+            "author": "Cao, Ang and Johnson, Justin",
+            "month": null,
+            "year": "2023",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2301.09632"
+        },
+        {
+            "name": "fridovich2023kplanes",
+            "class_name": "arXivEntry",
+            "comment": "K-Planes",
+            "title": "{K-Planes}: Explicit Radiance Fields in Space, Time, and Appearance",
+            "author": "Fridovich-Keil, Sara and Meanti, Giacomo and Warburg, Frederik and Recht, Benjamin and Kanazawa, Angjoo",
+            "month": null,
+            "year": "2023",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2301.10241"
         },
         {
             "name": "lin2023vision",
@@ -3511,6 +3612,23 @@
             "organization": null,
             "pages": null,
             "volume": null
+        },
+        {
+            "name": "song2023nerfplayer",
+            "class_name": "JournalEntry",
+            "comment": "NeRFPlayer",
+            "title": "{NeRFPlayer}: A Streamable Dynamic Scene Representation with Decomposed Neural Radiance Fields",
+            "author": "Song, Liangchen and Chen, Anpei and Li, Zhong and Chen, Zhang and Chen, Lele and Yuan, Junsong and Xu, Yi and Geiger, Andreas",
+            "month": null,
+            "year": "2023",
+            "doi": "10.1109/TVCG.2023.3247082",
+            "journal_full": "IEEE Transactions on Visualization and Computer Graphics",
+            "journal_short": "IEEE Trans. Vis. Comput. Graph.",
+            "journal_abbreviation": "TVCG",
+            "organization": null,
+            "volume": "29",
+            "number": "5",
+            "pages": "2732-2742"
         },
         {
             "name": "wimbauer2023behind",
