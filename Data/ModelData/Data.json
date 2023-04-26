@@ -68,6 +68,23 @@
             "volume": null
         },
         {
+            "name": "fua1995object",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "Object-centered surface reconstruction: Combining multi-image stereo and shading",
+            "author": "Fua, Pascal and Leclerc, Yvan G",
+            "month": null,
+            "year": "1995",
+            "doi": null,
+            "journal_full": "International Journal of Computer Vision",
+            "journal_short": "Int. J. Comput. Vis.",
+            "journal_abbreviation": "IJCV",
+            "organization": null,
+            "volume": "16",
+            "number": null,
+            "pages": "35--56"
+        },
+        {
             "name": "collins1996spacesweep",
             "class_name": "ConferenceEntry",
             "comment": "",
