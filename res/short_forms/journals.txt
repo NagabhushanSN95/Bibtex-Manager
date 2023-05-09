@@ -13,3 +13,4 @@
 ("Journal of the Optical Society of America", "J. Opt. Soc. Am.", "JOSA")
 ("Neural Processing Letters", "Neural Process. Lett.", "NPL")
 ("Signal Processing: Image Communication", "Sign. Process. Image Commun.", "SPIC")
+("IEEE Transactions on Knowledge and Data Engineering", "IEEE Trans. Know. Data Engg.", "TKDE")
