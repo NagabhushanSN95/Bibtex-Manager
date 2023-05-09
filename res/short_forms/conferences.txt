@@ -25,3 +25,5 @@
 ("International Conference on Quality of Multimedia Experience", "Int. Conf. Qual. Multimedia Exper.", "QoMEX")
 ("International Joint Conferences on Artificial Intelligence", "IJCAI", "IJCAI")
 ("SPIE Human Vision and Electronic Imaging", "SPIE Human Vis. Electron. Imag.", "")
+("International Symposium on Mixed and Augmented Reality", "Int. Symp. Mixed Aug. Reality", "ISMAR")
+("International Symposium on Computer Architecture", "Int. Symp. Comp. Arch.", "ISCA")

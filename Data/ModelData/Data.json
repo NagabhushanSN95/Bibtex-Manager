@@ -2964,18 +2964,6 @@
             "volume": null
         },
         {
-            "name": "johari2021geonerf",
-            "class_name": "arXivEntry",
-            "comment": "GeoNeRF",
-            "title": "{GeoNeRF}: Generalizing NeRF with Geometry Priors",
-            "author": "Mahdi Johari, Mohammad and Lepoittevin, Yann and Fleuret, Fran{\\c{c}}ois",
-            "month": "November",
-            "year": "2021",
-            "doi": null,
-            "journal": "arXiv e-prints",
-            "eid": "2111.13539"
-        },
-        {
             "name": "li2021mine",
             "class_name": "ConferenceEntry",
             "comment": "MINE",
