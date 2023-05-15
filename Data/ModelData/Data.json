@@ -2147,22 +2147,6 @@
             "eid": "1905.00538"
         },
         {
-            "name": "ke2019dual",
-            "class_name": "ConferenceEntry",
-            "comment": "Dual Student",
-            "title": "Dual Student: Breaking the Limits of the Teacher in Semi-Supervised Learning",
-            "author": "Ke, Zhanghan and Wang, Daoye and Yan, Qiong and Ren, Jimmy and Lau, Rynson W.H.",
-            "month": "October",
-            "year": "2019",
-            "doi": null,
-            "booktitle_full": "IEEE/CVF International Conference on Computer Vision",
-            "booktitle_short": "IEEE/CVF Int. Conf. Comput. Vis.",
-            "booktitle_abbreviation": "ICCV",
-            "organization": null,
-            "pages": null,
-            "volume": null
-        },
-        {
             "name": "ke2019dualstudent",
             "class_name": "ConferenceEntry",
             "comment": "Dual-Student",
@@ -3915,20 +3899,19 @@
         },
         {
             "name": "seo2023mixnerf",
-            "class_name": "JournalEntry",
+            "class_name": "ConferenceEntry",
             "comment": "",
             "title": "{MixNeRF}: Modeling a Ray with Mixture Density for Novel View Synthesis from Sparse Inputs",
             "author": "Seo, Seunghyeon and Han, Donghoon and Chang, Yeonjin and Kwak, Nojun",
             "month": "June",
             "year": "2023",
             "doi": null,
-            "journal_full": null,
-            "journal_short": null,
-            "journal_abbreviation": null,
+            "booktitle_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "volume": null,
-            "number": null,
-            "pages": null
+            "pages": null,
+            "volume": null
         },
         {
             "name": "somraj2023vipnerf",
