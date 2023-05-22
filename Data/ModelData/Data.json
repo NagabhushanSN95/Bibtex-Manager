@@ -3356,6 +3356,22 @@
             "volume": null
         },
         {
+            "name": "chen2022tensorf",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "{TensoRF}: Tensorial Radiance Fields",
+            "author": "Chen, Anpei and Xu, Zexiang and Geiger, Andreas and Yu, Jingyi and Su, Hao",
+            "month": null,
+            "year": "2022",
+            "doi": null,
+            "booktitle_full": "European Conference on Computer Vision",
+            "booktitle_short": "Eur. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ECCV",
+            "organization": "Springer",
+            "pages": "333--350",
+            "volume": null
+        },
+        {
             "name": "deng2022dsnerf",
             "class_name": "ConferenceEntry",
             "comment": "DS-NeRF",
@@ -3544,6 +3560,23 @@
             "organization": null,
             "pages": "16190-16199",
             "volume": null
+        },
+        {
+            "name": "muller2022instant",
+            "class_name": "JournalEntry",
+            "comment": "Instant-NGP",
+            "title": "Instant Neural Graphics Primitives with a Multiresolution Hash Encoding",
+            "author": "M{\\\"u}ller, Thomas and Evans, Alex and Schied, Christoph and Keller, Alexander",
+            "month": null,
+            "year": "2022",
+            "doi": null,
+            "journal_full": "ACM Transactions on Graphics",
+            "journal_short": "ACM Trans. Graph.",
+            "journal_abbreviation": "ToG",
+            "organization": null,
+            "volume": "41",
+            "number": "4",
+            "pages": "1--15"
         },
         {
             "name": "niemeyer2022regnerf",
