@@ -3358,7 +3358,7 @@
         {
             "name": "chen2022tensorf",
             "class_name": "ConferenceEntry",
-            "comment": "",
+            "comment": "TensoRF",
             "title": "{TensoRF}: Tensorial Radiance Fields",
             "author": "Chen, Anpei and Xu, Zexiang and Geiger, Andreas and Yu, Jingyi and Su, Hao",
             "month": null,
@@ -3947,6 +3947,22 @@
             "volume": null
         },
         {
+            "name": "somraj2023simplenerf",
+            "class_name": "ConferenceEntry",
+            "comment": "SimpleNeRF",
+            "title": "{SimpleNeRF}: Regularizing Sparse Input Neural Radiance Fields with Simpler Solutions",
+            "author": "Somraj, Nagabhushan and Karanayil, Adithyan and Soundararajan, Rajiv",
+            "month": "December",
+            "year": "2023",
+            "doi": null,
+            "booktitle_full": "ACM Special Interest Group on Computer Graphics and Interactive Techniques - Asia",
+            "booktitle_short": null,
+            "booktitle_abbreviation": "SIGGRAPH-Asia",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
             "name": "somraj2023vipnerf",
             "class_name": "ConferenceEntry",
             "comment": "ViP-NeRF",
@@ -3955,9 +3971,9 @@
             "month": "August",
             "year": "2023",
             "doi": "10.1145/3588432.3591539",
-            "booktitle_full": "SIGGRAPH",
+            "booktitle_full": "ACM Special Interest Group on Computer Graphics and Interactive Techniques",
             "booktitle_short": null,
-            "booktitle_abbreviation": null,
+            "booktitle_abbreviation": "SIGGRAPH",
             "organization": null,
             "pages": null,
             "volume": null
