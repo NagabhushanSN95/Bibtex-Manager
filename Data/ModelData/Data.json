@@ -101,6 +101,38 @@
             "volume": null
         },
         {
+            "name": "gortler1996lumigraph",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "The Lumigraph",
+            "author": "Gortler, Steven J. and Grzeszczuk, Radek and Szeliski, Richard and Cohen, Michael F.",
+            "month": null,
+            "year": "1996",
+            "doi": "10.1145/237170.237200",
+            "booktitle_full": "Computer Graphics and Interactive Techniques",
+            "booktitle_short": null,
+            "booktitle_abbreviation": "SIGGRAPH",
+            "organization": null,
+            "pages": "43\u201354",
+            "volume": null
+        },
+        {
+            "name": "levoy1996light",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Light Field Rendering",
+            "author": "Levoy, Marc and Hanrahan, Pat",
+            "month": null,
+            "year": "1996",
+            "doi": "10.1145/237170.237199",
+            "booktitle_full": "Computer Graphics and Interactive Techniques",
+            "booktitle_short": null,
+            "booktitle_abbreviation": "SIGGRAPH",
+            "organization": null,
+            "pages": "31\u201342",
+            "volume": null
+        },
+        {
             "name": "rao1999predictive",
             "class_name": "JournalEntry",
             "comment": "",
