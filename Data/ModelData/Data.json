@@ -3296,6 +3296,22 @@
             "eid": "2111.10533"
         },
         {
+            "name": "yariv2021volume",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Volume Rendering of Neural Implicit Surfaces",
+            "author": "Yariv, Lior and Gu, Jiatao and Kasten, Yoni and Lipman, Yaron",
+            "month": null,
+            "year": "2021",
+            "doi": null,
+            "booktitle_full": "Advances in Neural Information Processing Systems",
+            "booktitle_short": "Adv. Neural Inf. Process. Syst.",
+            "booktitle_abbreviation": "NeurIPS",
+            "organization": null,
+            "pages": "4805--4815",
+            "volume": "34"
+        },
+        {
             "name": "yu2021pixelnerf",
             "class_name": "ConferenceEntry",
             "comment": "pixel NeRF",
