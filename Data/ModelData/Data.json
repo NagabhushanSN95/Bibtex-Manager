@@ -68,6 +68,22 @@
             "volume": null
         },
         {
+            "name": "chen1993view",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "View Interpolation for Image Synthesis",
+            "author": "Chen, Shenchang Eric and Williams, Lance",
+            "month": null,
+            "year": "1993",
+            "doi": "10.1145/166117.166153",
+            "booktitle_full": "Computer Graphics and Interactive Techniques",
+            "booktitle_short": null,
+            "booktitle_abbreviation": "SIGGRAPH",
+            "organization": null,
+            "pages": "279-288",
+            "volume": null
+        },
+        {
             "name": "fua1995object",
             "class_name": "JournalEntry",
             "comment": "",
