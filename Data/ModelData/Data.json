@@ -287,6 +287,23 @@
             "pages": "1200--1212"
         },
         {
+            "name": "lowe2004sift",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "Distinctive Image Features from Scale-Invariant Keypoints",
+            "author": "Lowe, David G",
+            "month": null,
+            "year": "2004",
+            "doi": null,
+            "journal_full": "International Journal of Computer Vision",
+            "journal_short": "Int. J. Comput. Vis.",
+            "journal_abbreviation": "IJCV",
+            "organization": null,
+            "volume": "60",
+            "number": null,
+            "pages": "91--110"
+        },
+        {
             "name": "schuldt2004recognizing",
             "class_name": "ConferenceEntry",
             "comment": "KTH",
@@ -1163,6 +1180,22 @@
             "volume": "29"
         },
         {
+            "name": "schonberger2016colmap",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Structure-From-Motion Revisited",
+            "author": "Schonberger, Johannes L. and Frahm, Jan-Michael",
+            "month": "June",
+            "year": "2016",
+            "doi": null,
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
             "name": "szegedy2016rethinking",
             "class_name": "ConferenceEntry",
             "comment": "Inception v3",
@@ -1480,6 +1513,25 @@
             "booktitle_abbreviation": "ICMLA",
             "organization": "IEEE",
             "pages": "1011--1014",
+            "volume": null
+        },
+        {
+            "name": "sabater2017interdigital",
+            "class_name": "ConferenceWorkshopEntry",
+            "comment": "",
+            "title": "Dataset and Pipeline for Multi-View Light-Field Video",
+            "author": "Sabater, Neus and Boisson, Guillaume and Vandame, Benoit and Kerbiriou, Paul and Babon, Frederic and Hog, Matthieu and Gendrot, Remy and Langlois, Tristan and Bureller, Olivier and Schubert, Arno and Allie, Valerie",
+            "month": "July",
+            "year": "2017",
+            "doi": null,
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "workshop_full": null,
+            "workshop_short": null,
+            "workshop_abbreviation": null,
+            "organization": null,
+            "pages": null,
             "volume": null
         },
         {
@@ -2400,6 +2452,22 @@
             "organization": null,
             "pages": "12240--12249",
             "volume": null
+        },
+        {
+            "name": "revaud2019r2d2",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "R2D2: Reliable and Repeatable Detector and Descriptor",
+            "author": "Revaud, Jerome and De Souza, Cesar and Humenberger, Martin and Weinzaepfel, Philippe",
+            "month": null,
+            "year": "2019",
+            "doi": null,
+            "booktitle_full": "Advances in Neural Information Processing Systems",
+            "booktitle_short": "Adv. Neural Inf. Process. Syst.",
+            "booktitle_abbreviation": "NeurIPS",
+            "organization": null,
+            "pages": null,
+            "volume": "32"
         },
         {
             "name": "sinno2019large",
@@ -3469,6 +3537,38 @@
             "pages": "3854-3864"
         },
         {
+            "name": "fang2022tineuvox",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Fast Dynamic Radiance Fields with Time-Aware Neural Voxels",
+            "author": "Fang, Jiemin and Yi, Taoran and Wang, Xinggang and Xie, Lingxi and Zhang, Xiaopeng and Liu, Wenyu and Nie\\ss{}ner, Matthias and Tian, Qi",
+            "month": null,
+            "year": "2022",
+            "doi": "10.1145/3550469.3555383",
+            "booktitle_full": "SIGGRAPH Asia 2022 Conference Papers",
+            "booktitle_short": null,
+            "booktitle_abbreviation": null,
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
+            "name": "fridovich2022plenoxels",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "{Plenoxels}: Radiance Fields Without Neural Networks",
+            "author": "Fridovich-Keil, Sara and Yu, Alex and Tancik, Matthew and Chen, Qinhong and Recht, Benjamin and Kanazawa, Angjoo",
+            "month": "June",
+            "year": "2022",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "5501-5510",
+            "volume": null
+        },
+        {
             "name": "guizilini2022learning",
             "class_name": "JournalEntry",
             "comment": "",
@@ -3736,6 +3836,22 @@
             "pages": "116626"
         },
         {
+            "name": "sun2022dvgo",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Direct Voxel Grid Optimization: Super-Fast Convergence for Radiance Fields Reconstruction",
+            "author": "Sun, Cheng and Sun, Min and Chen, Hwann-Tzong",
+            "month": "June",
+            "year": "2022",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "5459-5469",
+            "volume": null
+        },
+        {
             "name": "verbin2022refnerf",
             "class_name": "ConferenceEntry",
             "comment": "Ref-NeRF",
@@ -3857,6 +3973,22 @@
             "eid": "2212.00792"
         },
         {
+            "name": "barron2023zipnerf",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "{Zip-NeRF}: Anti-Aliased Grid-Based Neural Radiance Fields",
+            "author": "Barron, Jonathan T. and Mildenhall, Ben and Verbin, Dor and Srinivasan, Pratul P. and Hedman, Peter",
+            "month": "October",
+            "year": "2023",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF International Conference on Computer Vision",
+            "booktitle_short": "IEEE/CVF Int. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ICCV",
+            "organization": null,
+            "pages": "19697-19705",
+            "volume": null
+        },
+        {
             "name": "bian2023nopenerf",
             "class_name": "JournalEntry",
             "comment": "NoPe-NeRF",
@@ -3927,6 +4059,39 @@
             "eid": "2301.10241"
         },
         {
+            "name": "guo2023forward",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Forward Flow for Novel View Synthesis of Dynamic Scenes",
+            "author": "Guo, Xiang and Sun, Jiadai and Dai, Yuchao and Chen, Guanying and Ye, Xiaoqing and Tan, Xiao and Ding, Errui and Zhang, Yumeng and Wang, Jingdong",
+            "month": "October",
+            "year": "2023",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF International Conference on Computer Vision",
+            "booktitle_short": "IEEE/CVF Int. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ICCV",
+            "organization": null,
+            "pages": "16022-16033",
+            "volume": null
+        },
+        {
+            "name": "kerbl20233dgs",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+            "author": "Kerbl, Bernhard and Kopanas, Georgios and Leimk{\\\"u}hler, Thomas and Drettakis, George",
+            "month": null,
+            "year": "2023",
+            "doi": null,
+            "journal_full": "ACM Transactions on Graphics",
+            "journal_short": "ACM Trans. Graph.",
+            "journal_abbreviation": "TOG",
+            "organization": null,
+            "volume": "42",
+            "number": "4",
+            "pages": null
+        },
+        {
             "name": "kwak2023geconerf",
             "class_name": "arXivEntry",
             "comment": "",
@@ -3995,6 +4160,23 @@
             "eid": "2303.13472"
         },
         {
+            "name": "park2023camp",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "{CamP}: Camera Preconditioning for Neural Radiance Fields",
+            "author": "Park, Keunhong and Henzler, Philipp and Mildenhall, Ben and Barron, Jonathan T. and Martin-Brualla, Ricardo",
+            "month": "December",
+            "year": "2023",
+            "doi": "10.1145/3618321",
+            "journal_full": "ACM Transactions on Graphics",
+            "journal_short": "ACM Trans. Graph.",
+            "journal_abbreviation": "TOG",
+            "organization": null,
+            "volume": "42",
+            "number": "6",
+            "pages": null
+        },
+        {
             "name": "seo2023mixnerf",
             "class_name": "ConferenceEntry",
             "comment": "",
@@ -4009,6 +4191,30 @@
             "organization": null,
             "pages": null,
             "volume": null
+        },
+        {
+            "name": "shaw2023swags",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "SWAGS: Sampling Windows Adaptively for Dynamic 3D Gaussian Splatting",
+            "author": "Shaw, Richard and Song, Jifei and Moreau, Arthur and Nazarczuk, Michal and Catley-Chandar, Sibi and Dhamo, Helisa and Perez-Pellitero, Eduardo",
+            "month": null,
+            "year": "2023",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2312.13308"
+        },
+        {
+            "name": "shi2023zerorf",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "{ZeroRF}: Fast Sparse View 360{\\textdegree} Reconstruction with Zero Pretraining",
+            "author": "Shi, Ruoxi and Wei, Xinyue and Wang, Cheng and Su, Hao",
+            "month": null,
+            "year": "2023",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2312.09249"
         },
         {
             "name": "somraj2023simplenerf",
@@ -4099,6 +4305,30 @@
             "doi": null,
             "journal": "arXiv e-prints",
             "eid": "2301.07668"
+        },
+        {
+            "name": "wu20234dgs",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "{4D} Gaussian Splatting for Real-Time Dynamic Scene Rendering",
+            "author": "Wu, Guanjun and Yi, Taoran and Fang, Jiemin and Xie, Lingxi and Zhang, Xiaopeng and Wei Wei and Liu, Wenyu and Tian, Qi and Wang Xinggang",
+            "month": null,
+            "year": "2023",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2310.08528"
+        },
+        {
+            "name": "wu2023reconfusion",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "{ReconFusion}: {3D} Reconstruction with Diffusion Priors",
+            "author": "Wu, Rundi and Mildenhall, Ben and Henzler, Philipp and Park, Keunhong and Gao, Ruiqi and Watson, Daniel and Srinivasan, Pratul P and Verbin, Dor and Barron, Jonathan T and Poole, Ben and others",
+            "month": null,
+            "year": "2023",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2312.02981"
         },
         {
             "name": "wynn2023diffusionerf",
