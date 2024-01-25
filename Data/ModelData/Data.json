@@ -4116,6 +4116,18 @@
             "eid": "2303.11728"
         },
         {
+            "name": "lee2023fast",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "Fast View Synthesis of Casual Videos",
+            "author": "Lee, Yao-Chih and Zhang, Zhoutong and Blackburn-Matzen, Kevin and Niklaus, Simon and Zhang, Jianming and Huang, Jia-Bin and Liu, Feng",
+            "month": null,
+            "year": "2023",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2312.02135"
+        },
+        {
             "name": "li2023instant3d",
             "class_name": "ConferenceEntry",
             "comment": "",
@@ -4158,6 +4170,22 @@
             "doi": null,
             "journal": "arXiv e-prints",
             "eid": "2303.13472"
+        },
+        {
+            "name": "mirzaei2023spinnerf",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "SPIn-NeRF: Multiview Segmentation and Perceptual Inpainting With Neural Radiance Fields",
+            "author": "Mirzaei, Ashkan and Aumentado-Armstrong, Tristan and Derpanis, Konstantinos G. and Kelly, Jonathan and Brubaker, Marcus A. and Gilitschenski, Igor and Levinshtein, Alex",
+            "month": "June",
+            "year": "2023",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "20669-20679",
+            "volume": null
         },
         {
             "name": "park2023camp",
@@ -4283,6 +4311,22 @@
             "pages": null
         },
         {
+            "name": "wang2023flow",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Flow Supervision for Deformable NeRF",
+            "author": "Wang, Chaoyang and MacDonald, Lachlan Ewen and Jeni, L\\'aszl\\'o A. and Lucey, Simon",
+            "month": "June",
+            "year": "2023",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "21128-21137",
+            "volume": null
+        },
+        {
             "name": "wang2023sparsenerf",
             "class_name": "arXivEntry",
             "comment": "",
@@ -4343,6 +4387,18 @@
             "eid": "2302.12231"
         },
         {
+            "name": "xiong2023sparsegs",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "{SparseGS}: Real-Time 360{\\textdegree} Sparse View Synthesis using Gaussian Splatting",
+            "author": "Xiong, Haolin and Muttukuru, Sairisheek and Upadhyay, Rishi and Chari, Pradyumna and Kadambi, Achuta",
+            "month": null,
+            "year": "2023",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2312.00206"
+        },
+        {
             "name": "yang2023freenerf",
             "class_name": "JournalEntry",
             "comment": "",
@@ -4358,6 +4414,30 @@
             "volume": null,
             "number": null,
             "pages": null
+        },
+        {
+            "name": "yu2023cogs",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "CoGS: Controllable Gaussian Splatting",
+            "author": "Yu, Heng and Julin, Joel and Milacski, Zolt{\\'a}n {\\'A} and Niinuma, Koichiro and Jeni, L{\\'a}szl{\\'o} A",
+            "month": null,
+            "year": "2023",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2312.05664"
+        },
+        {
+            "name": "zhu2023fsgs",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "FSGS: Real-Time Few-shot View Synthesis using Gaussian Splatting",
+            "author": "Zhu, Zehao and Fan, Zhiwen and Jiang, Yifan and Wang, Zhangyang",
+            "month": null,
+            "year": "2023",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2312.00451"
         },
         {
             "name": "zhu2023vdnnerf",
