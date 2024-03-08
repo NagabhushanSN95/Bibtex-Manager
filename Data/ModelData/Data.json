@@ -4007,15 +4007,19 @@
         },
         {
             "name": "cao2023hexplane",
-            "class_name": "arXivEntry",
-            "comment": "HexPlane",
-            "title": "{Hexplane}: A Fast Representation for Dynamic Scenes",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "{HexPlane}: A Fast Representation for Dynamic Scenes",
             "author": "Cao, Ang and Johnson, Justin",
-            "month": null,
+            "month": "June",
             "year": "2023",
             "doi": null,
-            "journal": "arXiv e-prints",
-            "eid": "2301.09632"
+            "booktitle_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "130-141",
+            "volume": null
         },
         {
             "name": "chen2023explicit",
@@ -4048,15 +4052,19 @@
         },
         {
             "name": "fridovich2023kplanes",
-            "class_name": "arXivEntry",
-            "comment": "K-Planes",
+            "class_name": "ConferenceEntry",
+            "comment": "",
             "title": "{K-Planes}: Explicit Radiance Fields in Space, Time, and Appearance",
-            "author": "Fridovich-Keil, Sara and Meanti, Giacomo and Warburg, Frederik and Recht, Benjamin and Kanazawa, Angjoo",
-            "month": null,
+            "author": "Fridovich-Keil, Sara and Meanti, Giacomo and Warburg, Frederik Rahb{\\ae}k and Recht, Benjamin and Kanazawa, Angjoo",
+            "month": "June",
             "year": "2023",
             "doi": null,
-            "journal": "arXiv e-prints",
-            "eid": "2301.10241"
+            "booktitle_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "12479-12488",
+            "volume": null
         },
         {
             "name": "guo2023forward",
