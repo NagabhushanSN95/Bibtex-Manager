@@ -4241,18 +4241,6 @@
             "eid": "2312.13308"
         },
         {
-            "name": "shi2023zerorf",
-            "class_name": "arXivEntry",
-            "comment": "",
-            "title": "{ZeroRF}: Fast Sparse View 360{\\textdegree} Reconstruction with Zero Pretraining",
-            "author": "Shi, Ruoxi and Wei, Xinyue and Wang, Cheng and Su, Hao",
-            "month": null,
-            "year": "2023",
-            "doi": null,
-            "journal": "arXiv e-prints",
-            "eid": "2312.09249"
-        },
-        {
             "name": "somraj2023simplenerf",
             "class_name": "ConferenceEntry",
             "comment": "SimpleNeRF",
@@ -4458,6 +4446,22 @@
             "doi": null,
             "journal": "arXiv e-prints",
             "eid": "2303.17968"
+        },
+        {
+            "name": "shi2024zerorf",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "{ZeroRF}: Fast Sparse View 360{\\textdegree} Reconstruction with Zero Pretraining",
+            "author": "Shi, Ruoxi and Wei, Xinyue and Wang, Cheng and Su, Hao",
+            "month": null,
+            "year": "2024",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": null,
+            "volume": null
         }
     ]
 }
