@@ -4359,18 +4359,6 @@
             "eid": "2310.08528"
         },
         {
-            "name": "wu2023reconfusion",
-            "class_name": "arXivEntry",
-            "comment": "",
-            "title": "{ReconFusion}: {3D} Reconstruction with Diffusion Priors",
-            "author": "Wu, Rundi and Mildenhall, Ben and Henzler, Philipp and Park, Keunhong and Gao, Ruiqi and Watson, Daniel and Srinivasan, Pratul P and Verbin, Dor and Barron, Jonathan T and Poole, Ben and others",
-            "month": null,
-            "year": "2023",
-            "doi": null,
-            "journal": "arXiv e-prints",
-            "eid": "2312.02981"
-        },
-        {
             "name": "wynn2023diffusionerf",
             "class_name": "arXivEntry",
             "comment": "DiffusioNeRF",
@@ -4453,6 +4441,22 @@
             "comment": "",
             "title": "{ZeroRF}: Fast Sparse View 360{\\textdegree} Reconstruction with Zero Pretraining",
             "author": "Shi, Ruoxi and Wei, Xinyue and Wang, Cheng and Su, Hao",
+            "month": null,
+            "year": "2024",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
+            "name": "wu2024reconfusion",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "{ReconFusion}: {3D} Reconstruction with Diffusion Priors",
+            "author": "Wu, Rundi and Mildenhall, Ben and Henzler, Philipp and Park, Keunhong and Gao, Ruiqi and Watson, Daniel and Srinivasan, Pratul P and Verbin, Dor and Barron, Jonathan T and Poole, Ben and others",
             "month": null,
             "year": "2024",
             "doi": null,
