@@ -4374,7 +4374,7 @@
             "name": "xiong2023sparsegs",
             "class_name": "arXivEntry",
             "comment": "",
-            "title": "{SparseGS}: Real-Time 360{\\textdegree} Sparse View Synthesis using Gaussian Splatting",
+            "title": "{SparseGS}: Real-Time 360${}^\\circ$ Sparse View Synthesis using Gaussian Splatting",
             "author": "Xiong, Haolin and Muttukuru, Sairisheek and Upadhyay, Rishi and Chari, Pradyumna and Kadambi, Achuta",
             "month": null,
             "year": "2023",
@@ -4436,10 +4436,22 @@
             "eid": "2303.17968"
         },
         {
+            "name": "gao2024hg3nerf",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "{HG3-NeRF}: Hierarchical Geometric, Semantic, and Photometric Guided Neural Radiance Fields for Sparse View Inputs",
+            "author": "Gao, Zelin and Dai, Weichen and Zhang, Yu",
+            "month": null,
+            "year": "2024",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2401.11711"
+        },
+        {
             "name": "shi2024zerorf",
             "class_name": "ConferenceEntry",
             "comment": "",
-            "title": "{ZeroRF}: Fast Sparse View 360{\\textdegree} Reconstruction with Zero Pretraining",
+            "title": "{ZeroRF}: Fast Sparse View 360${}^\\circ$ Reconstruction with Zero Pretraining",
             "author": "Shi, Ruoxi and Wei, Xinyue and Wang, Cheng and Su, Hao",
             "month": null,
             "year": "2024",
