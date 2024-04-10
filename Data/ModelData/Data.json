@@ -96,7 +96,7 @@
             "booktitle_short": null,
             "booktitle_abbreviation": "SIGGRAPH",
             "organization": null,
-            "pages": "279-288",
+            "pages": "279--288",
             "volume": null
         },
         {
@@ -129,7 +129,7 @@
             "booktitle_short": "IEEE Comp. Soc. Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "358-363",
+            "pages": "358--363",
             "volume": null
         },
         {
@@ -179,7 +179,7 @@
             "organization": null,
             "volume": "3",
             "number": "3",
-            "pages": "201-214"
+            "pages": "201--214"
         },
         {
             "name": "rao1999predictive",
@@ -416,7 +416,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "1-8",
+            "pages": "1--8",
             "volume": null
         },
         {
@@ -3057,7 +3057,7 @@
             "booktitle_short": "IEEE/CVF Int. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ICCV",
             "organization": null,
-            "pages": "5855-5864",
+            "pages": "5855--5864",
             "volume": null
         },
         {
@@ -3086,7 +3086,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "5799-5809",
+            "pages": "5799--5809",
             "volume": null
         },
         {
@@ -3114,7 +3114,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "7911-7920",
+            "pages": "7911--7920",
             "volume": null
         },
         {
@@ -3154,7 +3154,7 @@
             "booktitle_short": "IEEE/CVF Int. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ICCV",
             "organization": null,
-            "pages": "5885-5894",
+            "pages": "5885--5894",
             "volume": null
         },
         {
@@ -3186,7 +3186,7 @@
             "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "6498-6508",
+            "pages": "6498--6508",
             "volume": null
         },
         {
@@ -3246,7 +3246,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "10318-10327",
+            "pages": "10318--10327",
             "volume": null
         },
         {
@@ -3337,7 +3337,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "2846-2855",
+            "pages": "2846--2855",
             "volume": null
         },
         {
@@ -3369,7 +3369,7 @@
             "booktitle_short": "IEEE/CVF Int. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ICCV",
             "organization": null,
-            "pages": "15182-15192",
+            "pages": "15182--15192",
             "volume": null
         },
         {
@@ -3502,7 +3502,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "5470-5479",
+            "pages": "5470--5479",
             "volume": null
         },
         {
@@ -3578,7 +3578,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "12882-12891",
+            "pages": "12882--12891",
             "volume": null
         },
         {
@@ -3596,7 +3596,7 @@
             "organization": null,
             "volume": "28",
             "number": "11",
-            "pages": "3854-3864"
+            "pages": "3854--3864"
         },
         {
             "name": "fang2022tineuvox",
@@ -3627,7 +3627,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "5501-5510",
+            "pages": "5501--5510",
             "volume": null
         },
         {
@@ -3688,7 +3688,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "18365-18375",
+            "pages": "18365--18375",
             "volume": null
         },
         {
@@ -3720,7 +3720,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "12912-12921",
+            "pages": "12912--12921",
             "volume": null
         },
         {
@@ -3736,7 +3736,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "5521-5531",
+            "pages": "5521--5531",
             "volume": null
         },
         {
@@ -3768,7 +3768,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "7824-7833",
+            "pages": "7824--7833",
             "volume": null
         },
         {
@@ -3784,7 +3784,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "12861-12870",
+            "pages": "12861--12870",
             "volume": null
         },
         {
@@ -3800,7 +3800,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "16190-16199",
+            "pages": "16190--16199",
             "volume": null
         },
         {
@@ -3833,7 +3833,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "5480-5490",
+            "pages": "5480--5490",
             "volume": null
         },
         {
@@ -3849,7 +3849,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "12672-12681",
+            "pages": "12672--12681",
             "volume": null
         },
         {
@@ -3865,7 +3865,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "12892-12901",
+            "pages": "12892--12901",
             "volume": null
         },
         {
@@ -3893,7 +3893,7 @@
             "booktitle_short": null,
             "booktitle_abbreviation": "ISMAR",
             "organization": null,
-            "pages": "817-826",
+            "pages": "817--826",
             "volume": null
         },
         {
@@ -3926,7 +3926,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "5459-5469",
+            "pages": "5459--5469",
             "volume": null
         },
         {
@@ -3942,7 +3942,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "5491-5500",
+            "pages": "5491--5500",
             "volume": null
         },
         {
@@ -3958,7 +3958,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "3835-3844",
+            "pages": "3835--3844",
             "volume": null
         },
         {
@@ -4002,7 +4002,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "2497-2507",
+            "pages": "2497--2507",
             "volume": null
         },
         {
@@ -4020,7 +4020,7 @@
             "organization": null,
             "volume": null,
             "number": null,
-            "pages": "1-20"
+            "pages": "1--20"
         },
         {
             "name": "yuan2022nerfediting",
@@ -4035,7 +4035,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "18353-18364",
+            "pages": "18353--18364",
             "volume": null
         },
         {
@@ -4075,7 +4075,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "290-299",
+            "pages": "290--299",
             "volume": null
         },
         {
@@ -4091,7 +4091,7 @@
             "booktitle_short": "IEEE/CVF Int. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ICCV",
             "organization": null,
-            "pages": "19697-19705",
+            "pages": "19697--19705",
             "volume": null
         },
         {
@@ -4124,7 +4124,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "130-141",
+            "pages": "130--141",
             "volume": null
         },
         {
@@ -4169,7 +4169,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "12479-12488",
+            "pages": "12479--12488",
             "volume": null
         },
         {
@@ -4185,7 +4185,7 @@
             "booktitle_short": "IEEE/CVF Int. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ICCV",
             "organization": null,
-            "pages": "16022-16033",
+            "pages": "16022--16033",
             "volume": null
         },
         {
@@ -4314,7 +4314,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "20669-20679",
+            "pages": "20669--20679",
             "volume": null
         },
         {
@@ -4347,7 +4347,7 @@
             "booktitle_short": "IEEE/CVF Int. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ICCV",
             "organization": null,
-            "pages": "22883-22893",
+            "pages": "22883--22893",
             "volume": null
         },
         {
@@ -4425,7 +4425,7 @@
             "organization": null,
             "volume": "29",
             "number": "5",
-            "pages": "2732-2742"
+            "pages": "2732--2742"
         },
         {
             "name": "uy2023scade",
@@ -4457,7 +4457,7 @@
             "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
             "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "pages": "21128-21137",
+            "pages": "21128--21137",
             "volume": null
         },
         {
@@ -4485,7 +4485,7 @@
             "booktitle_short": "IEEE/CVF Int. Conf. Comput. Vis.",
             "booktitle_abbreviation": "ICCV",
             "organization": null,
-            "pages": "19795-19806",
+            "pages": "19795--19806",
             "volume": null
         },
         {
