@@ -4,6 +4,7 @@
 ("IEEE Signal Processing Magazine", "IEEE Sign. Process. Mag.", "")
 ("IEEE Transactions on Circuits and Systems for Video Technology", "IEEE Trans. Circuits Syst. Video Technol.", "TCSVT")
 ("IEEE Transactions on Image Processing", "IEEE Trans. Image Process.", "TIP")
+("IEEE Transactions on Knowledge and Data Engineering", "IEEE Trans. Know. Data Engg.", "TKDE")
 ("IEEE Transactions on Multimedia", "IEEE Trans. Multimedia", "TMM")
 ("IEEE Transactions on Pattern Analysis and Machine Intelligence", "IEEE Trans. Pattern Anal. Mach. Intell.", "TPAMI")
 ("IEEE Transactions on Visualization and Computer Graphics", "IEEE Trans. Vis. Comput. Graph.", "TVCG")
@@ -13,4 +14,3 @@
 ("Journal of the Optical Society of America", "J. Opt. Soc. Am.", "JOSA")
 ("Neural Processing Letters", "Neural Process. Lett.", "NPL")
 ("Signal Processing: Image Communication", "Sign. Process. Image Commun.", "SPIC")
-("IEEE Transactions on Knowledge and Data Engineering", "IEEE Trans. Know. Data Engg.", "TKDE")
