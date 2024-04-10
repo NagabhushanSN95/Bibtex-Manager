@@ -45,6 +45,15 @@ class GenericEntry:
         raise NotImplementedError
 
     @staticmethod
+    def parse_pages(pages: str):
+        if pages is None:
+            updated_pages = None
+        else:
+            # Replace - with -- using regex
+            updated_pages = re.sub(r'(\d+)-(\d+)', r'\1--\2', pages)
+        return updated_pages
+
+    @staticmethod
     def extract_comment(raw_data: List[str]):
         comment_lines = []
         for line in raw_data:

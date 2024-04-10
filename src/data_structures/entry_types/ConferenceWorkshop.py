@@ -42,7 +42,7 @@ class ConferenceWorkshopEntry(GenericEntry):
         conf_entry.year = fields_dict.get('year', None)
         conf_entry.doi = fields_dict.get('doi', None)
         conf_entry.organization = fields_dict.get('organization', None)
-        conf_entry.pages = fields_dict.get('pages', None)
+        conf_entry.pages = ConferenceWorkshopEntry.parse_pages(fields_dict.get('pages', None))
         conf_entry.volume = fields_dict.get('volume', None)
 
         booktitle_data = ConferenceWorkshopEntry.parse_booktitle(fields_dict.get('booktitle', None))

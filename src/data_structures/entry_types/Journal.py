@@ -41,7 +41,7 @@ class JournalEntry(GenericEntry):
         journal_entry.organization = fields_dict.get('organization', None)
         journal_entry.volume = fields_dict.get('volume', None)
         journal_entry.number = fields_dict.get('number', None)
-        journal_entry.pages = fields_dict.get('pages', None)
+        journal_entry.pages = JournalEntry.parse_pages(fields_dict.get('pages', None))
 
         journal_data = JournalEntry.parse_journal(fields_dict.get('journal', None))
         journal_entry.journal_full = journal_data[0]
