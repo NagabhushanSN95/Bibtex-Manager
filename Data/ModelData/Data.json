@@ -215,6 +215,22 @@
             "volume": "2"
         },
         {
+            "name": "vedula2000shape",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Shape and Motion Carving in {6D}",
+            "author": "Vedula, S. and Baker, S. and Seitz, S. and Kanade, T.",
+            "month": null,
+            "year": "2000",
+            "doi": "10.1109/CVPR.2000.854926",
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "592--598 vol.2",
+            "volume": "2"
+        },
+        {
             "name": "zwicker2001splatting",
             "class_name": "ConferenceEntry",
             "comment": "Surface Splatting",
@@ -252,6 +268,23 @@
             "doi": null,
             "institution_full": "International Telecommunication Union",
             "institution_short": "Int. Telecommun. Union"
+        },
+        {
+            "name": "carranza2003free",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "Free-Viewpoint Video of Human Actors",
+            "author": "Carranza, Joel and Theobalt, Christian and Magnor, Marcus A. and Seidel, Hans-Peter",
+            "month": "July",
+            "year": "2003",
+            "doi": "10.1145/882262.882309",
+            "journal_full": "ACM Transactions on Graphics",
+            "journal_short": "ACM Trans. Graph.",
+            "journal_abbreviation": "TOG",
+            "organization": null,
+            "volume": "22",
+            "number": "3",
+            "pages": "569\u2013577"
         },
         {
             "name": "wang2003multiscale",
