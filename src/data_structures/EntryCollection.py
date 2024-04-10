@@ -82,6 +82,5 @@ class EntryCollection:
             if name_sans_year in name_sans_year_list:
                 matching_index = name_sans_year_list.index(name_sans_year)
                 print(f'Warning: Possible duplicate entries: {self.entries[matching_index].name} and {entry.name}')
-            else:
-                name_sans_year_list.append(name_sans_year)
+            name_sans_year_list.append(name_sans_year)
         return

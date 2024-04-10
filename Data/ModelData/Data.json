@@ -2363,7 +2363,7 @@
             "pages": "1--6"
         },
         {
-            "name": "kim2019deep",
+            "name": "kim2019vinet",
             "class_name": "ConferenceEntry",
             "comment": "VINet",
             "title": "Deep Video Inpainting",
@@ -3207,7 +3207,7 @@
             "volume": null
         },
         {
-            "name": "li2021neural",
+            "name": "li2021nsff",
             "class_name": "ConferenceEntry",
             "comment": "",
             "title": "Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes",
