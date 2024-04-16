@@ -1,5 +1,6 @@
 ("ACM Transactions on Graphics", "ACM Trans. Graph.", "TOG")
 ("Annals of Statistics", "Ann. Statist.", "")
+("Computer Graphics Forum", "Comp. Graph. Forum", "CGF")
 ("IEEE Signal Processing Letters", "IEEE Sign. Process. Lett.", "SPL")
 ("IEEE Signal Processing Magazine", "IEEE Sign. Process. Mag.", "")
 ("IEEE Transactions on Circuits and Systems for Video Technology", "IEEE Trans. Circuits Syst. Video Technol.", "TCSVT")

@@ -28,3 +28,4 @@
 ("International Joint Conferences on Artificial Intelligence", "IJCAI", "IJCAI")
 ("International Symposium on Computer Architecture", "Int. Symp. Comp. Arch.", "ISCA")
 ("SPIE Human Vision and Electronic Imaging", "SPIE Human Vis. Electron. Imag.", "")
+("Symposium on Geometry Processing", "Symp. Geom. Process.", "SGP")

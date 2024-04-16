@@ -61,7 +61,7 @@ class ConferenceEntry(GenericEntry):
             else:
                 abbreviation = None
 
-            short_forms = ['conf.']
+            short_forms = ['conf.', 'proc.']
             if any(short_form in booktitle.lower() for short_form in short_forms):
                 short_name = booktitle
                 full_name = None
