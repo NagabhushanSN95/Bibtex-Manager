@@ -5,6 +5,6 @@
   "arXivEntry": ["title", "author", "journal", "eid", "pages", "archivePrefix", "eprint", "month", "year", "doi"],
   "bioRxivEntry": ["title", "author", "journal", "eid", "month", "year", "doi"],
   "TechReportEntry": ["title", "author", "institution_full", "month", "year", "doi"],
-  "BookEntry": ["title", "author", "volume", "month", "year", "doi"],
+  "BookEntry": ["title", "author", "volume", "publisher", "month", "year", "doi"],
   "MiscEntry": ["title", "author", "journal", "url", "note", "year", "doi"]
 }

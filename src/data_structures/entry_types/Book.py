@@ -14,6 +14,7 @@ from utils import MonthUtils
 @dataclass(eq=False)
 class BookEntry(GenericEntry):
     volume: str = None
+    publisher: str = None
 
     @staticmethod
     def parse_raw_data(raw_data: List[str]):
@@ -27,6 +28,7 @@ class BookEntry(GenericEntry):
         book_entry.month = MonthUtils.month_to_long(fields_dict.get('month', None))
         book_entry.year = fields_dict.get('year', None)
         book_entry.volume = fields_dict.get('volume', None)
+        book_entry.publisher = fields_dict.get('publisher', None)
         book_entry.doi = fields_dict.get('doi', None)
         return book_entry
 
@@ -45,6 +47,8 @@ class BookEntry(GenericEntry):
             lines.append(f'    author = {{{self.author}}},')
         if ('volume' in fields_names) and self.volume:
             lines.append(f'    volume = {{{self.volume}}},')
+        if ('publisher' in fields_names) and self.publisher:
+            lines.append(f'    publisher = {{{self.publisher}}},')
         month_str = self.compose_month(fields_names)
         if month_str is not None:
             lines.append(f'    month = {{{month_str}}},')
