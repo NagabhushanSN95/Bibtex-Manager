@@ -4002,6 +4002,18 @@
             "eid": "2105.05994"
         },
         {
+            "name": "wang2021neus",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "{NeuS}: Learning Neural Implicit Surfaces by Volume Rendering for Multi-view Reconstruction",
+            "author": "Wang, Peng and Liu, Lingjie and Liu, Yuan and Theobalt, Christian and Komura, Taku and Wang, Wenping",
+            "month": null,
+            "year": "2021",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2106.10689"
+        },
+        {
             "name": "wizadwongsa2021nex",
             "class_name": "ConferenceEntry",
             "comment": "NeX",
@@ -4357,6 +4369,22 @@
             "booktitle_abbreviation": "CVPR",
             "organization": null,
             "pages": "7824--7833",
+            "volume": null
+        },
+        {
+            "name": "long2022sparseneus",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "{SparseNeuS}: Fast Generalizable Neural Surface Reconstruction from Sparse Views",
+            "author": "Long, Xiaoxiao and Lin, Cheng and Wang, Peng and Komura, Taku and Wang, Wenping",
+            "month": null,
+            "year": "2022",
+            "doi": null,
+            "booktitle_full": "European Conference on Computer Vision",
+            "booktitle_short": "Eur. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ECCV",
+            "organization": "Springer",
+            "pages": "210--227",
             "volume": null
         },
         {
