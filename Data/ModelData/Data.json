@@ -134,6 +134,22 @@
             "pages": "35--56"
         },
         {
+            "name": "mcmillan1995plenoptic",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Plenoptic Modeling: An Image-Based Rendering System",
+            "author": "McMillan, Leonard and Bishop, Gary",
+            "month": null,
+            "year": "1995",
+            "doi": "10.1145/218380.218398",
+            "booktitle_full": "ACM Conference on Computer Graphics and Interactive Techniques",
+            "booktitle_short": "ACM Comp. Graph. Int. Tech.",
+            "booktitle_abbreviation": "SIGGRAPH",
+            "organization": null,
+            "pages": "39--46",
+            "volume": null
+        },
+        {
             "name": "collins1996spacesweep",
             "class_name": "ConferenceEntry",
             "comment": "",
@@ -215,6 +231,34 @@
             "pages": "201--214"
         },
         {
+            "name": "mcmillan1997image",
+            "class_name": "BookEntry",
+            "comment": "",
+            "title": "An Image-Based Approach to Three-Dimensional Computer Graphics",
+            "author": "McMillan Jr, Leonard",
+            "month": null,
+            "year": "1997",
+            "doi": null,
+            "volume": null,
+            "publisher": "The University of North Carolina at Chapel Hill"
+        },
+        {
+            "name": "shade1998ldi",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Layered Depth Images",
+            "author": "Shade, Jonathan and Gortler, Steven and He, Li-wei and Szeliski, Richard",
+            "month": null,
+            "year": "1998",
+            "doi": "10.1145/280814.280882",
+            "booktitle_full": "ACM Conference on Computer Graphics and Interactive Techniques",
+            "booktitle_short": "ACM Comp. Graph. Int. Tech.",
+            "booktitle_abbreviation": "SIGGRAPH",
+            "organization": null,
+            "pages": "231\u2013242",
+            "volume": null
+        },
+        {
             "name": "blanz1999morphable",
             "class_name": "ConferenceEntry",
             "comment": "",
@@ -229,6 +273,18 @@
             "organization": null,
             "pages": "187--194",
             "volume": null
+        },
+        {
+            "name": "mark1999postrendering",
+            "class_name": "BookEntry",
+            "comment": "",
+            "title": "Post-Rendering 3D Image Warping: Visibility, Reconstruction, and Performance for Depth-Image Warping",
+            "author": "Mark, William R",
+            "month": null,
+            "year": "1999",
+            "doi": null,
+            "volume": null,
+            "publisher": "The University of North Carolina at Chapel Hill"
         },
         {
             "name": "rao1999predictive",
@@ -262,6 +318,22 @@
             "organization": "IEEE",
             "pages": "722--729",
             "volume": "2"
+        },
+        {
+            "name": "chai2000plenoptic",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Plenoptic Sampling",
+            "author": "Chai, Jin-Xiang and Tong, Xin and Chan, Shing-Chow and Shum, Heung-Yeung",
+            "month": null,
+            "year": "2000",
+            "doi": "10.1145/344779.344932",
+            "booktitle_full": "ACM Conference on Computer Graphics and Interactive Techniques",
+            "booktitle_short": "ACM Comp. Graph. Int. Tech.",
+            "booktitle_abbreviation": "SIGGRAPH",
+            "organization": null,
+            "pages": "307\u2013318",
+            "volume": null
         },
         {
             "name": "vedula2000shape",
@@ -320,7 +392,8 @@
             "month": null,
             "year": "2002",
             "doi": null,
-            "volume": "2"
+            "volume": "2",
+            "publisher": null
         },
         {
             "name": "itu2002methodology",
@@ -466,6 +539,22 @@
             "volume": "13",
             "number": "9",
             "pages": "1200--1212"
+        },
+        {
+            "name": "fehn2004depth",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Depth-Image-Based Rendering ({DIBR}), Compression and Transmission for a New Approach on {3D-TV}",
+            "author": "Christoph Fehn",
+            "month": null,
+            "year": "2004",
+            "doi": "10.1117/12.524762",
+            "booktitle_full": "Stereoscopic Displays and Virtual Reality Systems XI",
+            "booktitle_short": null,
+            "booktitle_abbreviation": null,
+            "organization": "International Society for Optics and Photonics",
+            "pages": "93 -- 104",
+            "volume": "5291"
         },
         {
             "name": "ihrke2004image",
@@ -1159,6 +1248,23 @@
             "eid": "1212.0402"
         },
         {
+            "name": "chaurasia2013depth",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "Depth Synthesis and Local Warps for Plausible Image-Based Navigation",
+            "author": "Chaurasia, Gaurav and Duchene, Sylvain and Sorkine-Hornung, Olga and Drettakis, George",
+            "month": "July",
+            "year": "2013",
+            "doi": "10.1145/2487228.2487238",
+            "journal_full": "ACM Transactions on Graphics",
+            "journal_short": "ACM Trans. Graph.",
+            "journal_abbreviation": "TOG",
+            "organization": null,
+            "volume": "32",
+            "number": "3",
+            "pages": null
+        },
+        {
             "name": "geiger2013vision",
             "class_name": "JournalEntry",
             "comment": "KITTI",
@@ -1234,7 +1340,8 @@
             "month": null,
             "year": "2014",
             "doi": null,
-            "volume": null
+            "volume": null,
+            "publisher": null
         },
         {
             "name": "goodfellow2014gan",
@@ -1828,7 +1935,8 @@
             "month": null,
             "year": "2017",
             "doi": null,
-            "volume": null
+            "volume": null,
+            "publisher": null
         },
         {
             "name": "cho2017hole",
@@ -4949,6 +5057,18 @@
             "volume": "42",
             "number": "6",
             "pages": null
+        },
+        {
+            "name": "ramamoorthi2023nerfs",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "{NeRFs}: The Search for the Best {3D} Representation",
+            "author": "Ramamoorthi, Ravi",
+            "month": null,
+            "year": "2023",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2308.02751"
         },
         {
             "name": "seo2023flipnerf",
