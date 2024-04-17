@@ -2747,6 +2747,22 @@
             "volume": null
         },
         {
+            "name": "ulyanov2018deepimageprior",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Deep Image Prior",
+            "author": "Ulyanov, Dmitry and Vedaldi, Andrea and Lempitsky, Victor",
+            "month": "June",
+            "year": "2018",
+            "doi": null,
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
             "name": "wang2018eidetic",
             "class_name": "ConferenceEntry",
             "comment": "",
@@ -5173,6 +5189,22 @@
             "pages": null
         },
         {
+            "name": "prinzler2023diner",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "{DINER}: Depth-Aware Image-Based NEural Radiance Fields",
+            "author": "Prinzler, Malte and Hilliges, Otmar and Thies, Justus",
+            "month": "June",
+            "year": "2023",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "12449--12459",
+            "volume": null
+        },
+        {
             "name": "ramamoorthi2023nerfs",
             "class_name": "arXivEntry",
             "comment": "",
@@ -5470,6 +5502,18 @@
             "doi": null,
             "journal": "arXiv e-prints",
             "eid": "2303.17968"
+        },
+        {
+            "name": "chen2024mvsplat",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "{MVSplat}: Efficient 3D Gaussian Splatting from Sparse Multi-View Images",
+            "author": "Chen, Yuedong and Xu, Haofei and Zheng, Chuanxia and Zhuang, Bohan and Pollefeys, Marc and Geiger, Andreas and Cham, Tat-Jen and Cai, Jianfei",
+            "month": null,
+            "year": "2024",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2403.14627"
         },
         {
             "name": "deng2024ray",
