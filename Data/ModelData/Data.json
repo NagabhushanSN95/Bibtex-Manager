@@ -361,7 +361,7 @@
             "year": "2001",
             "doi": "10.1145/383259.383277",
             "booktitle_full": "ACM Conference on Computer Graphics and Interactive Techniques",
-            "booktitle_short": "Comp. Graph. Int. Tech.",
+            "booktitle_short": "ACM Comp. Graph. Int. Tech.",
             "booktitle_abbreviation": "SIGGRAPH",
             "organization": null,
             "pages": "179--184",
@@ -4032,6 +4032,22 @@
             "volume": "139"
         },
         {
+            "name": "reiser2021kilonerf",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "{KiloNeRF}: Speeding Up Neural Radiance Fields With Thousands of Tiny {MLPs}",
+            "author": "Reiser, Christian and Peng, Songyou and Liao, Yiyi and Geiger, Andreas",
+            "month": "October",
+            "year": "2021",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF International Conference on Computer Vision",
+            "booktitle_short": "IEEE/CVF Int. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ICCV",
+            "organization": null,
+            "pages": "14335--14345",
+            "volume": null
+        },
+        {
             "name": "rochow2021fadiv",
             "class_name": "arXivEntry",
             "comment": "",
@@ -4261,6 +4277,22 @@
             "booktitle_abbreviation": "CVPR",
             "organization": null,
             "pages": "4578--4587",
+            "volume": null
+        },
+        {
+            "name": "yu2021plenoctrees",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "PlenOctrees for Real-Time Rendering of Neural Radiance Fields",
+            "author": "Yu, Alex and Li, Ruilong and Tancik, Matthew and Li, Hao and Ng, Ren and Kanazawa, Angjoo",
+            "month": "October",
+            "year": "2021",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF International Conference on Computer Vision",
+            "booktitle_short": "IEEE/CVF Int. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ICCV",
+            "organization": null,
+            "pages": "5752--5761",
             "volume": null
         },
         {
@@ -5153,6 +5185,22 @@
             "eid": "2308.02751"
         },
         {
+            "name": "ritschel2023gradientscaling",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Floaters No More: Radiance Field Gradient Scaling for Improved Near-Camera Training",
+            "author": "Philip, Julien and Deschaintre, Valentin",
+            "month": null,
+            "year": "2023",
+            "doi": "10.2312/sr.20231122",
+            "booktitle_full": "Eurographics Symposium on Rendering",
+            "booktitle_short": null,
+            "booktitle_abbreviation": null,
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
             "name": "seo2023flipnerf",
             "class_name": "ConferenceEntry",
             "comment": "",
@@ -5450,6 +5498,22 @@
             "doi": null,
             "journal": "arXiv e-prints",
             "eid": "2401.11711"
+        },
+        {
+            "name": "lee2024posediff",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "{PoseDiff}: Pose-Conditioned Multimodal Diffusion Model for Unbounded Scene Synthesis From Sparse Inputs",
+            "author": "Lee, Seoyoung and Lee, Joonseok",
+            "month": "January",
+            "year": "2024",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF Winter Conference on Applications of Computer Vision",
+            "booktitle_short": "IEEE/CVF Winter Conf. App. Comput. Vis.",
+            "booktitle_abbreviation": "WACV",
+            "organization": null,
+            "pages": "5007--5017",
+            "volume": null
         },
         {
             "name": "li2024dngaussian",
