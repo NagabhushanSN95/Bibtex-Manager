@@ -3702,6 +3702,22 @@
             "volume": null
         },
         {
+            "name": "jeong2021scnerf",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Self-Calibrating Neural Radiance Fields",
+            "author": "Jeong, Yoonwoo and Ahn, Seokjun and Choy, Christopher and Anandkumar, Anima and Cho, Minsu and Park, Jaesik",
+            "month": "October",
+            "year": "2021",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF International Conference on Computer Vision",
+            "booktitle_short": "IEEE/CVF Int. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ICCV",
+            "organization": null,
+            "pages": "5846--5854",
+            "volume": null
+        },
+        {
             "name": "li2021mine",
             "class_name": "ConferenceEntry",
             "comment": "MINE",
@@ -3731,6 +3747,22 @@
             "booktitle_abbreviation": "CVPR",
             "organization": null,
             "pages": "6498--6508",
+            "volume": null
+        },
+        {
+            "name": "lin2021barf",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "{BARF}: Bundle-Adjusting Neural Radiance Fields",
+            "author": "Lin, Chen-Hsuan and Ma, Wei-Chiu and Torralba, Antonio and Lucey, Simon",
+            "month": "October",
+            "year": "2021",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF International Conference on Computer Vision",
+            "booktitle_short": "IEEE/CVF Int. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ICCV",
+            "organization": null,
+            "pages": "5741--5751",
             "volume": null
         },
         {
@@ -3944,6 +3976,18 @@
             "organization": null,
             "pages": "4690--4699",
             "volume": null
+        },
+        {
+            "name": "wang2021nerfminusminus",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "{NeRF--}: Neural Radiance Fields without Known Camera Parameters",
+            "author": "Wang, Zirui and Wu, Shangzhe and Xie, Weidi and Chen, Min and Prisacariu, Victor Adrian",
+            "month": null,
+            "year": "2021",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2102.07064"
         },
         {
             "name": "wang2021neural",
@@ -4970,6 +5014,22 @@
             "volume": "29",
             "number": "5",
             "pages": "2732--2742"
+        },
+        {
+            "name": "truong2023sparf",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "{SPARF}: Neural Radiance Fields From Sparse and Noisy Poses",
+            "author": "Truong, Prune and Rakotosaona, Marie-Julie and Manhardt, Fabian and Tombari, Federico",
+            "month": "June",
+            "year": "2023",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "4190--4200",
+            "volume": null
         },
         {
             "name": "uy2023scade",
