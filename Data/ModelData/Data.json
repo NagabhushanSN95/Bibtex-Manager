@@ -386,6 +386,22 @@
             "pages": "569--577"
         },
         {
+            "name": "guskov2003trackable",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Trackable Surfaces",
+            "author": "Guskov, Igor and Klibanov, Sergey and Bryant, Benjamin",
+            "month": null,
+            "year": "2003",
+            "doi": null,
+            "booktitle_full": "ACM SIGGRAPH/Eurographics Symposium on Computer Animation",
+            "booktitle_short": "ACM SIGGRAPH/Eurographics. Symp. Comp. Anim.",
+            "booktitle_abbreviation": "SCA",
+            "organization": null,
+            "pages": "251--257",
+            "volume": null
+        },
+        {
             "name": "wang2003multiscale",
             "class_name": "ConferenceEntry",
             "comment": "MS-SSIM",
@@ -461,8 +477,8 @@
             "year": "2004",
             "doi": "10.1145/1028523.1028572",
             "booktitle_full": "ACM SIGGRAPH/Eurographics Symposium on Computer Animation",
-            "booktitle_short": null,
-            "booktitle_abbreviation": null,
+            "booktitle_short": "ACM SIGGRAPH/Eurographics. Symp. Comp. Anim.",
+            "booktitle_abbreviation": "SCA",
             "organization": null,
             "pages": "365--373",
             "volume": null
@@ -616,6 +632,22 @@
             "volume": "24",
             "number": "3",
             "pages": "1090--1097"
+        },
+        {
+            "name": "hasler2006physically",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Physically based Tracking of Cloth",
+            "author": "Hasler, Nils and Asbach, Mark and Rosenhahn, Bodo and Ohm, Jens-Rainer and Seidel, Hans-Peter",
+            "month": null,
+            "year": "2006",
+            "doi": null,
+            "booktitle_full": "International Workshop on Vision, Modeling, and Visualization",
+            "booktitle_short": null,
+            "booktitle_abbreviation": "VMV",
+            "organization": null,
+            "pages": "49--56",
+            "volume": null
         },
         {
             "name": "gallup2007realtime",
@@ -3130,6 +3162,23 @@
             "volume": "28",
             "number": "12",
             "pages": "5757--5770"
+        },
+        {
+            "name": "broxton2020immersive",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "Immersive Light Field Video with a Layered Mesh Representation",
+            "author": "Broxton, Michael and Flynn, John and Overbeck, Ryan and Erickson, Daniel and Hedman, Peter and Duvall, Matthew and Dourgarian, Jason and Busch, Jay and Whalen, Matt and Debevec, Paul",
+            "month": "August",
+            "year": "2020",
+            "doi": "10.1145/3386569.3392485",
+            "journal_full": "ACM Transactions on Graphics",
+            "journal_short": "ACM Trans. Graph.",
+            "journal_abbreviation": "TOG",
+            "organization": null,
+            "volume": "39",
+            "number": "4",
+            "pages": null
         },
         {
             "name": "choi2020deep",

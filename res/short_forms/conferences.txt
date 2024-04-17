@@ -1,5 +1,6 @@
 ("AAAI Conference on Artificial Intelligence", "AAAI", "AAAI")
 ("ACM Conference on Computer Graphics and Interactive Techniques", "ACM Comp. Graph. Int. Tech.", "SIGGRAPH")
+("ACM SIGGRAPH/Eurographics Symposium on Computer Animation", "ACM SIGGRAPH/Eurographics. Symp. Comp. Anim.", "SCA")
 ("ACM Special Interest Group on Computer Graphics and Interactive Techniques", "ACM Spec. Int. Gr. Comp. Graph. Int. Tech.", "SIGGRAPH")
 ("ACM International Conference on Multimedia", "Int. Conf. Multimedia", "ACM-MM")
 ("Advances in Neural Information Processing Systems", "Adv. Neural Inf. Process. Syst.", "NeurIPS")
