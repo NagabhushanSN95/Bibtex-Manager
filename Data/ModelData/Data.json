@@ -739,6 +739,22 @@
             "volume": null
         },
         {
+            "name": "smolic20063d",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "{3D} Video and Free Viewpoint Video - Technologies, Applications and {MPEG} Standards",
+            "author": "Smolic, Aljoscha and Mueller, Karsten and Merkle, Philipp and Fehn, Christoph and Kauff, Peter and Eisert, Peter and Wiegand, Thomas",
+            "month": null,
+            "year": "2006",
+            "doi": "10.1109/ICME.2006.262683",
+            "booktitle_full": "IEEE International Conference on Multimedia and Expo",
+            "booktitle_short": "Int. Conf. Multimedia Expo",
+            "booktitle_abbreviation": "ICME",
+            "organization": null,
+            "pages": "2161--2164",
+            "volume": null
+        },
+        {
             "name": "gallup2007realtime",
             "class_name": "ConferenceEntry",
             "comment": "",
@@ -1017,6 +1033,22 @@
             "organization": "SPIE",
             "pages": "128--137",
             "volume": "7527"
+        },
+        {
+            "name": "sun2010overview",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "An Overview of Free View-Point Depth-Image-Based Rendering ({DIBR})",
+            "author": "Sun, Wenxiu and Xu, Lingfeng and Au, Oscar C and Chui, Sung Him and Kwok, Chun Wing",
+            "month": null,
+            "year": "2010",
+            "doi": null,
+            "booktitle_full": "APSIPA Annual Summit and Conference",
+            "booktitle_short": null,
+            "booktitle_abbreviation": null,
+            "organization": null,
+            "pages": "1023--1030",
+            "volume": null
         },
         {
             "name": "baker2011middlebury",
@@ -1422,6 +1454,23 @@
             "note": null
         },
         {
+            "name": "collet2015high",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "High-Quality Streamable Free-Viewpoint Video",
+            "author": "Collet, Alvaro and Chuang, Ming and Sweeney, Pat and Gillett, Don and Evseev, Dennis and Calabrese, David and Hoppe, Hugues and Kirk, Adam and Sullivan, Steve",
+            "month": "July",
+            "year": "2015",
+            "doi": "10.1145/2766945",
+            "journal_full": "ACM Transactions on Graphics",
+            "journal_short": "ACM Trans. Graph.",
+            "journal_abbreviation": "TOG",
+            "organization": null,
+            "volume": "34",
+            "number": "4",
+            "pages": null
+        },
+        {
             "name": "dosovitskiy2015flownet",
             "class_name": "ConferenceEntry",
             "comment": "FLowNet",
@@ -1662,6 +1711,22 @@
             "volume": "29"
         },
         {
+            "name": "flynn2016deepstereo",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "{DeepStereo}: Learning to Predict New Views From the World's Imagery",
+            "author": "Flynn, John and Neulander, Ivan and Philbin, James and Snavely, Noah",
+            "month": "June",
+            "year": "2016",
+            "doi": null,
+            "booktitle_full": "IEEE Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "5515--5524",
+            "volume": null
+        },
+        {
             "name": "ha2016highquality",
             "class_name": "ConferenceEntry",
             "comment": "",
@@ -1692,6 +1757,23 @@
             "organization": null,
             "pages": "770--778",
             "volume": null
+        },
+        {
+            "name": "kalantari2016learning",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "Learning-Based View Synthesis for Light Field Cameras",
+            "author": "Kalantari, Nima Khademi and Wang, Ting-Chun and Ramamoorthi, Ravi",
+            "month": "December",
+            "year": "2016",
+            "doi": "10.1145/2980179.2980251",
+            "journal_full": "ACM Transactions on Graphics",
+            "journal_short": "ACM Trans. Graph.",
+            "journal_abbreviation": "TOG",
+            "organization": null,
+            "volume": "35",
+            "number": "6",
+            "pages": null
         },
         {
             "name": "li2016no",
