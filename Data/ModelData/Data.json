@@ -3370,6 +3370,18 @@
             "pages": "5757--5770"
         },
         {
+            "name": "bi2020neural",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "Neural Reflectance Fields for Appearance Acquisition",
+            "author": "Bi, Sai and Xu, Zexiang and Srinivasan, Pratul and Mildenhall, Ben and Sunkavalli, Kalyan and Ha{\\v{s}}an, Milo{\\v{s}} and Hold-Geoffroy, Yannick and Kriegman, David and Ramamoorthi, Ravi",
+            "month": null,
+            "year": "2020",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2008.03824"
+        },
+        {
             "name": "broxton2020immersive",
             "class_name": "JournalEntry",
             "comment": "",
@@ -4095,6 +4107,22 @@
             "volume": "148"
         },
         {
+            "name": "srinivasan2021nerv",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "{NeRV}: Neural Reflectance and Visibility Fields for Relighting and View Synthesis",
+            "author": "Srinivasan, Pratul P. and Deng, Boyang and Zhang, Xiuming and Tancik, Matthew and Mildenhall, Ben and Barron, Jonathan T.",
+            "month": "June",
+            "year": "2021",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "7495--7504",
+            "volume": null
+        },
+        {
             "name": "suhail2021light",
             "class_name": "arXivEntry",
             "comment": "",
@@ -4310,6 +4338,23 @@
             "organization": null,
             "pages": "5752--5761",
             "volume": null
+        },
+        {
+            "name": "zhang2021nerfactor",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "{NeRFactor}: Neural Factorization of Shape and Reflectance Under an Unknown Illumination",
+            "author": "Zhang, Xiuming and Srinivasan, Pratul P. and Deng, Boyang and Debevec, Paul and Freeman, William T. and Barron, Jonathan T.",
+            "month": "December",
+            "year": "2021",
+            "doi": "10.1145/3478513.3480496",
+            "journal_full": "ACM Transactions on Graphics",
+            "journal_short": "ACM Trans. Graph.",
+            "journal_abbreviation": "TOG",
+            "organization": null,
+            "volume": "40",
+            "number": "6",
+            "pages": null
         },
         {
             "name": "zhang2021ners",
@@ -5144,6 +5189,18 @@
             "volume": null
         },
         {
+            "name": "liu2023deceptive",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "{Deceptive-NeRF}: Enhancing {NeRF} Reconstruction using Pseudo-Observations from Diffusion Models",
+            "author": "Liu, Xinhang and Kao, Shiu-hong and Chen, Jiaben and Tai, Yu-Wing and Tang, Chi-Keung",
+            "month": null,
+            "year": "2023",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2305.15171"
+        },
+        {
             "name": "menapace2023plotting",
             "class_name": "arXivEntry",
             "comment": "",
@@ -5544,6 +5601,35 @@
             "eid": "2401.11711"
         },
         {
+            "name": "guo2024depth",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "Depth-Guided Robust and Fast Point Cloud Fusion {NeRF} for Sparse Input Views",
+            "author": "Guo, Shuai and Wang, Qiuwen and Gao, Yijie and Xie, Rong and Song, Li",
+            "month": "March",
+            "year": "2024",
+            "doi": "10.1609/aaai.v38i3.27968",
+            "journal_full": "Proceedings of the AAAI Conference on Artificial Intelligence",
+            "journal_short": null,
+            "journal_abbreviation": null,
+            "organization": null,
+            "volume": "38",
+            "number": "3",
+            "pages": "1976--1984"
+        },
+        {
+            "name": "han2024more",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "The More You See in {2D}, the More You Perceive in {3D}",
+            "author": "Han, Xinyang and Gao, Zelin and Kanazawa, Angjoo and Goel, Shubham and Gandelsman, Yossi",
+            "month": null,
+            "year": "2024",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2404.03652"
+        },
+        {
             "name": "lee2024posediff",
             "class_name": "ConferenceEntry",
             "comment": "",
@@ -5576,6 +5662,40 @@
             "volume": null
         },
         {
+            "name": "lu2024panonerf",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "{Pano-NeRF}: Synthesizing High Dynamic Range Novel Views with Geometry from Sparse Low Dynamic Range Panoramic Images",
+            "author": "Lu, Zhan and Zheng, Qian and Shi, Boxin and Jiang, Xudong",
+            "month": "March",
+            "year": "2024",
+            "doi": "10.1609/aaai.v38i4.28185",
+            "journal_full": "Proceedings of the AAAI Conference on Artificial Intelligence",
+            "journal_short": null,
+            "journal_abbreviation": null,
+            "organization": null,
+            "volume": "38",
+            "number": "4",
+            "pages": "3927--3935"
+        },
+        {
+            "name": "ni2024colnerf",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "{ColNeRF}: Collaboration for Generalizable Sparse Input Neural Radiance Field",
+            "author": "Ni, Zhangkai and Yang, Peiqi and Yang, Wenhan and Wang, Hanli and Ma, Lin and Kwong, Sam",
+            "month": "March",
+            "year": "2024",
+            "doi": "10.1609/aaai.v38i5.28229",
+            "journal_full": "Proceedings of the AAAI Conference on Artificial Intelligence",
+            "journal_short": null,
+            "journal_abbreviation": null,
+            "organization": null,
+            "volume": "38",
+            "number": "5",
+            "pages": "4325--4333"
+        },
+        {
             "name": "shi2024zerorf",
             "class_name": "ConferenceEntry",
             "comment": "",
@@ -5592,6 +5712,34 @@
             "volume": null
         },
         {
+            "name": "somraj2024rfderf",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "Factorized Motion Fields for Fast Sparse Input Dynamic View Synthesis",
+            "author": "Somraj, Nagabhushan and Choudhary, Kapil and Mupparaju, Sai Harsha and Soundararajan, Rajiv",
+            "month": "July",
+            "year": "2024",
+            "doi": "10.1145/3641519.3657498",
+            "booktitle_full": "ACM Special Interest Group on Computer Graphics and Interactive Techniques",
+            "booktitle_short": "ACM Spec. Int. Gr. Comp. Graph. Int. Tech.",
+            "booktitle_abbreviation": "SIGGRAPH",
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
+            "name": "wang2024stylizing",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "Stylizing Sparse-View {3D} Scenes with Hierarchical Neural Representation",
+            "author": "Wang, Yifan and Gao, Ang and Gong, Yi and Zeng, Yuan",
+            "month": null,
+            "year": "2024",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2404.05236"
+        },
+        {
             "name": "wu2024reconfusion",
             "class_name": "ConferenceEntry",
             "comment": "",
@@ -5606,6 +5754,18 @@
             "organization": null,
             "pages": null,
             "volume": null
+        },
+        {
+            "name": "yang2024gaussianobject",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "{GaussianObject}: Just Taking Four Images to Get A High-Quality {3D} Object with Gaussian Splatting",
+            "author": "Yang, Chen and Li, Sikuang and Fang, Jiemin and Liang, Ruofan and Xie, Lingxi and Zhang, Xiaopeng and Shen, Wei and Tian, Qi",
+            "month": null,
+            "year": "2024",
+            "doi": null,
+            "journal": "arXiv e-prints",
+            "eid": "2402.10259"
         },
         {
             "name": "zhu2024vanilla",
