@@ -66,6 +66,8 @@ class arXivEntry(GenericEntry):
             lines.append(f'    eid = {{arXiv:{self.eid}}},')
         if ('pages' in fields_names) and self.eid:
             lines.append(f'    pages = {{arXiv:{self.eid}}},')
+        if ('url' in fields_names) and self.eid:
+            lines.append(f'    url = {{arXiv:{self.eid}}},')
         if 'archivePrefix' in fields_names:
             lines.append(f'    archivePrefix = {{arXiv}},')
         if ('eprint' in fields_names) and self.eid:
