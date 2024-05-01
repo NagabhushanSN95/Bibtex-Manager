@@ -5727,6 +5727,18 @@
             "volume": null
         },
         {
+            "name": "somraj2024simplerf",
+            "class_name": "arXivEntry",
+            "comment": "",
+            "title": "{Simple-RF}: Regularizing Sparse Input Radiance Fields with Simpler Solutions",
+            "author": "Somraj, Nagabhushan and Mupparaju, Sai Harsha and Karanayil, Adithyan and Soundararajan, Rajiv",
+            "month": "May",
+            "year": "2024",
+            "doi": "10.48550/arXiv.2404.19015",
+            "journal": "arXiv e-prints",
+            "eid": null
+        },
+        {
             "name": "wang2024stylizing",
             "class_name": "arXivEntry",
             "comment": "",
