@@ -5400,20 +5400,19 @@
         },
         {
             "name": "uy2023scade",
-            "class_name": "JournalEntry",
+            "class_name": "ConferenceEntry",
             "comment": "SCADE",
-            "title": "SCADE: NeRFs from Space Carving with Ambiguity-Aware Depth Estimates",
+            "title": "{SCADE}: {NeRFs} from Space Carving With Ambiguity-Aware Depth Estimates",
             "author": "Uy, Mikaela Angelina and Martin-Brualla, Ricardo and Guibas, Leonidas and Li, Ke",
             "month": "June",
             "year": "2023",
             "doi": null,
-            "journal_full": null,
-            "journal_short": null,
-            "journal_abbreviation": null,
+            "booktitle_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
             "organization": null,
-            "volume": null,
-            "number": null,
-            "pages": null
+            "pages": "16518--16527",
+            "volume": null
         },
         {
             "name": "wang2023flow",
