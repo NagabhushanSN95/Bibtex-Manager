@@ -4016,6 +4016,22 @@
             "volume": null
         },
         {
+            "name": "martin2021nerfw",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "{NeRF} in the Wild: Neural Radiance Fields for Unconstrained Photo Collections",
+            "author": "Martin-Brualla, Ricardo and Radwan, Noha and Sajjadi, Mehdi S. M. and Barron, Jonathan T. and Dosovitskiy, Alexey and Duckworth, Daniel",
+            "month": "June",
+            "year": "2021",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "7210--7219",
+            "volume": null
+        },
+        {
             "name": "park2021hypernerf",
             "class_name": "arXivEntry",
             "comment": "Hyper NeRF",
