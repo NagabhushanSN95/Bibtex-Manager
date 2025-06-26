@@ -4228,6 +4228,23 @@
             "note": "Accessed: 07-Nov-2021"
         },
         {
+            "name": "venkataramanan2021hitchhikerssim",
+            "class_name": "JournalEntry",
+            "comment": "",
+            "title": "A Hitchhiker\u2019s Guide to Structural Similarity",
+            "author": "Venkataramanan, Abhinau K and Wu, Chengyang and Bovik, Alan C and Katsavounidis, Ioannis and Shahid, Zafar",
+            "month": null,
+            "year": "2021",
+            "doi": "10.1109/ACCESS.2021.3056504",
+            "journal_full": "IEEE Access",
+            "journal_short": null,
+            "journal_abbreviation": null,
+            "organization": null,
+            "volume": "9",
+            "number": null,
+            "pages": "28872--28896"
+        },
+        {
             "name": "wang2021ibrnet",
             "class_name": "ConferenceEntry",
             "comment": "IBRNet",
@@ -5604,6 +5621,25 @@
             "volume": null
         },
         {
+            "name": "fan2024instantsplat",
+            "class_name": "ConferenceWorkshopEntry",
+            "comment": "",
+            "title": "{InstantSplat}: Unbounded Sparse-view Pose-free Gaussian Splatting in 40 Seconds",
+            "author": "Fan, Zhiwen and Cong, Wenyan and Wen, Kairun and Wang, Kevin and Zhang, Jian and Ding, Xinghao and Xu, Danfei and Ivanovic, Boris and Pavone, Marco and Pavlakos, Georgios and others",
+            "month": null,
+            "year": "2024",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "workshop_full": null,
+            "workshop_short": null,
+            "workshop_abbreviation": null,
+            "organization": null,
+            "pages": null,
+            "volume": null
+        },
+        {
             "name": "gao2024hg3nerf",
             "class_name": "arXivEntry",
             "comment": "",
@@ -5755,6 +5791,22 @@
             "eid": null
         },
         {
+            "name": "wang2024dust3r",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "{DUSt3R}: Geometric 3D Vision Made Easy",
+            "author": "Wang, Shuzhe and Leroy, Vincent and Cabon, Yohann and Chidlovskii, Boris and Revaud, Jerome",
+            "month": "June",
+            "year": "2024",
+            "doi": null,
+            "booktitle_full": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "booktitle_short": "IEEE/CVF Conf. Comput. Vis. Pattern Recog.",
+            "booktitle_abbreviation": "CVPR",
+            "organization": null,
+            "pages": "20697--20709",
+            "volume": null
+        },
+        {
             "name": "wang2024stylizing",
             "class_name": "arXivEntry",
             "comment": "",
@@ -5793,6 +5845,22 @@
             "doi": null,
             "journal": "arXiv e-prints",
             "eid": "2402.10259"
+        },
+        {
+            "name": "zhang2024corgs",
+            "class_name": "ConferenceEntry",
+            "comment": "",
+            "title": "{CoR-GS}: Sparse-View 3D Gaussian Splatting via Co-regularization",
+            "author": "Zhang, Jiawei and Li, Jiahe and Yu, Xiaohan and Huang, Lei and Gu, Lin and Zheng, Jin and Bai, Xiao",
+            "month": null,
+            "year": "2024",
+            "doi": null,
+            "booktitle_full": "European Conference on Computer Vision",
+            "booktitle_short": "Eur. Conf. Comput. Vis.",
+            "booktitle_abbreviation": "ECCV",
+            "organization": "Springer",
+            "pages": "335--352",
+            "volume": null
         },
         {
             "name": "zhu2024vanilla",
